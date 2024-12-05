@@ -1,0 +1,36 @@
+*****************************************************************
+Pin Report - Date: Fri Nov 29 08:43:10 2024 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: Top_AD
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+*****************************************************************
+Port        |Pin |Fixed |Function       |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------------|----|------|---------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+addr[0]      172  Yes    IO54RSB0        LVTTL    12                 High  None           No    35                No           No
+addr[1]      173  Yes    IO51RSB0        LVTTL    12                 High  None           No    35                No           No
+addr[2]      174  Yes    IO48RSB0        LVTTL    12                 High  None           No    35                No           No
+addr[3]      175  Yes    IO45RSB0        LVTTL    12                 High  None           No    35                No           No
+ce           159  Yes    GBA0/IO76RSB0   LVTTL    12                 High  None           No    35                No           No
+cs           158  Yes    GBA1/IO77RSB0   LVTTL    12                 High  None           No    35                No           No
+data_in[0]   150  Yes    IO79NDB1        LVTTL    ---                ---   None           ---   ---               No           No
+data_in[1]   160  Yes    GBB1/IO75RSB0   LVTTL    ---                ---   None           ---   ---               No           No
+data_in[2]   151  Yes    GBB2/IO79PDB1   LVTTL    ---                ---   None           ---   ---               No           No
+data_in[3]   161  Yes    GBB0/IO74RSB0   LVTTL    ---                ---   None           ---   ---               No           No
+data_in[4]   152  Yes    IO78NDB1        LVTTL    ---                ---   None           ---   ---               No           No
+data_in[5]   163  Yes    GBC1/IO73RSB0   LVTTL    ---                ---   None           ---   ---               No           No
+data_in[6]   153  Yes    GBA2/IO78PDB1   LVTTL    ---                ---   None           ---   ---               No           No
+data_in[7]   164  Yes    GBC0/IO72RSB0   LVTTL    ---                ---   None           ---   ---               No           No
+data_in[8]   135  Yes    GCB1/IO92PDB1   LVTTL    ---                ---   None           ---   ---               No           No
+data_in[9]   136  Yes    GCC0/IO91NDB1   LVTTL    ---                ---   None           ---   ---               No           No
+data_in[10]  137  Yes    GCC1/IO91PDB1   LVTTL    ---                ---   None           ---   ---               No           No
+data_in[11]  138  Yes    IO88NDB1        LVTTL    ---                ---   None           ---   ---               No           No
+rc           165  Yes    IO70RSB0        LVTTL    12                 High  None           No    35                No           No
+rx_uart      6    Yes    GAC2/IO223PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+sts          139  Yes    IO88PDB1        LVTTL    ---                ---   None           ---   ---               No           No
+sys_clk      26   Yes    GFA0/IO207NPB3  LVTTL    ---                ---   None           ---   ---               No           No
+sys_rest     54   Yes    GEA2/IO187RSB2  LVTTL    ---                ---   None           ---   ---               No           No
+tx_uart      2    Yes    GAA2/IO225PDB3  LVTTL    12                 High  None           No    35                No           No

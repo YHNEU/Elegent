@@ -1,0 +1,36 @@
+@W: CG296 :"D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd":76:3:76:9|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd":88:28:88:42|Referenced variable send_whole_over is not in sensitivity list.
+@W: CL190 :"D:\Awork\AD\AD574-11.28\hdl\AD574.vhd":88:2:88:3|Optimizing register bit cs to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\Awork\AD\AD574-11.28\hdl\AD574.vhd":88:2:88:3|Pruning unused register cs. Make sure that there are no unused intermediate registers.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd":98:2:98:5|Latch generated from process for signal nx_state(1 downto 0); possible missing assignment in an if or case statement.
+@W: CG296 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":145:4:145:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":236:13:236:23|Referenced variable data_filter is not in sensitivity list.
+@W: CL169 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":89:2:89:3|Pruning unused register cnt_num_5(3 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":89:2:89:3|Pruning unused register cnt_daly1_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal data1(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal wait_deal_flag; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal state_over_flag; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal send_flag; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal receive_state; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal idle_flag; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal delay_flag; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal deal_flag; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal deal_data_flag; possible missing assignment in an if or case statement.
+@W: CL169 :"D:\Awork\AD\AD574-11.28\hdl\single_receive.vhd":70:1:70:2|Pruning unused register parity_check_4. Make sure that there are no unused intermediate registers.
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[7]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[6]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[5]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[4]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[3]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[2]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[1]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[0]
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch deal_data_flag enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch deal_flag enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch delay_flag enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch idle_flag enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch receive_state enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch send_flag enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch state_over_flag enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch wait_deal_flag enable evaluates to constant 1, optimized
+

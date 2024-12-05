@@ -1,0 +1,233 @@
+***************************************************************************
+                               Status Report
+                          Fri Nov 29 08:41:12 2024 ***************************************************************************
+
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+File Name: D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD.adb
+Design Name: Top_AD  Design State: compile
+Last Saved: Thu Nov 28 19:15:00 2024
+
+***** Device Data **************************************************
+
+Family: ProASIC3  Die: A3P1000  Package: 208 PQFP
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   IND
+Voltage Range:   IND
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Fri Nov 29 08:41:07 2024:
+        D:\Awork\AD\AD574-11.28\synthesis\Top_AD.edn
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: off
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P1000
+Package     : 208 PQFP
+Source      : D:\Awork\AD\AD574-11.28\synthesis\Top_AD.edn
+Format      : EDIF
+Topcell     : Top_AD
+Speed grade : STD
+Temp        : -40:25:85
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : Yes
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        24
+
+    Total macros optimized  24
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:   1710  Total:  24576   (6.96%)
+    IO (W/ clocks)             Used:     24  Total:    154   (15.58%)
+    Differential IO            Used:      0  Total:     35   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      6  Total:     18   (33.33%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:     32   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 5      | 6  (83.33%)*
+    Quadrant global | 1      | 12 (8.33%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 1312         | 1312
+    SEQ     | 396          | 398
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 16            | 0            | 0
+    Output I/O                            | 8             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 16    | 8      | 0
+
+I/O Placement:
+
+    Locked  :  24 ( 100.00% )
+    Placed  :   0
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    394     CLK_NET       Net   : sys_clk_c
+                          Driver: sys_clk_pad
+                          Source: NETLIST
+    244     INT_NET       Net   : U1/pr_state[2]
+                          Driver: U1/pr_state_RNI02BE[2]
+                          Source: NETLIST
+    240     INT_NET       Net   : U1/N_1091
+                          Driver: U1/pr_state_RNIV2MS_0[1]
+                          Source: NETLIST
+    124     INT_NET       Net   : U5/cnt[0]
+                          Driver: U5/cnt_RNI5FPF[0]
+                          Source: NETLIST
+    67      INT_NET       Net   : U5/cnt[1]
+                          Driver: U5/cnt_RNI6GPF[1]
+                          Source: NETLIST
+
+The following nets have been assigned to a quadrant global resource:
+    Fanout  Type          Name
+    --------------------------
+    394     SET/RESET_NET Net   : sys_rest_c
+                          Driver: sys_rest_pad
+                          Region: quadrant_LL
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    21      INT_NET       Net   : U1/data_filter[5]
+                          Driver: U1/data_filter[5]
+    21      INT_NET       Net   : U1/data_filter[11]
+                          Driver: U1/data_filter[11]
+    21      INT_NET       Net   : U1/data_filter[7]
+                          Driver: U1/data_filter[7]
+    19      INT_NET       Net   : U1/data_filter[10]
+                          Driver: U1/data_filter[10]
+    19      INT_NET       Net   : U1/data_filter[4]
+                          Driver: U1/data_filter[4]
+    19      INT_NET       Net   : U1/data_filter[6]
+                          Driver: U1/data_filter[6]
+    19      INT_NET       Net   : U1/data_filter[12]
+                          Driver: U1/data_filter[12]
+    19      INT_NET       Net   : U1/data_filter[8]
+                          Driver: U1/data_filter[8]
+    19      INT_NET       Net   : U1/data_filter[9]
+                          Driver: U1/data_filter[9]
+    19      INT_NET       Net   : U1/data_filter[3]
+                          Driver: U1/data_filter[3]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    21      INT_NET       Net   : U1/data_filter[5]
+                          Driver: U1/data_filter[5]
+    21      INT_NET       Net   : U1/data_filter[11]
+                          Driver: U1/data_filter[11]
+    21      INT_NET       Net   : U1/data_filter[7]
+                          Driver: U1/data_filter[7]
+    19      INT_NET       Net   : U1/data_filter[10]
+                          Driver: U1/data_filter[10]
+    19      INT_NET       Net   : U1/data_filter[4]
+                          Driver: U1/data_filter[4]
+    19      INT_NET       Net   : U1/data_filter[6]
+                          Driver: U1/data_filter[6]
+    19      INT_NET       Net   : U1/data_filter[12]
+                          Driver: U1/data_filter[12]
+    19      INT_NET       Net   : U1/data_filter[8]
+                          Driver: U1/data_filter[8]
+    19      INT_NET       Net   : U1/data_filter[9]
+                          Driver: U1/data_filter[9]
+    19      INT_NET       Net   : U1/data_filter[3]
+                          Driver: U1/data_filter[3]
+
+

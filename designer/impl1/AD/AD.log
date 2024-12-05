@@ -1,0 +1,33 @@
+FlashPro
+Version: 11.9.0.4
+Release: v11.9
+
+Software Version: 11.9.0.4
+Error: Failed to open the project file
+       'D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD_fp\Top_AD.pro'.
+Warning: One or more start-up commands did not succeed.
+Software Version: 11.9.0.4
+Driver : 3.0.0 build 1
+programmer '03871' : FlashPro4
+Opened 'D:\Awork\AD\AD574-11.28\designer\impl1\AD\AD.pro'
+PDB file 'D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD.pdb' has been loaded successfully.
+DESIGN : Top_AD;  CHECKSUM : EE37;  PDB_VERSION : 1.9
+programmer '03871' : Scan Chain...
+programmer '03871' : Scan Chain PASSED.
+programmer '03871' : Executing action PROGRAM
+programmer '03871' : EXPORT FSN[48] = 817e9f1c7868
+programmer '03871' : Erase ...
+programmer '03871' : Completed erase
+programmer '03871' : EXPORT CHECKSUM[16] = ee37
+programmer '03871' : Programming FPGA Array
+programmer '03871' : Verifying FPGA Array
+programmer '03871' :         Verifying FPGA Array -- pass
+programmer '03871' : Finished: Fri Nov 29 08:44:46 2024 (Elapsed time 00:01:07)
+programmer '03871' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'AD' has been modified. Do you want to save it? [YES]
+creating folder: D:\Awork\AD\AD574-11.28\designer\impl1\AD\projectData
+Project saved.
+Project closed.

@@ -1,0 +1,16 @@
+D:\libero11.9\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\Awork\AD\AD574-11.28\synthesis   -part A3P1000  -package PQFP208  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile D:\Awork\AD\AD574-11.28\synthesis\synlog\report\Top_AD_fpga_mapper.xml  -top_level_module  work.Top_AD  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  D:\Awork\AD\AD574-11.28\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  D:\Awork\AD\AD574-11.28\synthesis\Top_AD.edn   -freq 100.000   D:\Awork\AD\AD574-11.28\synthesis\synwork\Top_AD_prem.srd  -sap  D:\Awork\AD\AD574-11.28\synthesis\Top_AD.sap  -otap  D:\Awork\AD\AD574-11.28\synthesis\Top_AD.tap  -omap  D:\Awork\AD\AD574-11.28\synthesis\Top_AD.map  -devicelib  D:\libero11.9\SynplifyPro\lib\proasic\proasic3.v  -sap  D:\Awork\AD\AD574-11.28\synthesis\Top_AD.sap  -ologparam  D:\Awork\AD\AD574-11.28\synthesis\syntmp\Top_AD.plg  -osyn  D:\Awork\AD\AD574-11.28\synthesis\Top_AD.srm  -prjdir  D:\Awork\AD\AD574-11.28\synthesis\  -prjname  Top_AD_syn  -log  D:\Awork\AD\AD574-11.28\synthesis\synlog\Top_AD_fpga_mapper.srr 
+relcom:..\..\..\..\..\libero11.9\SynplifyPro\bin64\m_proasic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P1000 -package PQFP208 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\Top_AD_fpga_mapper.xml -top_level_module work.Top_AD -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\Top_AD.edn -freq 100.000 ..\synwork\Top_AD_prem.srd -sap ..\Top_AD.sap -otap ..\Top_AD.tap -omap ..\Top_AD.map -devicelib ..\..\..\..\..\libero11.9\SynplifyPro\lib\proasic\proasic3.v -sap ..\Top_AD.sap -ologparam Top_AD.plg -osyn ..\Top_AD.srm -prjdir ..\ -prjname Top_AD_syn -log ..\synlog\Top_AD_fpga_mapper.srr
+rc:1 success:1 runtime:6
+file:..\scratchproject.prs|io:o|time:1732840851|size:2107|exec:0|csum:
+file:..\Top_AD.edn|io:o|time:1732840861|size:838491|exec:0|csum:
+file:..\synwork\Top_AD_prem.srd|io:i|time:1732840855|size:45099|exec:0|csum:EA01637BC28BE7700542BED3DD535AA2
+file:..\Top_AD.sap|io:o|time:1732840855|size:1417|exec:0|csum:
+file:..\Top_AD.tap|io:o|time:0|size:0|exec:0|csum:
+file:..\Top_AD.map|io:o|time:1732840861|size:28|exec:0|csum:
+file:..\..\..\..\..\libero11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\Top_AD.sap|io:o|time:1732840855|size:1417|exec:0|csum:
+file:Top_AD.plg|io:o|time:1732840861|size:705|exec:0|csum:
+file:..\Top_AD.srm|io:o|time:1732840861|size:70450|exec:0|csum:
+file:..\synlog\Top_AD_fpga_mapper.srr|io:o|time:1732840861|size:45385|exec:0|csum:
+file:..\..\..\..\..\libero11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\..\..\libero11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

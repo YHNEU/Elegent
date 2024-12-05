@@ -1,0 +1,268 @@
+# Reading D:/libero11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:45:38 on Nov 21,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 08:45:38 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:45:38 on Nov 21,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574/stimulus/send_Test.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity send_Test
+# -- Compiling architecture behavioral of send_Test
+# ** Error: D:/Awork/AD/AD574/stimulus/send_Test.vhd(42): (vcom-1360) Array type of "data_send_test" does not have an index constraint.
+# ** Error: D:/Awork/AD/AD574/stimulus/send_Test.vhd(106): VHDL Compiler exiting
+# End time: 08:45:38 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: D:/libero11.9/Modelsim/win32acoem/vcom failed.
+# Error in macro ./run.do line 14
+# D:/libero11.9/Modelsim/win32acoem/vcom failed.
+#     while executing
+# "vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/stimulus/send_Test.vhd""
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:46:03 on Nov 21,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 08:46:03 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:46:03 on Nov 21,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574/stimulus/send_Test.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity send_Test
+# -- Compiling architecture behavioral of send_Test
+# End time: 08:46:03 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.send_Test 
+# Start time: 08:46:04 on Nov 21,2024
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.send_test(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.signal_send(architecture_signal_send)
+add wave -position insertpoint  \
+sim:/send_test/signal_send_0/sys_clk \
+sim:/send_test/signal_send_0/sys_rest \
+sim:/send_test/signal_send_0/vld_send \
+sim:/send_test/signal_send_0/data_send \
+sim:/send_test/signal_send_0/send_over \
+sim:/send_test/signal_send_0/tx_uart \
+sim:/send_test/signal_send_0/cnt \
+sim:/send_test/signal_send_0/parity_check \
+sim:/send_test/signal_send_0/send \
+sim:/send_test/signal_send_0/cnt_end \
+sim:/send_test/signal_send_0/idle_send
+restart
+run
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:49:19 on Nov 21,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 08:49:19 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:49:19 on Nov 21,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574/stimulus/send_Test.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity send_Test
+# -- Compiling architecture behavioral of send_Test
+# End time: 08:49:19 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 08:49:20 on Nov 21,2024, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.send_Test 
+# Start time: 08:49:20 on Nov 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.send_test(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.signal_send(architecture_signal_send)
+add wave -position insertpoint  \
+sim:/send_test/signal_send_0/sys_clk \
+sim:/send_test/signal_send_0/sys_rest \
+sim:/send_test/signal_send_0/vld_send \
+sim:/send_test/signal_send_0/data_send \
+sim:/send_test/signal_send_0/send_over \
+sim:/send_test/signal_send_0/tx_uart \
+sim:/send_test/signal_send_0/cnt \
+sim:/send_test/signal_send_0/parity_check \
+sim:/send_test/signal_send_0/send \
+sim:/send_test/signal_send_0/idle_send
+restart
+run
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:50:50 on Nov 21,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 08:50:50 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:50:50 on Nov 21,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574/stimulus/send_Test.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity send_Test
+# -- Compiling architecture behavioral of send_Test
+# End time: 08:50:50 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 08:50:52 on Nov 21,2024, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.send_Test 
+# Start time: 08:50:52 on Nov 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.send_test(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.signal_send(architecture_signal_send)
+add wave -position insertpoint  \
+sim:/send_test/signal_send_0/sys_clk \
+sim:/send_test/signal_send_0/sys_rest \
+sim:/send_test/signal_send_0/vld_send \
+sim:/send_test/signal_send_0/data_send \
+sim:/send_test/signal_send_0/send_over \
+sim:/send_test/signal_send_0/tx_uart \
+sim:/send_test/signal_send_0/cnt \
+sim:/send_test/signal_send_0/parity_check \
+sim:/send_test/signal_send_0/send \
+sim:/send_test/signal_send_0/idle_send
+restart
+run
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:59:05 on Nov 21,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 08:59:05 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:59:06 on Nov 21,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574/stimulus/send_Test.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity send_Test
+# -- Compiling architecture behavioral of send_Test
+# End time: 08:59:06 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 08:59:07 on Nov 21,2024, Elapsed time: 0:08:15
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.send_Test 
+# Start time: 08:59:07 on Nov 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.send_test(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.signal_send(architecture_signal_send)
+add wave -position insertpoint  \
+sim:/send_test/signal_send_0/sys_clk \
+sim:/send_test/signal_send_0/sys_rest \
+sim:/send_test/signal_send_0/vld_send \
+sim:/send_test/signal_send_0/data_send \
+sim:/send_test/signal_send_0/send_over \
+sim:/send_test/signal_send_0/tx_uart \
+sim:/send_test/signal_send_0/cnt \
+sim:/send_test/signal_send_0/parity_check \
+sim:/send_test/signal_send_0/send \
+sim:/send_test/signal_send_0/idle_send
+restart
+run
+# End time: 09:00:34 on Nov 21,2024, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 0

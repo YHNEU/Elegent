@@ -1,0 +1,573 @@
+# Reading D:/libero11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:59:26 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/AD574.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity AD574
+# -- Compiling architecture architecture_AD574 of AD574
+# End time: 08:59:26 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:59:28 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/addr_manage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity addr_manage
+# -- Compiling architecture architecture_addr_manage of addr_manage
+# End time: 08:59:28 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:59:30 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 08:59:30 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:59:32 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 08:59:32 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:59:33 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/single_receive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 08:59:33 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:59:35 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/whole_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity whole_send
+# -- Compiling architecture architecture_whole_send of whole_send
+# End time: 08:59:35 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:59:36 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/Top_AD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Top_AD
+# -- Compiling architecture architecture_Top_AD of Top_AD
+# End time: 08:59:36 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:59:38 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/stimulus/TOP_Test.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TOP_Test
+# -- Compiling architecture behavioral of TOP_Test
+# End time: 08:59:38 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.TOP_Test 
+# Start time: 08:59:39 on Dec 02,2024
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.top_test(behavioral)
+# Loading presynth.top_ad(architecture_top_ad)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.ad574(architecture_ad574)
+# Loading ieee.numeric_std(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.signal_send(architecture_signal_send)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.addr_manage(architecture_addr_manage)
+# Loading presynth.whole_send(architecture_whole_send)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: YH  Hostname: LAPTOP-4PVSALH1  ProcessID: 24228
+#           Attempting to use alternate WLF file "./wlftw4nwbj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftw4nwbj
+add wave -position insertpoint  \
+sim:/top_test/Top_AD_0/sys_clk \
+sim:/top_test/Top_AD_0/sys_rest \
+sim:/top_test/Top_AD_0/sts \
+sim:/top_test/Top_AD_0/data_in \
+sim:/top_test/Top_AD_0/rx_uart \
+sim:/top_test/Top_AD_0/ce \
+sim:/top_test/Top_AD_0/cs \
+sim:/top_test/Top_AD_0/rc \
+sim:/top_test/Top_AD_0/addr \
+sim:/top_test/Top_AD_0/tx_uart \
+sim:/top_test/Top_AD_0/ad_over \
+sim:/top_test/Top_AD_0/send_over \
+sim:/top_test/Top_AD_0/conver_top \
+sim:/top_test/Top_AD_0/vld_send \
+sim:/top_test/Top_AD_0/data_send \
+sim:/top_test/Top_AD_0/data_ad \
+sim:/top_test/Top_AD_0/data_recive \
+sim:/top_test/Top_AD_0/ad_once_over \
+sim:/top_test/Top_AD_0/addr_over \
+sim:/top_test/Top_AD_0/receive_over \
+sim:/top_test/Top_AD_0/data_all \
+sim:/top_test/Top_AD_0/vld_whole \
+sim:/top_test/Top_AD_0/send_whole_over \
+sim:/top_test/Top_AD_0/receive_on \
+sim:/top_test/Top_AD_0/data1 \
+sim:/top_test/Top_AD_0/data2 \
+sim:/top_test/Top_AD_0/data_filter
+restart
+run
+add wave -position insertpoint sim:/top_test/Top_AD_0/U1/*
+restart
+run
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:04:34 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/AD574.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity AD574
+# -- Compiling architecture architecture_AD574 of AD574
+# End time: 09:04:34 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:04:34 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/addr_manage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity addr_manage
+# -- Compiling architecture architecture_addr_manage of addr_manage
+# End time: 09:04:34 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:04:34 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 09:04:34 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:04:34 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 09:04:34 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:04:34 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/single_receive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 09:04:34 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:04:34 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/whole_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity whole_send
+# -- Compiling architecture architecture_whole_send of whole_send
+# End time: 09:04:35 on Dec 02,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:04:35 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/Top_AD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Top_AD
+# -- Compiling architecture architecture_Top_AD of Top_AD
+# End time: 09:04:35 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:04:35 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/stimulus/TOP_Test.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TOP_Test
+# -- Compiling architecture behavioral of TOP_Test
+# End time: 09:04:35 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:04:37 on Dec 02,2024, Elapsed time: 0:04:58
+# Errors: 0, Warnings: 2
+# vsim -L proasic3 -L presynth -t 1ps presynth.TOP_Test 
+# Start time: 09:04:37 on Dec 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.top_test(behavioral)
+# Loading presynth.top_ad(architecture_top_ad)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.ad574(architecture_ad574)
+# Loading ieee.numeric_std(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.signal_send(architecture_signal_send)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.addr_manage(architecture_addr_manage)
+# Loading presynth.whole_send(architecture_whole_send)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: YH  Hostname: LAPTOP-4PVSALH1  ProcessID: 24228
+#           Attempting to use alternate WLF file "./wlfte49f4k".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfte49f4k
+add wave -position insertpoint  \
+sim:/top_test/Top_AD_0/sys_clk \
+sim:/top_test/Top_AD_0/sys_rest \
+sim:/top_test/Top_AD_0/sts \
+sim:/top_test/Top_AD_0/data_in \
+sim:/top_test/Top_AD_0/rx_uart \
+sim:/top_test/Top_AD_0/ce \
+sim:/top_test/Top_AD_0/cs \
+sim:/top_test/Top_AD_0/rc \
+sim:/top_test/Top_AD_0/addr \
+sim:/top_test/Top_AD_0/tx_uart \
+sim:/top_test/Top_AD_0/ad_over \
+sim:/top_test/Top_AD_0/send_over \
+sim:/top_test/Top_AD_0/conver_top \
+sim:/top_test/Top_AD_0/vld_send \
+sim:/top_test/Top_AD_0/data_send \
+sim:/top_test/Top_AD_0/data_ad \
+sim:/top_test/Top_AD_0/data_recive \
+sim:/top_test/Top_AD_0/ad_once_over \
+sim:/top_test/Top_AD_0/addr_over \
+sim:/top_test/Top_AD_0/receive_over \
+sim:/top_test/Top_AD_0/data_all \
+sim:/top_test/Top_AD_0/vld_whole \
+sim:/top_test/Top_AD_0/send_whole_over \
+sim:/top_test/Top_AD_0/receive_on \
+sim:/top_test/Top_AD_0/data1 \
+sim:/top_test/Top_AD_0/data2 \
+sim:/top_test/Top_AD_0/data_filter
+restart
+run
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:08:49 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/AD574.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity AD574
+# -- Compiling architecture architecture_AD574 of AD574
+# End time: 09:08:49 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:08:49 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/addr_manage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity addr_manage
+# -- Compiling architecture architecture_addr_manage of addr_manage
+# End time: 09:08:49 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:08:49 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 09:08:49 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:08:49 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 09:08:49 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:08:49 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/single_receive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 09:08:49 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:08:49 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/whole_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity whole_send
+# -- Compiling architecture architecture_whole_send of whole_send
+# End time: 09:08:50 on Dec 02,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:08:50 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/hdl/Top_AD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Top_AD
+# -- Compiling architecture architecture_Top_AD of Top_AD
+# End time: 09:08:50 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:08:50 on Dec 02,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/Awork/AD/AD574-11.28/stimulus/TOP_Test.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TOP_Test
+# -- Compiling architecture behavioral of TOP_Test
+# End time: 09:08:50 on Dec 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:08:52 on Dec 02,2024, Elapsed time: 0:04:15
+# Errors: 0, Warnings: 2
+# vsim -L proasic3 -L presynth -t 1ps presynth.TOP_Test 
+# Start time: 09:08:52 on Dec 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.top_test(behavioral)
+# Loading presynth.top_ad(architecture_top_ad)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.ad574(architecture_ad574)
+# Loading ieee.numeric_std(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.signal_send(architecture_signal_send)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.addr_manage(architecture_addr_manage)
+# Loading presynth.whole_send(architecture_whole_send)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: YH  Hostname: LAPTOP-4PVSALH1  ProcessID: 24228
+#           Attempting to use alternate WLF file "./wlftv4wvi7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftv4wvi7
+add wave -position insertpoint  \
+sim:/top_test/Top_AD_0/sys_clk \
+sim:/top_test/Top_AD_0/sys_rest \
+sim:/top_test/Top_AD_0/sts \
+sim:/top_test/Top_AD_0/data_in \
+sim:/top_test/Top_AD_0/rx_uart \
+sim:/top_test/Top_AD_0/ce \
+sim:/top_test/Top_AD_0/cs \
+sim:/top_test/Top_AD_0/rc \
+sim:/top_test/Top_AD_0/addr \
+sim:/top_test/Top_AD_0/tx_uart \
+sim:/top_test/Top_AD_0/ad_over \
+sim:/top_test/Top_AD_0/send_over \
+sim:/top_test/Top_AD_0/conver_top \
+sim:/top_test/Top_AD_0/vld_send \
+sim:/top_test/Top_AD_0/data_send \
+sim:/top_test/Top_AD_0/data_ad \
+sim:/top_test/Top_AD_0/data_recive \
+sim:/top_test/Top_AD_0/ad_once_over \
+sim:/top_test/Top_AD_0/addr_over \
+sim:/top_test/Top_AD_0/receive_over \
+sim:/top_test/Top_AD_0/data_all \
+sim:/top_test/Top_AD_0/vld_whole \
+sim:/top_test/Top_AD_0/send_whole_over \
+sim:/top_test/Top_AD_0/receive_on \
+sim:/top_test/Top_AD_0/data1 \
+sim:/top_test/Top_AD_0/data2 \
+sim:/top_test/Top_AD_0/data_filter
+restart
+run
+add wave -position insertpoint  \
+sim:/top_test/Top_AD_0/U0/sys_clk \
+sim:/top_test/Top_AD_0/U0/sys_rest \
+sim:/top_test/Top_AD_0/U0/sts \
+sim:/top_test/Top_AD_0/U0/conver \
+sim:/top_test/Top_AD_0/U0/data_in \
+sim:/top_test/Top_AD_0/U0/addr_over \
+sim:/top_test/Top_AD_0/U0/data_ad \
+sim:/top_test/Top_AD_0/U0/ce \
+sim:/top_test/Top_AD_0/U0/cs \
+sim:/top_test/Top_AD_0/U0/rc \
+sim:/top_test/Top_AD_0/U0/ad_over \
+sim:/top_test/Top_AD_0/U0/pr_state \
+sim:/top_test/Top_AD_0/U0/nx_state \
+sim:/top_test/Top_AD_0/U0/cnt_rc \
+sim:/top_test/Top_AD_0/U0/sts_ris \
+sim:/top_test/Top_AD_0/U0/sts_ris1 \
+sim:/top_test/Top_AD_0/U0/sts_ris2 \
+sim:/top_test/Top_AD_0/U0/sts_ris3 \
+sim:/top_test/Top_AD_0/U0/pr_S1_flag \
+sim:/top_test/Top_AD_0/U0/S0_flag \
+sim:/top_test/Top_AD_0/U0/S1_flag \
+sim:/top_test/Top_AD_0/U0/S2_flag \
+sim:/top_test/Top_AD_0/U0/S3_flag \
+sim:/top_test/Top_AD_0/U0/S4_flag \
+sim:/top_test/Top_AD_0/U0/conver_ris \
+sim:/top_test/Top_AD_0/U0/conver_ris1 \
+sim:/top_test/Top_AD_0/U0/conver_ris2 \
+sim:/top_test/Top_AD_0/U0/conver_ris3
+run
+restart
+run
+add wave -position insertpoint  \
+sim:/top_test/Top_AD_0/rx_uart \
+sim:/top_test/Top_AD_0/tx_uart
+restart
+run
+add wave -position insertpoint  \
+sim:/top_test/Top_AD_0/U1/sys_clk \
+sim:/top_test/Top_AD_0/U1/sys_rest \
+sim:/top_test/Top_AD_0/U1/data_ad \
+sim:/top_test/Top_AD_0/U1/ad_over \
+sim:/top_test/Top_AD_0/U1/data_recive \
+sim:/top_test/Top_AD_0/U1/addr_over \
+sim:/top_test/Top_AD_0/U1/receive_over \
+sim:/top_test/Top_AD_0/U1/addr \
+sim:/top_test/Top_AD_0/U1/send_whole_over \
+sim:/top_test/Top_AD_0/U1/conver \
+sim:/top_test/Top_AD_0/U1/vld_whole \
+sim:/top_test/Top_AD_0/U1/data1 \
+sim:/top_test/Top_AD_0/U1/data2 \
+sim:/top_test/Top_AD_0/U1/data_filter \
+sim:/top_test/Top_AD_0/U1/ad_once_over \
+sim:/top_test/Top_AD_0/U1/receive_on \
+sim:/top_test/Top_AD_0/U1/data_all \
+sim:/top_test/Top_AD_0/U1/cnt \
+sim:/top_test/Top_AD_0/U1/cnt_send \
+sim:/top_test/Top_AD_0/U1/pr_state \
+sim:/top_test/Top_AD_0/U1/nx_state \
+sim:/top_test/Top_AD_0/U1/idle_flag \
+sim:/top_test/Top_AD_0/U1/wait_deal_flag \
+sim:/top_test/Top_AD_0/U1/deal_flag \
+sim:/top_test/Top_AD_0/U1/send_flag \
+sim:/top_test/Top_AD_0/U1/deal_data_flag \
+sim:/top_test/Top_AD_0/U1/delay_flag \
+sim:/top_test/Top_AD_0/U1/receive_state \
+sim:/top_test/Top_AD_0/U1/state_over_flag \
+sim:/top_test/Top_AD_0/U1/test_flag \
+sim:/top_test/Top_AD_0/U1/cnt_receive_over \
+sim:/top_test/Top_AD_0/U1/receive_flag \
+sim:/top_test/Top_AD_0/U1/cnt_daly \
+sim:/top_test/Top_AD_0/U1/cnt_daly1 \
+sim:/top_test/Top_AD_0/U1/cnt_num \
+sim:/top_test/Top_AD_0/U1/delay_channel1
+run
+restart
+run
+add wave -position insertpoint sim:/top_test/Top_AD_0/U2/*
+restart
+run
+add wave -position insertpoint sim:/top_test/Top_AD_0/U3/*
+restart
+run
+add wave -position insertpoint sim:/top_test/Top_AD_0/U4/*
+restart
+run
+add wave -position insertpoint sim:/top_test/Top_AD_0/U5/*
+restart
+run
+add wave -position insertpoint  \
+sim:/top_test/data_in_test
+# End time: 13:30:02 on Dec 02,2024, Elapsed time: 4:21:10
+# Errors: 0, Warnings: 2

@@ -1,0 +1,77 @@
+Target Part: A3P1000_PQFP208_STD
+Report for cell Top_AD.architecture_top_ad
+  Core Cell usage:
+              cell count     area count*area
+              AND2     2      1.0        2.0
+              AND3    12      1.0       12.0
+               AO1    39      1.0       39.0
+              AO1A     5      1.0        5.0
+              AO1B     2      1.0        2.0
+              AO1C   157      1.0      157.0
+              AO1D    11      1.0       11.0
+              AOI1     1      1.0        1.0
+               AX1     1      1.0        1.0
+              AX1C     3      1.0        3.0
+              AX1D     2      1.0        2.0
+             AXOI5     1      1.0        1.0
+            CLKINT     4      0.0        0.0
+               GND     7      0.0        0.0
+               INV     4      1.0        4.0
+              MAJ3     3      1.0        3.0
+               MX2   210      1.0      210.0
+              MX2A    20      1.0       20.0
+              MX2B     1      1.0        1.0
+              MX2C    16      1.0       16.0
+              NOR2    79      1.0       79.0
+             NOR2A   138      1.0      138.0
+             NOR2B    98      1.0       98.0
+              NOR3     9      1.0        9.0
+             NOR3A    76      1.0       76.0
+             NOR3B    21      1.0       21.0
+             NOR3C    79      1.0       79.0
+               OA1     8      1.0        8.0
+              OA1A     2      1.0        2.0
+              OA1B   159      1.0      159.0
+              OA1C    16      1.0       16.0
+               OR2    49      1.0       49.0
+              OR2A     7      1.0        7.0
+              OR2B    11      1.0       11.0
+               OR3    14      1.0       14.0
+              OR3A     7      1.0        7.0
+              OR3B     5      1.0        5.0
+              OR3C     3      1.0        3.0
+               VCC     7      0.0        0.0
+               XA1    16      1.0       16.0
+              XA1A     4      1.0        4.0
+              XA1B     7      1.0        7.0
+              XA1C     7      1.0        7.0
+             XNOR2     3      1.0        3.0
+              XOR2    19      1.0       19.0
+              XOR3     9      1.0        9.0
+
+
+            DFN1C0    61      1.0       61.0
+          DFN1E0C0   304      1.0      304.0
+          DFN1E0P0     3      1.0        3.0
+          DFN1E1C0    18      1.0       18.0
+            DFN1P0     8      1.0        8.0
+          DLN0P1C1     2      2.0        4.0
+                   -----          ----------
+             TOTAL  1750              1734.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF    14
+            OUTBUF     8
+                   -----
+             TOTAL    24
+
+
+Core Cells         : 1734 of 24576 (7%)
+IO Cells           : 24
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+

@@ -1,0 +1,26 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 394 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 2 clock pin(s) of sequential element(s)
+0 instances converted, 2 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0002       sys_clk             port                   394        U5.data_send[7]
+=======================================================================================
+================================================== Gated/Generated Clocks ===================================================
+Clock Tree ID     Driving Element             Drive Element Type     Fanout     Sample Instance     Explanation              
+-----------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       U4.pr_state_RNIMCFF2[1]     NOR2                   2          U4.nx_state[0]      No clocks found on inputs
+=============================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

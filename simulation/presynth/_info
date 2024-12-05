@@ -1,0 +1,506 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Awork/AD/AD574/simulation
+Ead574
+Z1 w1733099868
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dD:/Awork/AD/AD574-11.28/simulation
+Z7 8D:/Awork/AD/AD574-11.28/hdl/AD574.vhd
+Z8 FD:/Awork/AD/AD574-11.28/hdl/AD574.vhd
+l0
+L24
+VQ1D]i?S[M8GWT>]OcRSdk3
+!s100 eiWRYJJ_lZS;?R;FiI9hk0
+Z9 OW;C;10.5c;63
+33
+Z10 !s110 1733101729
+!i10b 1
+Z11 !s108 1733101729.000000
+Z12 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Awork/AD/AD574-11.28/hdl/AD574.vhd|
+Z13 !s107 D:/Awork/AD/AD574-11.28/hdl/AD574.vhd|
+!i113 1
+Z14 o-2008 -explicit -work presynth -O0
+Z15 tCvgOpt 0
+Aarchitecture_ad574
+R2
+R3
+R4
+R5
+DEx4 work 5 ad574 0 22 Q1D]i?S[M8GWT>]OcRSdk3
+l49
+L41
+VQSGKmOOeao]15o8;S;joW2
+!s100 fR7TI@cTSCTWnDd2eBa4M1
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ead574_test
+Z16 w1732091811
+R4
+R5
+R0
+Z17 8D:/Awork/AD/AD574/stimulus/AD574_Test.vhd
+Z18 FD:/Awork/AD/AD574/stimulus/AD574_Test.vhd
+l0
+L32
+VR^;Cg9WAGd;V?cNPP6Fc[2
+!s100 nJ_mQQWg1bdiKQSdU>ao81
+R9
+33
+Z19 !s110 1732097966
+!i10b 1
+Z20 !s108 1732097966.000000
+Z21 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Awork/AD/AD574/stimulus/AD574_Test.vhd|
+Z22 !s107 D:/Awork/AD/AD574/stimulus/AD574_Test.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+DEx4 work 10 ad574_test 0 22 R^;Cg9WAGd;V?cNPP6Fc[2
+l68
+L35
+V0ZQAZzDAcU_Qc88125=RX2
+!s100 BCgOjSP7Yg`Ia<WJZ1o200
+R9
+33
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Eaddr_manage
+Z23 w1733100403
+R2
+R3
+R4
+R5
+R6
+Z24 8D:/Awork/AD/AD574-11.28/hdl/addr_manage.vhd
+Z25 FD:/Awork/AD/AD574-11.28/hdl/addr_manage.vhd
+l0
+L24
+Vcbg;JXYQ2AL?oAI7T19V32
+!s100 IGoOzA8lb:Ei4j]:52BJ>2
+R9
+33
+R10
+!i10b 1
+R11
+Z26 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Awork/AD/AD574-11.28/hdl/addr_manage.vhd|
+Z27 !s107 D:/Awork/AD/AD574-11.28/hdl/addr_manage.vhd|
+!i113 1
+R14
+R15
+Aarchitecture_addr_manage
+R2
+R3
+R4
+R5
+DEx4 work 11 addr_manage 0 22 cbg;JXYQ2AL?oAI7T19V32
+l48
+L36
+V@:ned]RW@YZ]I9<dQANie0
+!s100 l^jZhK>XK3UlMkf8l;:0F3
+R9
+33
+R10
+!i10b 1
+R11
+R26
+R27
+!i113 1
+R14
+R15
+Eaddr_manage_test
+Z28 w1732243048
+R4
+R5
+R0
+Z29 8D:/Awork/AD/AD574/stimulus/addr_manage_Test.vhd
+Z30 FD:/Awork/AD/AD574/stimulus/addr_manage_Test.vhd
+l0
+L32
+V?3`Bb<>T[4O>g`KdcJ]f;0
+!s100 zajBWeW^LdI:mgW4JfbSc0
+R9
+33
+Z31 !s110 1732243052
+!i10b 1
+Z32 !s108 1732243052.000000
+Z33 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Awork/AD/AD574/stimulus/addr_manage_Test.vhd|
+Z34 !s107 D:/Awork/AD/AD574/stimulus/addr_manage_Test.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+DEx4 work 16 addr_manage_test 0 22 ?3`Bb<>T[4O>g`KdcJ]f;0
+l62
+L35
+V<Bg3FX:PE9^HXNBY2DiYE0
+!s100 7Enoj9oOITCFGX0UX;h_g2
+R9
+33
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R14
+R15
+Ebuf
+Z35 w1733101723
+Z36 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R4
+R5
+R6
+Z37 8D:/Awork/AD/AD574-11.28/hdl/buf.vhd
+Z38 FD:/Awork/AD/AD574-11.28/hdl/buf.vhd
+l0
+L25
+VR;1`I=B^9P]965EDZ`=ZF1
+!s100 >FdQ<^agjz5Z3JGYonWg71
+R9
+33
+R10
+!i10b 1
+R11
+Z39 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Awork/AD/AD574-11.28/hdl/buf.vhd|
+Z40 !s107 D:/Awork/AD/AD574-11.28/hdl/buf.vhd|
+!i113 1
+R14
+R15
+Aarchitecture_buf
+R36
+R2
+R3
+R4
+R5
+DEx4 work 3 buf 0 22 R;1`I=B^9P]965EDZ`=ZF1
+l62
+L47
+VMFUPBPX0e_ZjVng10lGm63
+!s100 BH]k=AnKol`k:X6Ibil@g0
+R9
+33
+R10
+!i10b 1
+R11
+R39
+R40
+!i113 1
+R14
+R15
+Ebuf_test
+Z41 w1732189551
+R4
+R5
+R0
+Z42 8D:/Awork/AD/AD574/stimulus/buf_Test.vhd
+Z43 FD:/Awork/AD/AD574/stimulus/buf_Test.vhd
+l0
+L32
+VF:><zUZ6KdZN@kz:=kN963
+!s100 0I4fX7H4KQMC1k<KOCg=10
+R9
+33
+Z44 !s110 1732189897
+!i10b 1
+Z45 !s108 1732189897.000000
+Z46 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Awork/AD/AD574/stimulus/buf_Test.vhd|
+Z47 !s107 D:/Awork/AD/AD574/stimulus/buf_Test.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+DEx4 work 8 buf_test 0 22 F:><zUZ6KdZN@kz:=kN963
+l70
+L35
+VU9a^>5ifjNUk?2zli6Ro10
+!s100 MJ38X5P2D0>0?nD1I3j310
+R9
+33
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R14
+R15
+Esend_test
+Z48 w1732150244
+R4
+R5
+R0
+Z49 8D:/Awork/AD/AD574/stimulus/send_Test.vhd
+Z50 FD:/Awork/AD/AD574/stimulus/send_Test.vhd
+l0
+L32
+VYoW7kzhP3DFfS6eHCgOPO0
+!s100 6hbA]IYA0N7;nHX[dAZN[2
+R9
+33
+Z51 !s110 1732150746
+!i10b 1
+Z52 !s108 1732150746.000000
+Z53 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Awork/AD/AD574/stimulus/send_Test.vhd|
+Z54 !s107 D:/Awork/AD/AD574/stimulus/send_Test.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+DEx4 work 9 send_test 0 22 YoW7kzhP3DFfS6eHCgOPO0
+l62
+L35
+V<m50;:l7;S6Qf^539A0K81
+!s100 08Y_o=9U<Rea6je;JC1GT3
+R9
+33
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R14
+R15
+Esignal_send
+Z55 w1732150738
+R2
+R3
+R4
+R5
+R6
+Z56 8D:/Awork/AD/AD574-11.28/hdl/signal_send.vhd
+Z57 FD:/Awork/AD/AD574-11.28/hdl/signal_send.vhd
+l0
+L23
+VM>3gUd76U9ohdPP^h1khH1
+!s100 Y3Q_n^UgM<9VC0Mhj5jGV0
+R9
+33
+R10
+!i10b 1
+R11
+Z58 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Awork/AD/AD574-11.28/hdl/signal_send.vhd|
+Z59 !s107 D:/Awork/AD/AD574-11.28/hdl/signal_send.vhd|
+!i113 1
+R14
+R15
+Aarchitecture_signal_send
+R2
+R3
+R4
+R5
+DEx4 work 11 signal_send 0 22 M>3gUd76U9ohdPP^h1khH1
+l39
+L32
+VKHWP912HIglD>bd`[bPYb0
+!s100 VM:I0b2FT^zAQD<[mNlfJ2
+R9
+33
+R10
+!i10b 1
+R11
+R58
+R59
+!i113 1
+R14
+R15
+Esingle_recive
+Z60 w1732842756
+R2
+R3
+R4
+R5
+R6
+Z61 8D:/Awork/AD/AD574-11.28/hdl/single_receive.vhd
+Z62 FD:/Awork/AD/AD574-11.28/hdl/single_receive.vhd
+l0
+L24
+VbMlKI50hf3]Y?>d;PPHZ<1
+!s100 ]g8MFlYMAPSU1L]W<^<hJ2
+R9
+33
+R10
+!i10b 1
+R11
+Z63 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Awork/AD/AD574-11.28/hdl/single_receive.vhd|
+Z64 !s107 D:/Awork/AD/AD574-11.28/hdl/single_receive.vhd|
+!i113 1
+R14
+R15
+Aarchitecture_single_recive
+R2
+R3
+R4
+R5
+DEx4 work 13 single_recive 0 22 bMlKI50hf3]Y?>d;PPHZ<1
+l44
+L35
+V?9YY^eiodE?VG7f1nYj6O1
+!s100 <J<IhLEAE]gNiT<XFJ[gG0
+R9
+33
+R10
+!i10b 1
+R11
+R63
+R64
+!i113 1
+R14
+R15
+Etop_ad
+Z65 w1733069532
+R4
+R5
+R6
+Z66 8D:/Awork/AD/AD574-11.28/hdl/Top_AD.vhd
+Z67 FD:/Awork/AD/AD574-11.28/hdl/Top_AD.vhd
+l0
+L23
+Vn^3TPFHTZG]?ZPX2`[OKl0
+!s100 7PJOR99<k0YILfzH:hb><2
+R9
+33
+Z68 !s110 1733101730
+!i10b 1
+Z69 !s108 1733101730.000000
+Z70 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Awork/AD/AD574-11.28/hdl/Top_AD.vhd|
+Z71 !s107 D:/Awork/AD/AD574-11.28/hdl/Top_AD.vhd|
+!i113 1
+R14
+R15
+Aarchitecture_top_ad
+R4
+R5
+DEx4 work 6 top_ad 0 22 n^3TPFHTZG]?ZPX2`[OKl0
+l141
+L38
+VHHdfI750fThS3nK2jJNZg1
+!s100 ^QoE_lcE<0Bm71nS47:S53
+R9
+33
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R14
+R15
+Etop_test
+Z72 w1732763236
+R4
+R5
+R6
+Z73 8D:/Awork/AD/AD574-11.28/stimulus/TOP_Test.vhd
+Z74 FD:/Awork/AD/AD574-11.28/stimulus/TOP_Test.vhd
+l0
+L32
+Vbk9YR[mDSg1<na[?`a0iF1
+!s100 zol?m3ol5`U;kY6GH1b752
+R9
+33
+R68
+!i10b 1
+R69
+Z75 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Awork/AD/AD574-11.28/stimulus/TOP_Test.vhd|
+Z76 !s107 D:/Awork/AD/AD574-11.28/stimulus/TOP_Test.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+Z77 DEx4 work 8 top_test 0 22 bk9YR[mDSg1<na[?`a0iF1
+l69
+L35
+Z78 V=D[KH=de2cHJYF]HON;S82
+Z79 !s100 8KPj141QhHNcbXGJe8`Bc3
+R9
+33
+R68
+!i10b 1
+R69
+R75
+R76
+!i113 1
+R14
+R15
+Ewhole_send
+Z80 w1732842890
+R36
+R2
+R3
+R4
+R5
+R6
+Z81 8D:/Awork/AD/AD574-11.28/hdl/whole_send.vhd
+Z82 FD:/Awork/AD/AD574-11.28/hdl/whole_send.vhd
+l0
+L25
+V8>cNzeA3K6U56J2eWl@TN2
+!s100 @iAijMoAheF1P1Vl]`9iR1
+R9
+33
+R68
+!i10b 1
+R11
+Z83 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Awork/AD/AD574-11.28/hdl/whole_send.vhd|
+Z84 !s107 D:/Awork/AD/AD574-11.28/hdl/whole_send.vhd|
+!i113 1
+R14
+R15
+Aarchitecture_whole_send
+R36
+R2
+R3
+R4
+R5
+DEx4 work 10 whole_send 0 22 8>cNzeA3K6U56J2eWl@TN2
+l46
+L38
+VAI[aJIMmUe9PG05ImoUcK2
+!s100 7>44Jl14>AA??m>IjeUio3
+R9
+33
+R68
+!i10b 1
+R11
+R83
+R84
+!i113 1
+R14
+R15

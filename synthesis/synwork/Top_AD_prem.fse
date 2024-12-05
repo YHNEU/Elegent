@@ -1,0 +1,46 @@
+
+fsm_encoding {14892891} onehot
+
+fsm_state_encoding {14892891} idle {00000001}
+
+fsm_state_encoding {14892891} receive {00000010}
+
+fsm_state_encoding {14892891} wait_deal {00000100}
+
+fsm_state_encoding {14892891} deal {00001000}
+
+fsm_state_encoding {14892891} state_send {00010000}
+
+fsm_state_encoding {14892891} deal_data {00100000}
+
+fsm_state_encoding {14892891} state_over {01000000}
+
+fsm_state_encoding {14892891} delay {10000000}
+
+fsm_registers {14892891} {pr_state[0]}  {pr_state[1]}  {pr_state[2]}  {pr_state[3]}  {pr_state[4]}  {pr_state[5]}  {pr_state[6]}  {pr_state[7]} 
+
+fsm_encoding {9882882} onehot
+
+fsm_state_encoding {9882882} s0 {000001}
+
+fsm_state_encoding {9882882} s1 {000010}
+
+fsm_state_encoding {9882882} s2 {000100}
+
+fsm_state_encoding {9882882} s3 {001000}
+
+fsm_state_encoding {9882882} s4 {010000}
+
+fsm_state_encoding {9882882} pr_s1 {100000}
+
+fsm_registers {9882882} {pr_state[0]}  {pr_state[1]}  {pr_state[2]}  {pr_state[3]}  {pr_state[4]}  {pr_state[5]} 
+
+fsm_encoding {13502503} sequential
+
+fsm_state_encoding {13502503} idle {00}
+
+fsm_state_encoding {13502503} send {01}
+
+fsm_state_encoding {13502503} judge {10}
+
+fsm_registers {13502503} {pr_state[1]}  {pr_state[0]} 

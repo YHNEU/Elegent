@@ -1,0 +1,786 @@
+# Fri Nov 29 08:40:55 2024
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 109MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Warning: Found 8 combinational loops!
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[0]
+1) instance data2_1[0] (in view: work.buf(architecture_buf)), output net data2_1[0] (in view: work.buf(architecture_buf))
+    net        U1.data2_1[0]
+    input  pin U1.data2[7:0]/D0[1]
+    instance   U1.data2[7:0] (cell pmux)
+    output pin U1.data2[7:0]/OUT[0]
+    net        U1.data2[0]
+    input  pin U1.data2_1[0]/I[0]
+    instance   U1.data2_1[0] (cell and)
+    output pin U1.data2_1[0]/OUT
+    net        U1.data2_1[0]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[1]
+2) instance data2_1[1] (in view: work.buf(architecture_buf)), output net data2_1[1] (in view: work.buf(architecture_buf))
+    net        U1.data2_1[1]
+    input  pin U1.data2[7:0]/D0[2]
+    instance   U1.data2[7:0] (cell pmux)
+    output pin U1.data2[7:0]/OUT[1]
+    net        U1.data2[1]
+    input  pin U1.data2_1[1]/I[0]
+    instance   U1.data2_1[1] (cell and)
+    output pin U1.data2_1[1]/OUT
+    net        U1.data2_1[1]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[2]
+3) instance data2_1[2] (in view: work.buf(architecture_buf)), output net data2_1[2] (in view: work.buf(architecture_buf))
+    net        U1.data2_1[2]
+    input  pin U1.data2[7:0]/D0[3]
+    instance   U1.data2[7:0] (cell pmux)
+    output pin U1.data2[7:0]/OUT[2]
+    net        U1.data2[2]
+    input  pin U1.data2_1[2]/I[0]
+    instance   U1.data2_1[2] (cell and)
+    output pin U1.data2_1[2]/OUT
+    net        U1.data2_1[2]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[3]
+4) instance data2_1[3] (in view: work.buf(architecture_buf)), output net data2_1[3] (in view: work.buf(architecture_buf))
+    net        U1.data2_1[3]
+    input  pin U1.data2[7:0]/D0[4]
+    instance   U1.data2[7:0] (cell pmux)
+    output pin U1.data2[7:0]/OUT[3]
+    net        U1.data2[3]
+    input  pin U1.data2_1[3]/I[0]
+    instance   U1.data2_1[3] (cell and)
+    output pin U1.data2_1[3]/OUT
+    net        U1.data2_1[3]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[4]
+5) instance data2_1[4] (in view: work.buf(architecture_buf)), output net data2_1[4] (in view: work.buf(architecture_buf))
+    net        U1.data2_1[4]
+    input  pin U1.data2[7:0]/D0[5]
+    instance   U1.data2[7:0] (cell pmux)
+    output pin U1.data2[7:0]/OUT[4]
+    net        U1.data2[4]
+    input  pin U1.data2_1[4]/I[0]
+    instance   U1.data2_1[4] (cell and)
+    output pin U1.data2_1[4]/OUT
+    net        U1.data2_1[4]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[5]
+6) instance data2_1[5] (in view: work.buf(architecture_buf)), output net data2_1[5] (in view: work.buf(architecture_buf))
+    net        U1.data2_1[5]
+    input  pin U1.data2[7:0]/D0[6]
+    instance   U1.data2[7:0] (cell pmux)
+    output pin U1.data2[7:0]/OUT[5]
+    net        U1.data2[5]
+    input  pin U1.data2_1[5]/I[0]
+    instance   U1.data2_1[5] (cell and)
+    output pin U1.data2_1[5]/OUT
+    net        U1.data2_1[5]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[6]
+7) instance data2_1[6] (in view: work.buf(architecture_buf)), output net data2_1[6] (in view: work.buf(architecture_buf))
+    net        U1.data2_1[6]
+    input  pin U1.data2[7:0]/D0[7]
+    instance   U1.data2[7:0] (cell pmux)
+    output pin U1.data2[7:0]/OUT[6]
+    net        U1.data2[6]
+    input  pin U1.data2_1[6]/I[0]
+    instance   U1.data2_1[6] (cell and)
+    output pin U1.data2_1[6]/OUT
+    net        U1.data2_1[6]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[7]
+8) instance data2_1[7] (in view: work.buf(architecture_buf)), output net data2_1[7] (in view: work.buf(architecture_buf))
+    net        U1.data2_1[7]
+    input  pin U1.data2[7:0]/D0[8]
+    instance   U1.data2[7:0] (cell pmux)
+    output pin U1.data2[7:0]/OUT[7]
+    net        U1.data2[7]
+    input  pin U1.data2_1[7]/I[0]
+    instance   U1.data2_1[7] (cell and)
+    output pin U1.data2_1[7]/OUT
+    net        U1.data2_1[7]
+End of loops
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+@N: MF238 :"d:\awork\ad\ad574-11.28\hdl\single_receive.vhd":88:12:88:20|Found 12-bit incrementor, 'un7_cnt_1[11:0]'
+@N: MO231 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":89:2:89:3|Found counter in view:work.buf(architecture_buf) instance cnt_daly[12:0] 
+@N: MO231 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":89:2:89:3|Found counter in view:work.buf(architecture_buf) instance cnt[2:0] 
+Encoding state machine pr_state[0:7] (in view: work.buf(architecture_buf))
+original code -> new code
+   000000001 -> 00000001
+   000000010 -> 00000010
+   000000100 -> 00000100
+   000001000 -> 00001000
+   000010000 -> 00010000
+   000100000 -> 00100000
+   001000000 -> 01000000
+   010000000 -> 10000000
+@N: MF176 |Default generator successful 
+@N: MF239 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":125:60:125:98|Found 5-bit decrementor, 'un14_data_all[8:4]'
+@N: MO231 :"d:\awork\ad\ad574-11.28\hdl\addr_manage.vhd":68:2:68:3|Found counter in view:work.addr_manage(architecture_addr_manage) instance addr[3:0] 
+@N: MO231 :"d:\awork\ad\ad574-11.28\hdl\ad574.vhd":88:2:88:3|Found counter in view:work.AD574(architecture_ad574) instance cnt_rc[3:0] 
+Encoding state machine pr_state[0:5] (in view: work.AD574(architecture_ad574))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N: MO231 :"d:\awork\ad\ad574-11.28\hdl\signal_send.vhd":57:2:57:3|Found counter in view:work.signal_send(architecture_signal_send) instance cnt[11:0] 
+@N: MO231 :"d:\awork\ad\ad574-11.28\hdl\whole_send.vhd":50:2:50:3|Found counter in view:work.whole_send(architecture_whole_send) instance cnt[4:0] 
+Encoding state machine pr_state[0:2] (in view: work.whole_send(architecture_whole_send))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 122MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 135MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 128MB peak: 135MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 128MB peak: 135MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 137MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 131MB peak: 137MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 131MB peak: 137MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 131MB peak: 137MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 137MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 141MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                    Fanout, notes                   
+------------------------------------------------------------------------------
+U5.cnt[1] / Q                                 67                              
+U5.cnt[0] / Q                                 124                             
+U5.cnt[2] / Q                                 35                              
+U1.pr_state[7] / Q                            35                              
+U1.pr_state[5] / Q                            31                              
+U1.pr_state[2] / Q                            244                             
+sys_rest_pad / Y                              390 : 390 asynchronous set/reset
+U1.un1_pr_state_7_i_a2_0_a2_0_a3 / Y          240                             
+U1.data_all_3_i_o3_0_o2_0_o2[143] / Y         30                              
+U1.data_all_3_i_o2_i_a3_i_o2_0_o2[63] / Y     30                              
+U1.m206_i_0_o2 / Y                            30                              
+U1.m103_i_o2_0_o2 / Y                         30                              
+U1.m302_0_i_o2 / Y                            30                              
+U1.data_all_3_i_0_0_o2[190] / Y               30                              
+U1.data_all_3_i_0_0_o2[126] / Y               30                              
+U1.m146_i_0_o2 / Y                            30                              
+U1.m253_i_0_o2 / Y                            30                              
+U1.m79_0_i_i_o2 / Y                           30                              
+U1.m125_0_0_i_o2 / Y                          30                              
+U1.data_all_3_0_a2_i_0_o2[239] / Y            30                              
+U1.data_all_3_i_0_0_o2[111] / Y               30                              
+U1.data_all_3_0_0_i_o2[220] / Y               30                              
+U1.data_all_3_0_0_i_o2[92] / Y                30                              
+==============================================================================
+
+@N: FP130 |Promoting Net sys_rest_c on CLKBUF  sys_rest_pad 
+@N: FP130 |Promoting Net sys_clk_c on CLKBUF  sys_clk_pad 
+@N: FP130 |Promoting Net U1.pr_state[2] on CLKINT  I_19 
+@N: FP130 |Promoting Net U1.N_1091 on CLKINT  I_20 
+@N: FP130 |Promoting Net U5.cnt[0] on CLKINT  I_21 
+@N: FP130 |Promoting Net U5.cnt[1] on CLKINT  I_22 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 141MB)
+
+Replicating Combinational Instance U1.data_all_3_0_0_i_o2[92], fanout 30 segments 2
+Replicating Combinational Instance U1.data_all_3_0_0_i_o2[220], fanout 30 segments 2
+Replicating Combinational Instance U1.data_all_3_i_0_0_o2[111], fanout 30 segments 2
+Replicating Combinational Instance U1.data_all_3_0_a2_i_0_o2[239], fanout 30 segments 2
+Replicating Combinational Instance U1.m125_0_0_i_o2, fanout 30 segments 2
+Replicating Combinational Instance U1.m79_0_i_i_o2, fanout 30 segments 2
+Replicating Combinational Instance U1.m253_i_0_o2, fanout 30 segments 2
+Replicating Combinational Instance U1.m146_i_0_o2, fanout 30 segments 2
+Replicating Combinational Instance U1.data_all_3_i_0_0_o2[126], fanout 30 segments 2
+Replicating Combinational Instance U1.data_all_3_i_0_0_o2[190], fanout 30 segments 2
+Replicating Combinational Instance U1.m302_0_i_o2, fanout 30 segments 2
+Replicating Combinational Instance U1.m103_i_o2_0_o2, fanout 30 segments 2
+Replicating Combinational Instance U1.m206_i_0_o2, fanout 30 segments 2
+Replicating Combinational Instance U1.data_all_3_i_o2_i_a3_i_o2_0_o2[63], fanout 30 segments 2
+Replicating Combinational Instance U1.data_all_3_i_o3_0_o2_0_o2[143], fanout 30 segments 2
+Replicating Sequential Instance U1.pr_state[5], fanout 31 segments 2
+Replicating Sequential Instance U1.pr_state[7], fanout 35 segments 2
+Replicating Sequential Instance U5.cnt[2], fanout 35 segments 2
+Replicating Sequential Instance U4.addr[0], fanout 25 segments 2
+
+Added 0 Buffers
+Added 19 Cells via replication
+	Added 4 Sequential Cells via replication
+	Added 15 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 141MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 394 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 2 clock pin(s) of sequential element(s)
+0 instances converted, 2 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0002       sys_clk             port                   394        U5.data_send[7]
+=======================================================================================
+================================================== Gated/Generated Clocks ===================================================
+Clock Tree ID     Driving Element             Drive Element Type     Fanout     Sample Instance     Explanation              
+-----------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       U4.pr_state_RNIMCFF2[1]     NOR2                   2          U4.nx_state[0]      No clocks found on inputs
+=============================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:01s; Memory used current: 128MB peak: 141MB)
+
+Writing Analyst data base D:\Awork\AD\AD574-11.28\synthesis\synwork\Top_AD_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 129MB peak: 141MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 131MB peak: 141MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 130MB peak: 141MB)
+
+@W: MT420 |Found inferred clock Top_AD|sys_clk with period 10.00ns. Please declare a user-defined clock on object "p:sys_clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Nov 29 08:41:01 2024
+#
+
+
+Top view:               Top_AD
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.871
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+Top_AD|sys_clk     100.0 MHz     77.7 MHz      10.000        12.871        -2.871     inferred     Inferred_clkgroup_0
+System             100.0 MHz     382.8 MHz     10.000        2.612         7.388      system       system_clkgroup    
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------
+System          Top_AD|sys_clk  |  No paths    -       |  No paths    -      |  No paths    -      |  10.000      7.388
+Top_AD|sys_clk  Top_AD|sys_clk  |  10.000      -2.871  |  No paths    -      |  No paths    -      |  No paths    -    
+=======================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Top_AD|sys_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                      Starting                                                   Arrival           
+Instance              Reference          Type         Pin     Net                Time        Slack 
+                      Clock                                                                        
+---------------------------------------------------------------------------------------------------
+U4.addr[0]            Top_AD|sys_clk     DFN1E0C0     Q       addr_c[0]          0.737       -2.871
+U4.addr_0[0]          Top_AD|sys_clk     DFN1E0C0     Q       addr_c_0[0]        0.737       -2.774
+U4.addr[1]            Top_AD|sys_clk     DFN1E0C0     Q       addr_c[1]          0.737       -2.602
+U4.addr[2]            Top_AD|sys_clk     DFN1E0C0     Q       addr_c[2]          0.737       -2.526
+U1.data_filter[8]     Top_AD|sys_clk     DFN1E0C0     Q       data_filter[8]     0.737       -2.508
+U2.cnt[9]             Top_AD|sys_clk     DFN1C0       Q       cnt[9]             0.737       -2.428
+U2.cnt[6]             Top_AD|sys_clk     DFN1C0       Q       cnt[6]             0.737       -2.384
+U1.data_filter[4]     Top_AD|sys_clk     DFN1E0C0     Q       data_filter[4]     0.737       -2.205
+U2.cnt[4]             Top_AD|sys_clk     DFN1C0       Q       cnt[4]             0.580       -2.059
+U1.data_filter[6]     Top_AD|sys_clk     DFN1E0C0     Q       data_filter[6]     0.737       -2.018
+===================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                           Required           
+Instance            Reference          Type         Pin     Net        Time         Slack 
+                    Clock                                                                 
+------------------------------------------------------------------------------------------
+U1.data_all[1]      Top_AD|sys_clk     DFN1E0C0     D       N_261      9.427        -2.871
+U1.data_all[2]      Top_AD|sys_clk     DFN1E0C0     D       N_2043     9.427        -2.871
+U1.data_all[3]      Top_AD|sys_clk     DFN1E0C0     D       N_258      9.427        -2.871
+U1.data_all[5]      Top_AD|sys_clk     DFN1E0C0     D       N_253      9.427        -2.871
+U1.data_all[9]      Top_AD|sys_clk     DFN1E0C0     D       N_243      9.427        -2.871
+U1.data_all[10]     Top_AD|sys_clk     DFN1E0C0     D       N_789      9.427        -2.871
+U1.data_all[11]     Top_AD|sys_clk     DFN1E0C0     D       N_241      9.427        -2.871
+U1.data_all[17]     Top_AD|sys_clk     DFN1E0C0     D       N_1783     9.427        -2.871
+U1.data_all[20]     Top_AD|sys_clk     DFN1E0C0     D       N_1786     9.427        -2.871
+U1.data_all[27]     Top_AD|sys_clk     DFN1E0C0     D       N_1792     9.427        -2.871
+==========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      12.298
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.871
+
+    Number of logic level(s):                6
+    Starting point:                          U4.addr[0] / Q
+    Ending point:                            U1.data_all[186] / D
+    The start point is clocked by            Top_AD|sys_clk [rising] on pin CLK
+    The end   point is clocked by            Top_AD|sys_clk [rising] on pin CLK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+U4.addr[0]                      DFN1E0C0     Q        Out     0.737     0.737       -         
+addr_c[0]                       Net          -        -       1.994     -           12        
+U1.un14_data_all.I_6            OR2          B        In      -         2.730       -         
+U1.un14_data_all.I_6            OR2          Y        Out     0.646     3.377       -         
+N_4                             Net          -        -       0.322     -           1         
+U1.un14_data_all.I_7            XNOR2        A        In      -         3.698       -         
+U1.un14_data_all.I_7            XNOR2        Y        Out     0.408     4.107       -         
+I_7_0                           Net          -        -       0.806     -           3         
+U1.m146_i_0_o2_0                OR2          A        In      -         4.913       -         
+U1.m146_i_0_o2_0                OR2          Y        Out     0.507     5.421       -         
+N_817                           Net          -        -       2.172     -           16        
+U1.data_all_3_i_0_0_o2[190]     OR2          B        In      -         7.593       -         
+U1.data_all_3_i_0_0_o2[190]     OR2          Y        Out     0.646     8.240       -         
+N_844                           Net          -        -       2.127     -           15        
+U1.data_all_RNO_1[186]          NOR2         B        In      -         10.367      -         
+U1.data_all_RNO_1[186]          NOR2         Y        Out     0.646     11.013      -         
+N_2082                          Net          -        -       0.322     -           1         
+U1.data_all_RNO[186]            NOR3A        C        In      -         11.335      -         
+U1.data_all_RNO[186]            NOR3A        Y        Out     0.641     11.976      -         
+N_413                           Net          -        -       0.322     -           1         
+U1.data_all[186]                DFN1E0C0     D        In      -         12.298      -         
+==============================================================================================
+Total path delay (propagation time + setup) of 12.871 is 4.807(37.3%) logic and 8.064(62.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      12.298
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.871
+
+    Number of logic level(s):                6
+    Starting point:                          U4.addr[0] / Q
+    Ending point:                            U1.data_all[49] / D
+    The start point is clocked by            Top_AD|sys_clk [rising] on pin CLK
+    The end   point is clocked by            Top_AD|sys_clk [rising] on pin CLK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+U4.addr[0]                                DFN1E0C0     Q        Out     0.737     0.737       -         
+addr_c[0]                                 Net          -        -       1.994     -           12        
+U1.un14_data_all.I_6                      OR2          B        In      -         2.730       -         
+U1.un14_data_all.I_6                      OR2          Y        Out     0.646     3.377       -         
+N_4                                       Net          -        -       0.322     -           1         
+U1.un14_data_all.I_7                      XNOR2        A        In      -         3.698       -         
+U1.un14_data_all.I_7                      XNOR2        Y        Out     0.408     4.107       -         
+I_7_0                                     Net          -        -       0.806     -           3         
+U1.m146_i_0_o2_0                          OR2          A        In      -         4.913       -         
+U1.m146_i_0_o2_0                          OR2          Y        Out     0.507     5.421       -         
+N_817                                     Net          -        -       2.172     -           16        
+U1.data_all_3_i_o2_i_a3_i_o2_0_o2[63]     OR2          B        In      -         7.593       -         
+U1.data_all_3_i_o2_i_a3_i_o2_0_o2[63]     OR2          Y        Out     0.646     8.240       -         
+N_831                                     Net          -        -       2.127     -           15        
+U1.data_all_RNO_1[49]                     NOR2         B        In      -         10.367      -         
+U1.data_all_RNO_1[49]                     NOR2         Y        Out     0.646     11.013      -         
+N_2156                                    Net          -        -       0.322     -           1         
+U1.data_all_RNO[49]                       NOR3A        C        In      -         11.335      -         
+U1.data_all_RNO[49]                       NOR3A        Y        Out     0.641     11.976      -         
+N_700                                     Net          -        -       0.322     -           1         
+U1.data_all[49]                           DFN1E0C0     D        In      -         12.298      -         
+========================================================================================================
+Total path delay (propagation time + setup) of 12.871 is 4.807(37.3%) logic and 8.064(62.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      12.298
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.871
+
+    Number of logic level(s):                6
+    Starting point:                          U4.addr[0] / Q
+    Ending point:                            U1.data_all[33] / D
+    The start point is clocked by            Top_AD|sys_clk [rising] on pin CLK
+    The end   point is clocked by            Top_AD|sys_clk [rising] on pin CLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+U4.addr[0]                DFN1E0C0     Q        Out     0.737     0.737       -         
+addr_c[0]                 Net          -        -       1.994     -           12        
+U1.un14_data_all.I_6      OR2          B        In      -         2.730       -         
+U1.un14_data_all.I_6      OR2          Y        Out     0.646     3.377       -         
+N_4                       Net          -        -       0.322     -           1         
+U1.un14_data_all.I_7      XNOR2        A        In      -         3.698       -         
+U1.un14_data_all.I_7      XNOR2        Y        Out     0.408     4.107       -         
+I_7_0                     Net          -        -       0.806     -           3         
+U1.m146_i_0_o2_0          OR2          A        In      -         4.913       -         
+U1.m146_i_0_o2_0          OR2          Y        Out     0.507     5.421       -         
+N_817                     Net          -        -       2.172     -           16        
+U1.m253_i_0_o2            OR2          B        In      -         7.593       -         
+U1.m253_i_0_o2            OR2          Y        Out     0.646     8.240       -         
+N_832                     Net          -        -       2.127     -           15        
+U1.data_all_RNO_1[33]     NOR2         B        In      -         10.367      -         
+U1.data_all_RNO_1[33]     NOR2         Y        Out     0.646     11.013      -         
+N_2218                    Net          -        -       0.322     -           1         
+U1.data_all_RNO[33]       NOR3A        C        In      -         11.335      -         
+U1.data_all_RNO[33]       NOR3A        Y        Out     0.641     11.976      -         
+N_154                     Net          -        -       0.322     -           1         
+U1.data_all[33]           DFN1E0C0     D        In      -         12.298      -         
+========================================================================================
+Total path delay (propagation time + setup) of 12.871 is 4.807(37.3%) logic and 8.064(62.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      12.298
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.871
+
+    Number of logic level(s):                6
+    Starting point:                          U4.addr[0] / Q
+    Ending point:                            U1.data_all[1] / D
+    The start point is clocked by            Top_AD|sys_clk [rising] on pin CLK
+    The end   point is clocked by            Top_AD|sys_clk [rising] on pin CLK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+U4.addr[0]               DFN1E0C0     Q        Out     0.737     0.737       -         
+addr_c[0]                Net          -        -       1.994     -           12        
+U1.un14_data_all.I_6     OR2          B        In      -         2.730       -         
+U1.un14_data_all.I_6     OR2          Y        Out     0.646     3.377       -         
+N_4                      Net          -        -       0.322     -           1         
+U1.un14_data_all.I_7     XNOR2        A        In      -         3.698       -         
+U1.un14_data_all.I_7     XNOR2        Y        Out     0.408     4.107       -         
+I_7_0                    Net          -        -       0.806     -           3         
+U1.m146_i_0_o2_0         OR2          A        In      -         4.913       -         
+U1.m146_i_0_o2_0         OR2          Y        Out     0.507     5.421       -         
+N_817                    Net          -        -       2.172     -           16        
+U1.m302_0_i_o2           OR2          B        In      -         7.593       -         
+U1.m302_0_i_o2           OR2          Y        Out     0.646     8.240       -         
+N_835                    Net          -        -       2.127     -           15        
+U1.data_all_RNO_1[1]     NOR2         B        In      -         10.367      -         
+U1.data_all_RNO_1[1]     NOR2         Y        Out     0.646     11.013      -         
+N_1099                   Net          -        -       0.322     -           1         
+U1.data_all_RNO[1]       NOR3A        C        In      -         11.335      -         
+U1.data_all_RNO[1]       NOR3A        Y        Out     0.641     11.976      -         
+N_261                    Net          -        -       0.322     -           1         
+U1.data_all[1]           DFN1E0C0     D        In      -         12.298      -         
+=======================================================================================
+Total path delay (propagation time + setup) of 12.871 is 4.807(37.3%) logic and 8.064(62.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      12.298
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.871
+
+    Number of logic level(s):                6
+    Starting point:                          U4.addr[0] / Q
+    Ending point:                            U1.data_all[17] / D
+    The start point is clocked by            Top_AD|sys_clk [rising] on pin CLK
+    The end   point is clocked by            Top_AD|sys_clk [rising] on pin CLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+U4.addr[0]                DFN1E0C0     Q        Out     0.737     0.737       -         
+addr_c[0]                 Net          -        -       1.994     -           12        
+U1.un14_data_all.I_6      OR2          B        In      -         2.730       -         
+U1.un14_data_all.I_6      OR2          Y        Out     0.646     3.377       -         
+N_4                       Net          -        -       0.322     -           1         
+U1.un14_data_all.I_7      XNOR2        A        In      -         3.698       -         
+U1.un14_data_all.I_7      XNOR2        Y        Out     0.408     4.107       -         
+I_7_0                     Net          -        -       0.806     -           3         
+U1.m146_i_0_o2_0          OR2          A        In      -         4.913       -         
+U1.m146_i_0_o2_0          OR2          Y        Out     0.507     5.421       -         
+N_817                     Net          -        -       2.172     -           16        
+U1.m125_0_0_i_o2          OR2          B        In      -         7.593       -         
+U1.m125_0_0_i_o2          OR2          Y        Out     0.646     8.240       -         
+N_836                     Net          -        -       2.127     -           15        
+U1.data_all_RNO_1[17]     NOR2         B        In      -         10.367      -         
+U1.data_all_RNO_1[17]     NOR2         Y        Out     0.646     11.013      -         
+N_2276                    Net          -        -       0.322     -           1         
+U1.data_all_RNO[17]       NOR3A        C        In      -         11.335      -         
+U1.data_all_RNO[17]       NOR3A        Y        Out     0.641     11.976      -         
+N_1783                    Net          -        -       0.322     -           1         
+U1.data_all[17]           DFN1E0C0     D        In      -         12.298      -         
+========================================================================================
+Total path delay (propagation time + setup) of 12.871 is 4.807(37.3%) logic and 8.064(62.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                           Arrival          
+Instance           Reference     Type         Pin     Net             Time        Slack
+                   Clock                                                               
+---------------------------------------------------------------------------------------
+U4.nx_state[0]     System        DLN0P1C1     Q       nx_state[0]     1.717       7.388
+U4.nx_state[1]     System        DLN0P1C1     Q       nx_state[1]     1.717       7.388
+=======================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                         Required          
+Instance           Reference     Type       Pin     Net             Time         Slack
+                   Clock                                                              
+--------------------------------------------------------------------------------------
+U4.pr_state[0]     System        DFN1C0     D       nx_state[0]     9.427        7.388
+U4.pr_state[1]     System        DFN1C0     D       nx_state[1]     9.427        7.388
+======================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      2.039
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 7.388
+
+    Number of logic level(s):                0
+    Starting point:                          U4.nx_state[0] / Q
+    Ending point:                            U4.pr_state[0] / D
+    The start point is clocked by            System [falling] on pin G
+    The end   point is clocked by            Top_AD|sys_clk [rising] on pin CLK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name               Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+U4.nx_state[0]     DLN0P1C1     Q        Out     1.717     1.717       -         
+nx_state[0]        Net          -        -       0.322     -           1         
+U4.pr_state[0]     DFN1C0       D        In      -         2.039       -         
+=================================================================================
+Total path delay (propagation time + setup) of 2.612 is 2.291(87.7%) logic and 0.322(12.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 130MB peak: 141MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 130MB peak: 141MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_PQFP208_STD
+Report for cell Top_AD.architecture_top_ad
+  Core Cell usage:
+              cell count     area count*area
+              AND2     2      1.0        2.0
+              AND3    12      1.0       12.0
+               AO1    39      1.0       39.0
+              AO1A     5      1.0        5.0
+              AO1B     2      1.0        2.0
+              AO1C   157      1.0      157.0
+              AO1D    11      1.0       11.0
+              AOI1     1      1.0        1.0
+               AX1     1      1.0        1.0
+              AX1C     3      1.0        3.0
+              AX1D     2      1.0        2.0
+             AXOI5     1      1.0        1.0
+            CLKINT     4      0.0        0.0
+               GND     7      0.0        0.0
+               INV     4      1.0        4.0
+              MAJ3     3      1.0        3.0
+               MX2   210      1.0      210.0
+              MX2A    20      1.0       20.0
+              MX2B     1      1.0        1.0
+              MX2C    16      1.0       16.0
+              NOR2    79      1.0       79.0
+             NOR2A   138      1.0      138.0
+             NOR2B    98      1.0       98.0
+              NOR3     9      1.0        9.0
+             NOR3A    76      1.0       76.0
+             NOR3B    21      1.0       21.0
+             NOR3C    79      1.0       79.0
+               OA1     8      1.0        8.0
+              OA1A     2      1.0        2.0
+              OA1B   159      1.0      159.0
+              OA1C    16      1.0       16.0
+               OR2    49      1.0       49.0
+              OR2A     7      1.0        7.0
+              OR2B    11      1.0       11.0
+               OR3    14      1.0       14.0
+              OR3A     7      1.0        7.0
+              OR3B     5      1.0        5.0
+              OR3C     3      1.0        3.0
+               VCC     7      0.0        0.0
+               XA1    16      1.0       16.0
+              XA1A     4      1.0        4.0
+              XA1B     7      1.0        7.0
+              XA1C     7      1.0        7.0
+             XNOR2     3      1.0        3.0
+              XOR2    19      1.0       19.0
+              XOR3     9      1.0        9.0
+
+
+            DFN1C0    61      1.0       61.0
+          DFN1E0C0   304      1.0      304.0
+          DFN1E0P0     3      1.0        3.0
+          DFN1E1C0    18      1.0       18.0
+            DFN1P0     8      1.0        8.0
+          DLN0P1C1     2      2.0        4.0
+                   -----          ----------
+             TOTAL  1750              1734.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF    14
+            OUTBUF     8
+                   -----
+             TOTAL    24
+
+
+Core Cells         : 1734 of 24576 (7%)
+IO Cells           : 24
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 29MB peak: 141MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:02s cputime
+# Fri Nov 29 08:41:01 2024
+
+###########################################################]

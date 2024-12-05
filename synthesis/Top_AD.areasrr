@@ -1,0 +1,197 @@
+----------------------------------------------------------------------
+Report for cell Top_AD.architecture_top_ad
+                                          Cell usage:
+                               cell       count     area    count*area
+                              AD574         1      69.0       69.0
+                             CLKBUF         2       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF        14       0.0        0.0
+                             OUTBUF         8       0.0        0.0
+                                VCC         1       0.0        0.0
+                        addr_manage         1      39.0       39.0
+                                buf         1    1054.0     1054.0
+                        signal_send         1     166.0      166.0
+                      single_recive         1     131.0      131.0
+                         whole_send         1     275.0      275.0
+                            
+                         TOTAL             32               1734.0
+----------------------------------------------------------------------
+Report for cell whole_send.netlist
+     Instance path:  U5
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             CLKINT         2       0.0        0.0
+                             DFN1C0         2       1.0        2.0
+                           DFN1E0C0         7       1.0        7.0
+                           DFN1E1C0         9       1.0        9.0
+                                GND         1       0.0        0.0
+                                MX2       200       1.0      200.0
+                               MX2A        18       1.0       18.0
+                               MX2C        16       1.0       16.0
+                              NOR2A        10       1.0       10.0
+                              NOR2B         3       1.0        3.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         4       1.0        4.0
+                            
+                         TOTAL            279                275.0
+----------------------------------------------------------------------
+Report for cell signal_send.netlist
+     Instance path:  U2
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         7       1.0        7.0
+                               AO1A         3       1.0        3.0
+                               AO1B         1       1.0        1.0
+                               AX1C         3       1.0        3.0
+                             DFN1C0        12       1.0       12.0
+                           DFN1E0C0         1       1.0        1.0
+                           DFN1E0P0         2       1.0        2.0
+                           DFN1E1C0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               NOR2         7       1.0        7.0
+                              NOR2A        22       1.0       22.0
+                              NOR2B        40       1.0       40.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         7       1.0        7.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C        22       1.0       22.0
+                                OA1         2       1.0        2.0
+                               OA1A         2       1.0        2.0
+                                OR2         6       1.0        6.0
+                               OR2B         2       1.0        2.0
+                                OR3         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                                XA1         7       1.0        7.0
+                               XA1A         3       1.0        3.0
+                               XOR2         6       1.0        6.0
+                            
+                         TOTAL            168                166.0
+----------------------------------------------------------------------
+Report for cell AD574.netlist
+     Instance path:  U0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1A         1       1.0        1.0
+                                AX1         1       1.0        1.0
+                             DFN1C0        10       1.0       10.0
+                           DFN1E0C0        18       1.0       18.0
+                           DFN1E0P0         1       1.0        1.0
+                             DFN1P0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                MX2         1       1.0        1.0
+                               NOR2         7       1.0        7.0
+                              NOR2A        15       1.0       15.0
+                              NOR2B         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                               OR2B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                               XA1B         1       1.0        1.0
+                               XA1C         1       1.0        1.0
+                            
+                         TOTAL             71                 69.0
+----------------------------------------------------------------------
+Report for cell addr_manage.netlist
+     Instance path:  U4
+                                          Cell usage:
+                               cell       count     area    count*area
+                              AXOI5         1       1.0        1.0
+                             DFN1C0         5       1.0        5.0
+                           DFN1E0C0         6       1.0        6.0
+                             DFN1P0         1       1.0        1.0
+                           DLN0P1C1         2       2.0        4.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                                MX2         1       1.0        1.0
+                               MX2A         2       1.0        2.0
+                               MX2B         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         5       1.0        5.0
+                               NOR3         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                               OA1C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         3       1.0        3.0
+                            
+                         TOTAL             39                 39.0
+----------------------------------------------------------------------
+Report for cell buf.netlist
+     Instance path:  U1
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1        31       1.0       31.0
+                               AO1A         1       1.0        1.0
+                               AO1C       157       1.0      157.0
+                               AO1D        11       1.0       11.0
+                               AX1D         2       1.0        2.0
+                             CLKINT         2       0.0        0.0
+                             DFN1C0         8       1.0        8.0
+                           DFN1E0C0       271       1.0      271.0
+                           DFN1E1C0         6       1.0        6.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               MAJ3         3       1.0        3.0
+                               NOR2        61       1.0       61.0
+                              NOR2A        67       1.0       67.0
+                              NOR2B        36       1.0       36.0
+                               NOR3         6       1.0        6.0
+                              NOR3A        61       1.0       61.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C        43       1.0       43.0
+                                OA1         6       1.0        6.0
+                               OA1B       159       1.0      159.0
+                               OA1C        13       1.0       13.0
+                                OR2        41       1.0       41.0
+                               OR2A         6       1.0        6.0
+                               OR2B         7       1.0        7.0
+                                OR3         9       1.0        9.0
+                               OR3A         7       1.0        7.0
+                               OR3B         5       1.0        5.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         1       1.0        1.0
+                               XA1B         6       1.0        6.0
+                               XA1C         6       1.0        6.0
+                              XNOR2         3       1.0        3.0
+                               XOR2         2       1.0        2.0
+                               XOR3         9       1.0        9.0
+                            
+                         TOTAL           1058               1054.0
+----------------------------------------------------------------------
+Report for cell single_recive.netlist
+     Instance path:  U3
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AND3        12       1.0       12.0
+                               AO1B         1       1.0        1.0
+                             DFN1C0        24       1.0       24.0
+                           DFN1E0C0         1       1.0        1.0
+                           DFN1E1C0         1       1.0        1.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                MX2         8       1.0        8.0
+                               NOR2         2       1.0        2.0
+                              NOR2A        22       1.0       22.0
+                              NOR2B        13       1.0       13.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         8       1.0        8.0
+                              NOR3B         9       1.0        9.0
+                              NOR3C        13       1.0       13.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        11       1.0       11.0
+                            
+                         TOTAL            133                131.0
