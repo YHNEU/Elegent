@@ -1,0 +1,44 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\YH\\Desktop\\RS422\\RS4221107\\synthesis\\synthesis_1\\synwork\\buf_comp.srs|-top|work.buf|-instrdir|C:\\Users\\YH\\Desktop\\RS422\\RS4221107\\synthesis\\synthesis_1\\instr_sources|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-srs_instrumentation|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\libero11.9\\SynplifyPro\\bin64\\c_vhdl.exe":1508986828
+#CUR:"C:\\Users\\YH\\Desktop\\RS422\\RS4221107\\synthesis\\synthesis_1\\instr_sources\\syn_dics.cdc":1731287031
+#CUR:"C:\\Users\\YH\\Desktop\\RS422\\RS4221107\\synthesis\\synthesis_1\\instr_sources\\syn_dics.cdc":1731287031
+#CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd2008\\location.map":1508992836
+#CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd2008\\std.vhd":1508986328
+#CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1508986328
+#CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1508986328
+#CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1508986328
+#CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1508986646
+#CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1508986328
+#CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1508986328
+#CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1508986328
+#CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1508986328
+#CUR:"C:\\Users\\YH\\Desktop\\RS422\\RS4221107\\hdl\\signal_send.vhd":1730949798
+#CUR:"C:\\Users\\YH\\Desktop\\RS422\\RS4221107\\hdl\\single_recive.vhd":1730946127
+#CUR:"C:\\Users\\YH\\Desktop\\RS422\\RS4221107\\hdl\\buf.vhd":1730956351
+#CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1508986328
+#CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1508986328
+0 "C:\Users\YH\Desktop\RS422\RS4221107\hdl\signal_send.vhd" vhdl
+1 "C:\Users\YH\Desktop\RS422\RS4221107\hdl\single_recive.vhd" vhdl
+2 "C:\Users\YH\Desktop\RS422\RS4221107\hdl\buf.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 1 0 
+
+# Dependency Lists (Users Of)
+0 2 
+1 2 
+2 -1
+
+# Design Unit to File Association
+arch work signal_send architecture_signal_send 0
+module work signal_send 0
+arch work single_recive architecture_single_recive 1
+module work single_recive 1
+arch work buf architecture_buf 2
+module work buf 2
+
+
+# Configuration files used

@@ -1,0 +1,58 @@
+Running in restricted mode: identify_job
+
+Starting:    D:\libero11.9\SynplifyPro\bin64\mbin\identify_instrumentor_shell.exe
+Install:     D:\libero11.9\SynplifyPro
+Hostname:    LAPTOP-4PVSALH1
+Date:        Mon Nov 11 09:03:54 2024
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product identify_instrumentor -srs_gen_hw C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\instr_sources\syn_dics.v -prj C:\Users\YH\Desktop\RS422\RS4221107\synthesis\buf_syn.prj -idb C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\identify.db -curimpl synthesis_1 -write_sdc -log C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\identify.log -tsl IhtIMsel -idc C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\identify.idc
+ProductType: identify_instrumentor
+
+
+
+
+*** Integrated Instrumentor ***
+Added instrumentation 'synthesis' to the project
+"design_flow" is unrecognized option for current device
+Added instrumentation 'synthesis_1' to the project
+"design_flow" is unrecognized option for current device
+Current design is buf
+Loading instrumentation 'synthesis_1'
+Source IDC file C:/Users/YH/Desktop/RS422/RS4221107/synthesis/synthesis_1/identify.idc
+Setting IICE sampler (sampledepth) to 8 for IICE named 'IICE'(previous value: 128)
+Setting IICE sampler (set IICE clock) to '/sys_clk' for IICE named 'IICE' (previous value: '')
+Generating SRS instrumentation file: C:UsersYHDesktopRS422RS4221107synthesissynthesis_1instr_sourcessyn_dics.v
+Current instrumentation information:      	IICE=IICE 
+		Total instrumentation in bits: Sample Only 160, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 160, Sample and trigger 1
+The target device family is 'ProASIC3' (and considered a ProAsic3-based family; hence we do care about UJTAG / UJTAG_WRAPPER instances).
+The design does not contain a UJTAG_WRAPPER instance.
+OK, the design does not contain a UJTAG instance.
+ Generating IICE 'IICE'for the following settings:
+      Design settings:
+          Device family          ProASIC3
+          Communication port     builtin
+          Skew-resistant logic   off
+          Export Trigger         no
+          Import Trigger         0
+          Language               verilog
+      Sample Buffer:
+          Type                   behavioral
+          Depth                  8
+          Width                  161 bits
+          Qualified sampling     off
+          Always armed sampling  off
+          Data compression       off
+      Trigger controller:
+          Preconfigured          no
+          Type                   Simple Triggering
+          Total-trigger Delay    0 cycles
+ 
+Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 160, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 160, Sample and trigger 1
+
+exit status=0

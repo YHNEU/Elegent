@@ -1,0 +1,168 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/YH/Desktop/RS422/RS4221106 - good/simulation
+Ebuf
+Z1 w1730884809
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/YH/Desktop/RS422/RS4221106 - good/synthesis/buf.vhd
+Z5 FC:/Users/YH/Desktop/RS422/RS4221106 - good/synthesis/buf.vhd
+l0
+L1816
+VbDJdVWlGCZI4>RZUHiDY72
+!s100 FdgXTXB2AZUXLl]8`:VP93
+Z6 OW;C;10.5c;63
+33
+Z7 !s110 1730884817
+!i10b 1
+Z8 !s108 1730884817.000000
+Z9 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Users/YH/Desktop/RS422/RS4221106 - good/synthesis/buf.vhd|
+Z10 !s107 C:/Users/YH/Desktop/RS422/RS4221106 - good/synthesis/buf.vhd|
+!i113 1
+Z11 o-2008 -explicit -work postsynth -O0
+Z12 tCvgOpt 0
+Adef_arch
+Z13 DEx4 work 11 signal_send 0 22 i8L^6J6UL^l9@3B=X<hPf3
+Z14 DEx4 work 13 single_recive 0 22 diT`FRm5RNS]`g;lehj=m1
+R2
+R3
+DEx4 work 3 buf 0 22 bDJdVWlGCZI4>RZUHiDY72
+l2762
+L1826
+VRb[I0VefVf3i1bK_7?a9B2
+!s100 bDXN_Jn7>czeIocccSY370
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esignal_send
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L714
+Vi8L^6J6UL^l9@3B=X<hPf3
+!s100 Gl3gSYZbT:GBe1zSM4j2L0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R13
+l1003
+L730
+VKL^]Kfi1WDE4?GXzh>k@V1
+!s100 `jhf517nZOj;^c4>;gKEl0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esingle_recive
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L8
+VdiT`FRm5RNS]`g;lehj=m1
+!s100 FMA`bHa6c@:<iC63ZK31U2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R14
+l188
+L32
+Ve93[TKk`YNh5Bc^1Pbg^d2
+!s100 ]h[I9m@zX?^X:IHYbKH:;3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etest_buf
+Z15 w1730884575
+R2
+R3
+R0
+Z16 8C:/Users/YH/Desktop/RS422/RS4221106 - good/stimulus/Test_buf.vhd
+Z17 FC:/Users/YH/Desktop/RS422/RS4221106 - good/stimulus/Test_buf.vhd
+l0
+L32
+V8maBKVi_d8h^m9NXeEL1z0
+!s100 hLgeOcTVgTei9zDRBA5nL3
+R6
+33
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Users/YH/Desktop/RS422/RS4221106 - good/stimulus/Test_buf.vhd|
+Z19 !s107 C:/Users/YH/Desktop/RS422/RS4221106 - good/stimulus/Test_buf.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 8 test_buf 0 22 8maBKVi_d8h^m9NXeEL1z0
+l59
+L35
+VPRagO;=bF=2^@k^3AiC7Q1
+!s100 IniC]7VD5RW5:4[<eoBfB0
+R6
+33
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12

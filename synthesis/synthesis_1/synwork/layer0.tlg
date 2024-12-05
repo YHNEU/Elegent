@@ -1,0 +1,10 @@
+@N: CD231 :"D:\libero11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\YH\Desktop\RS422\RS4221107\hdl\buf.vhd":24:7:24:9|Synthesizing work.buf.architecture_buf.
+@W: CD434 :"C:\Users\YH\Desktop\RS422\RS4221107\hdl\buf.vhd":117:28:117:43|Signal idle_recive_down in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD630 :"C:\Users\YH\Desktop\RS422\RS4221107\hdl\signal_send.vhd":24:7:24:17|Synthesizing work.signal_send.architecture_signal_send.
+@W: CD434 :"C:\Users\YH\Desktop\RS422\RS4221107\hdl\signal_send.vhd":74:28:74:35|Signal vld_send in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.signal_send.architecture_signal_send
+@N: CD630 :"C:\Users\YH\Desktop\RS422\RS4221107\hdl\single_recive.vhd":24:7:24:19|Synthesizing work.single_recive.architecture_single_recive.
+Post processing for work.single_recive.architecture_single_recive
+@W: CL169 :"C:\Users\YH\Desktop\RS422\RS4221107\hdl\single_recive.vhd":69:1:69:2|Pruning unused register parity_check_4. Make sure that there are no unused intermediate registers.
+Post processing for work.buf.architecture_buf

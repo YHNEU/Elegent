@@ -1,0 +1,21 @@
+Microsemi Libero Software
+Version: 11.9.0.4
+Release: v11.9
+
+Info: The design C:/Users/YH/Desktop/RS422/RS4221107/designer/impl1/buf_synthesis_1.adb was last
+      modified by software version 11.9.0.4.
+Opened an existing Libero design
+C:/Users/YH/Desktop/RS422/RS4221107/designer/impl1/buf_synthesis_1.adb.
+
+The Export-map command succeeded ( 00:00:15 )
+Warning: Overwriting the existing file:
+         C:\Users\YH\Desktop\RS422\RS4221107\designer\impl1\buf_synthesis_1.pdb.
+Wrote to the file: C:\Users\YH\Desktop\RS422\RS4221107\designer\impl1\buf_synthesis_1.pdb
+CHECKSUM: 20F5
+
+The Generate programming file command succeeded ( 00:00:16 )
+Design saved to file C:/Users/YH/Desktop/RS422/RS4221107/designer/impl1/buf_synthesis_1.adb.
+
+The Execute Script command succeeded ( 00:00:17 )
+Design closed.
+

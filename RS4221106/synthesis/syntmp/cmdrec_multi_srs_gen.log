@@ -1,0 +1,8 @@
+D:\libero11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.buf  -multisrs  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\synwork\buf_comp.srs  -osyn  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\synwork\buf_mult.srs  -log  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\synlog\buf_multi_srs_gen.srr 
+relcom:D:\libero11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top work.buf -multisrs ..\synwork\buf_comp.srs -osyn ..\synwork\buf_mult.srs -log ..\synlog\buf_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\buf_comp.srs|io:i|time:1730877406|size:17298|exec:0|csum:14266F240558ABC327E3423717A4562A
+file:..\synwork\buf_mult.srs|io:o|time:1730877407|size:11507|exec:0|csum:
+file:..\synlog\buf_multi_srs_gen.srr|io:o|time:1730877407|size:504|exec:0|csum:
+file:D:\libero11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:D:\libero11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

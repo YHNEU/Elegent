@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"D:\libero11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\YH\Desktop\RS422\RS4221107\hdl\single_recive.vhd":24:7:24:19|Top entity is set to single_recive.
+@N: CD231 :"D:\libero11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\YH\Desktop\RS422\RS4221107\hdl\single_recive.vhd":24:7:24:19|Synthesizing work.single_recive.architecture_single_recive.
+@N|Running in 64-bit mode
+

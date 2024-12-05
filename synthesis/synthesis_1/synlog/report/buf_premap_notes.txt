@@ -1,0 +1,12 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF625 |Insert Identify debug core
+@N: BN397 :"c:\users\yh\desktop\rs422\rs4221107\synthesis\synthesis_1\instr_sources\syn_dics.v":4775:28:4775:60|Connected syn_hyper_connect ident_coreinst.ident_hyperc_receive_end_IICE_160, tag receive_end
+@N: BN397 :"c:\users\yh\desktop\rs422\rs4221107\synthesis\synthesis_1\instr_sources\syn_dics.v":4768:28:4768:55|Connected syn_hyper_connect ident_coreinst.ident_hyperc_data_all_IICE_0, tag data_all
+@N: BN397 :"c:\users\yh\desktop\rs422\rs4221107\synthesis\synthesis_1\instr_sources\syn_dics.v":4761:28:4761:47|Connected syn_hyper_connect ident_coreinst.ident_hyperc_sys_clk, tag sys_clk
+@N: BN362 :"c:\users\yh\desktop\rs422\rs4221107\synthesis\synthesis_1\instr_sources\syn_dics.v":4487:6:4487:11|Removing sequential instance genblk4\.b9_ibScJX_E2 (in view: VhdlGenLib.b8_nR_ymqrG_3s_5s_0_0s_0s_0_3_x(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\yh\desktop\rs422\rs4221107\synthesis\synthesis_1\instr_sources\syn_dics.v":4195:2:4195:7|Removing sequential instance b13_xYTFKCkrt_FH9 (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\yh\desktop\rs422\rs4221107\synthesis\synthesis_1\instr_sources\syn_dics.v":4511:2:4511:7|Removing sequential instance b11_ibScJX_E2_P (in view: VhdlGenLib.b8_nR_ymqrG_3s_5s_0_0s_0s_0_3_x(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: MT480 :"c:/users/yh/desktop/rs422/rs4221107/synthesis/synthesis_1/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: MT480 :"c:/users/yh/desktop/rs422/rs4221107/synthesis/synthesis_1/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: BN225 |Writing default property annotation file C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\buf.sap.

@@ -1,0 +1,2 @@
+@W: CL169 :"C:\Users\YH\Desktop\RS422\RS4221107\hdl\single_recive.vhd":69:1:69:2|Pruning unused register parity_check_4. Make sure that there are no unused intermediate registers.
+

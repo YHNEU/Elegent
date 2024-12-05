@@ -1,0 +1,336 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "single_recive")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 2172R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "single_recive")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  un7_cnt_1_I_10/A  un7_cnt_1_I_10/Y  un7_cnt_1_I_30/A  un7_cnt_1_I_30/Y  un7_cnt_1_I_31/A  un7_cnt_1_I_31/Y  un7_cnt_1_I_32/A  un7_cnt_1_I_32/Y  cnt_RNO\[11\]/B  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[1\]/CLK  cnt\[1\]/Q  un7_cnt_1_I_10/B  un7_cnt_1_I_10/Y  un7_cnt_1_I_30/A  un7_cnt_1_I_30/Y  un7_cnt_1_I_31/A  un7_cnt_1_I_31/Y  un7_cnt_1_I_32/A  un7_cnt_1_I_32/Y  cnt_RNO\[11\]/B  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  un7_cnt_1_I_10/C  un7_cnt_1_I_10/Y  un7_cnt_1_I_30/A  un7_cnt_1_I_30/Y  un7_cnt_1_I_31/A  un7_cnt_1_I_31/Y  un7_cnt_1_I_32/A  un7_cnt_1_I_32/Y  cnt_RNO\[11\]/B  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  cnt_RNIDQBI_0\[10\]/A  cnt_RNIDQBI_0\[10\]/Y  cnt_RNIGOTB1\[10\]/B  cnt_RNIGOTB1\[10\]/Y  cnt_RNIKNF52\[7\]/B  cnt_RNIKNF52\[7\]/Y  cnt_RNICJVA4\[11\]/A  cnt_RNICJVA4\[11\]/Y  recive_RNO/A  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT cnt\[1\]/CLK  cnt\[1\]/Q  cnt_RNI3UHP_0\[1\]/A  cnt_RNI3UHP_0\[1\]/Y  cnt_RNIGOTB1\[10\]/A  cnt_RNIGOTB1\[10\]/Y  cnt_RNIKNF52\[7\]/B  cnt_RNIKNF52\[7\]/Y  cnt_RNICJVA4\[11\]/A  cnt_RNICJVA4\[11\]/Y  recive_RNO/A  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  un7_cnt_1_I_18/A  un7_cnt_1_I_18/Y  un7_cnt_1_I_30/B  un7_cnt_1_I_30/Y  un7_cnt_1_I_31/A  un7_cnt_1_I_31/Y  un7_cnt_1_I_32/A  un7_cnt_1_I_32/Y  cnt_RNO\[11\]/B  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[4\]/CLK  cnt\[4\]/Q  un7_cnt_1_I_18/B  un7_cnt_1_I_18/Y  un7_cnt_1_I_30/B  un7_cnt_1_I_30/Y  un7_cnt_1_I_31/A  un7_cnt_1_I_31/Y  un7_cnt_1_I_32/A  un7_cnt_1_I_32/Y  cnt_RNO\[11\]/B  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[5\]/CLK  cnt\[5\]/Q  un7_cnt_1_I_18/C  un7_cnt_1_I_18/Y  un7_cnt_1_I_30/B  un7_cnt_1_I_30/Y  un7_cnt_1_I_31/A  un7_cnt_1_I_31/Y  un7_cnt_1_I_32/A  un7_cnt_1_I_32/Y  cnt_RNO\[11\]/B  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  un7_cnt_1_I_10/A  un7_cnt_1_I_10/Y  un7_cnt_1_I_24/A  un7_cnt_1_I_24/Y  un7_cnt_1_I_25/B  un7_cnt_1_I_25/Y  un7_cnt_1_I_26/A  un7_cnt_1_I_26/Y  cnt\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  un7_cnt_1_I_10/A  un7_cnt_1_I_10/Y  un7_cnt_1_I_24/A  un7_cnt_1_I_24/Y  un7_cnt_1_I_27/A  un7_cnt_1_I_27/Y  un7_cnt_1_I_28/A  un7_cnt_1_I_28/Y  cnt\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  un7_cnt_1_I_10/A  un7_cnt_1_I_10/Y  un7_cnt_1_I_16/A  un7_cnt_1_I_16/Y  un7_cnt_1_I_17/A  un7_cnt_1_I_17/Y  cnt_RNO\[6\]/B  cnt_RNO\[6\]/Y  cnt\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  un7_cnt_1_I_10/A  un7_cnt_1_I_10/Y  un7_cnt_1_I_19/A  un7_cnt_1_I_19/Y  un7_cnt_1_I_20/A  un7_cnt_1_I_20/Y  cnt_RNO\[7\]/B  cnt_RNO\[7\]/Y  cnt\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  un7_cnt_1_I_10/A  un7_cnt_1_I_10/Y  un7_cnt_1_I_13/A  un7_cnt_1_I_13/Y  un7_cnt_1_I_14/A  un7_cnt_1_I_14/Y  cnt_RNO\[5\]/B  cnt_RNO\[5\]/Y  cnt\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[8\]/CLK  cnt\[8\]/Q  cnt_RNI3UHP_0\[1\]/B  cnt_RNI3UHP_0\[1\]/Y  cnt_RNIGOTB1\[10\]/A  cnt_RNIGOTB1\[10\]/Y  cnt_RNIKNF52\[7\]/B  cnt_RNIKNF52\[7\]/Y  cnt_RNICJVA4\[11\]/A  cnt_RNICJVA4\[11\]/Y  recive_RNO/A  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT cnt\[10\]/CLK  cnt\[10\]/Q  cnt_RNIDQBI_0\[10\]/B  cnt_RNIDQBI_0\[10\]/Y  cnt_RNIGOTB1\[10\]/B  cnt_RNIGOTB1\[10\]/Y  cnt_RNIKNF52\[7\]/B  cnt_RNIKNF52\[7\]/Y  cnt_RNICJVA4\[11\]/A  cnt_RNICJVA4\[11\]/Y  recive_RNO/A  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  un7_cnt_1_I_29/A  un7_cnt_1_I_29/Y  un7_cnt_1_I_30/C  un7_cnt_1_I_30/Y  un7_cnt_1_I_31/A  un7_cnt_1_I_31/Y  un7_cnt_1_I_32/A  un7_cnt_1_I_32/Y  cnt_RNO\[11\]/B  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  un7_cnt_1_I_18/A  un7_cnt_1_I_18/Y  un7_cnt_1_I_24/B  un7_cnt_1_I_24/Y  un7_cnt_1_I_25/B  un7_cnt_1_I_25/Y  un7_cnt_1_I_26/A  un7_cnt_1_I_26/Y  cnt\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[7\]/CLK  cnt\[7\]/Q  cnt_RNI4VHP\[7\]/A  cnt_RNI4VHP\[7\]/Y  data_recive_RNO_2\[2\]/C  data_recive_RNO_2\[2\]/Y  data_recive_RNO_1\[2\]/C  data_recive_RNO_1\[2\]/Y  data_recive_RNO\[2\]/S  data_recive_RNO\[2\]/Y  data_recive\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[7\]/CLK  cnt\[7\]/Q  cnt_RNI4VHP\[7\]/A  cnt_RNI4VHP\[7\]/Y  data_recive_RNO_4\[5\]/B  data_recive_RNO_4\[5\]/Y  data_recive_RNO_1\[5\]/C  data_recive_RNO_1\[5\]/Y  data_recive_RNO\[5\]/S  data_recive_RNO\[5\]/Y  data_recive\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  cnt_RNI4VHP\[7\]/B  cnt_RNI4VHP\[7\]/Y  data_recive_RNO_2\[2\]/C  data_recive_RNO_2\[2\]/Y  data_recive_RNO_1\[2\]/C  data_recive_RNO_1\[2\]/Y  data_recive_RNO\[2\]/S  data_recive_RNO\[2\]/Y  data_recive\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[9\]/CLK  cnt\[9\]/Q  cnt_RNI72IP\[9\]/B  cnt_RNI72IP\[9\]/Y  cnt_RNIORF52\[11\]/C  cnt_RNIORF52\[11\]/Y  cnt_RNICJVA4\[11\]/B  cnt_RNICJVA4\[11\]/Y  recive_RNO/A  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT cnt\[9\]/CLK  cnt\[9\]/Q  cnt_RNI72IP\[9\]/B  cnt_RNI72IP\[9\]/Y  data_recive_RNO_4\[0\]/C  data_recive_RNO_4\[0\]/Y  data_recive_RNO_1\[0\]/C  data_recive_RNO_1\[0\]/Y  data_recive_RNO\[0\]/S  data_recive_RNO\[0\]/Y  data_recive\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  un7_cnt_1_I_18/A  un7_cnt_1_I_18/Y  un7_cnt_1_I_19/B  un7_cnt_1_I_19/Y  un7_cnt_1_I_20/A  un7_cnt_1_I_20/Y  cnt_RNO\[7\]/B  cnt_RNO\[7\]/Y  cnt\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[7\]/CLK  cnt\[7\]/Q  cnt_RNI4VHP\[7\]/A  cnt_RNI4VHP\[7\]/Y  cnt_RNIKNF52\[7\]/A  cnt_RNIKNF52\[7\]/Y  cnt_RNICJVA4\[11\]/A  cnt_RNICJVA4\[11\]/Y  recive_RNO/A  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT cnt\[5\]/CLK  cnt\[5\]/Q  cnt_RNIHUBI_1\[11\]/A  cnt_RNIHUBI_1\[11\]/Y  cnt_RNIO0UB1\[9\]/C  cnt_RNIO0UB1\[9\]/Y  data_recive_RNO_1\[6\]/C  data_recive_RNO_1\[6\]/Y  data_recive_RNO\[6\]/S  data_recive_RNO\[6\]/Y  data_recive\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[5\]/CLK  cnt\[5\]/Q  cnt_RNIHUBI_1\[11\]/A  cnt_RNIHUBI_1\[11\]/Y  cnt_RNIO0UB1\[9\]/C  cnt_RNIO0UB1\[9\]/Y  data_recive_RNO_1\[3\]/C  data_recive_RNO_1\[3\]/Y  data_recive_RNO\[3\]/S  data_recive_RNO\[3\]/Y  data_recive\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[5\]/CLK  cnt\[5\]/Q  cnt_RNIHUBI_1\[11\]/A  cnt_RNIHUBI_1\[11\]/Y  cnt_RNIO0UB1\[9\]/C  cnt_RNIO0UB1\[9\]/Y  data_recive_RNO_1\[1\]/C  data_recive_RNO_1\[1\]/Y  data_recive_RNO\[1\]/S  data_recive_RNO\[1\]/Y  data_recive\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[4\]/CLK  cnt\[4\]/Q  cnt_RNI72IP\[9\]/A  cnt_RNI72IP\[9\]/Y  cnt_RNIORF52\[11\]/C  cnt_RNIORF52\[11\]/Y  cnt_RNICJVA4\[11\]/B  cnt_RNICJVA4\[11\]/Y  recive_RNO/A  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT cnt\[7\]/CLK  cnt\[7\]/Q  un7_cnt_1_I_29/B  un7_cnt_1_I_29/Y  un7_cnt_1_I_30/C  un7_cnt_1_I_30/Y  un7_cnt_1_I_31/A  un7_cnt_1_I_31/Y  un7_cnt_1_I_32/A  un7_cnt_1_I_32/Y  cnt_RNO\[11\]/B  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[8\]/CLK  cnt\[8\]/Q  un7_cnt_1_I_29/C  un7_cnt_1_I_29/Y  un7_cnt_1_I_30/C  un7_cnt_1_I_30/Y  un7_cnt_1_I_31/A  un7_cnt_1_I_31/Y  un7_cnt_1_I_32/A  un7_cnt_1_I_32/Y  cnt_RNO\[11\]/B  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[11\]/CLK  cnt\[11\]/Q  cnt_RNIHUBI_1\[11\]/B  cnt_RNIHUBI_1\[11\]/Y  cnt_RNIO0UB1\[9\]/C  cnt_RNIO0UB1\[9\]/Y  data_recive_RNO_1\[6\]/C  data_recive_RNO_1\[6\]/Y  data_recive_RNO\[6\]/S  data_recive_RNO\[6\]/Y  data_recive\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[9\]/CLK  cnt\[9\]/Q  cnt_RNI72IP\[9\]/B  cnt_RNI72IP\[9\]/Y  data_recive_RNO_4\[5\]/A  data_recive_RNO_4\[5\]/Y  data_recive_RNO_1\[5\]/C  data_recive_RNO_1\[5\]/Y  data_recive_RNO\[5\]/S  data_recive_RNO\[5\]/Y  data_recive\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  cnt_RNIDQBI_0\[10\]/A  cnt_RNIDQBI_0\[10\]/Y  cnt_RNIGOTB1\[10\]/B  cnt_RNIGOTB1\[10\]/Y  cnt_RNIKNF52\[7\]/B  cnt_RNIKNF52\[7\]/Y  cnt_RNICJVA4\[11\]/A  cnt_RNICJVA4\[11\]/Y  recive/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  cnt_RNI0RHP\[6\]/A  cnt_RNI0RHP\[6\]/Y  cnt_RNIORF52\[11\]/A  cnt_RNIORF52\[11\]/Y  cnt_RNICJVA4\[11\]/B  cnt_RNICJVA4\[11\]/Y  recive_RNO/A  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  un7_cnt_1_I_10/A  un7_cnt_1_I_10/Y  un7_cnt_1_I_11/B  un7_cnt_1_I_11/Y  un7_cnt_1_I_12/A  un7_cnt_1_I_12/Y  cnt\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  un7_cnt_1_I_21/A  un7_cnt_1_I_21/Y  un7_cnt_1_I_24/C  un7_cnt_1_I_24/Y  un7_cnt_1_I_25/B  un7_cnt_1_I_25/Y  un7_cnt_1_I_26/A  un7_cnt_1_I_26/Y  cnt\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[8\]/CLK  cnt\[8\]/Q  cnt_RNI3UHP\[1\]/A  cnt_RNI3UHP\[1\]/Y  data_recive_RNO_3\[7\]/A  data_recive_RNO_3\[7\]/Y  data_recive_RNO_1\[7\]/C  data_recive_RNO_1\[7\]/Y  data_recive_RNO\[7\]/S  data_recive_RNO\[7\]/Y  data_recive\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[1\]/CLK  cnt\[1\]/Q  cnt_RNI3UHP\[1\]/B  cnt_RNI3UHP\[1\]/Y  data_recive_RNO_3\[7\]/A  data_recive_RNO_3\[7\]/Y  data_recive_RNO_1\[7\]/C  data_recive_RNO_1\[7\]/Y  data_recive_RNO\[7\]/S  data_recive_RNO\[7\]/Y  data_recive\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  cnt_RNIDQBI_0\[10\]/A  cnt_RNIDQBI_0\[10\]/Y  cnt_RNIGOTB1\[10\]/B  cnt_RNIGOTB1\[10\]/Y  data_recive_RNO_1\[1\]/A  data_recive_RNO_1\[1\]/Y  data_recive_RNO\[1\]/S  data_recive_RNO\[1\]/Y  data_recive\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  cnt_RNIDQBI_0\[10\]/A  cnt_RNIDQBI_0\[10\]/Y  cnt_RNIGOTB1\[10\]/B  cnt_RNIGOTB1\[10\]/Y  data_recive_RNO_1\[2\]/A  data_recive_RNO_1\[2\]/Y  data_recive_RNO\[2\]/S  data_recive_RNO\[2\]/Y  data_recive\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  un7_cnt_1_I_10/A  un7_cnt_1_I_10/Y  un7_cnt_1_I_22/A  un7_cnt_1_I_22/Y  un7_cnt_1_I_23/A  un7_cnt_1_I_23/Y  cnt\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  cnt_RNIDQBI\[10\]/B  cnt_RNIDQBI\[10\]/Y  data_recive_RNO_3\[4\]/C  data_recive_RNO_3\[4\]/Y  data_recive_RNO_1\[4\]/C  data_recive_RNO_1\[4\]/Y  data_recive_RNO\[4\]/S  data_recive_RNO\[4\]/Y  data_recive\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[5\]/CLK  cnt\[5\]/Q  cnt_RNIHUBI_1\[11\]/A  cnt_RNIHUBI_1\[11\]/Y  data_recive_RNO_3\[5\]/C  data_recive_RNO_3\[5\]/Y  data_recive_RNO_1\[5\]/B  data_recive_RNO_1\[5\]/Y  data_recive_RNO\[5\]/S  data_recive_RNO\[5\]/Y  data_recive\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[8\]/CLK  cnt\[8\]/Q  cnt_RNI3UHP\[1\]/A  cnt_RNI3UHP\[1\]/Y  data_recive_RNO_2\[3\]/C  data_recive_RNO_2\[3\]/Y  data_recive_RNO_1\[3\]/A  data_recive_RNO_1\[3\]/Y  data_recive_RNO\[3\]/S  data_recive_RNO\[3\]/Y  data_recive\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[8\]/CLK  cnt\[8\]/Q  cnt_RNI3UHP\[1\]/A  cnt_RNI3UHP\[1\]/Y  data_recive_RNO_2\[0\]/B  data_recive_RNO_2\[0\]/Y  data_recive_RNO_1\[0\]/A  data_recive_RNO_1\[0\]/Y  data_recive_RNO\[0\]/S  data_recive_RNO\[0\]/Y  data_recive\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  cnt_RNI4VHP_1\[7\]/B  cnt_RNI4VHP_1\[7\]/Y  data_recive_RNO_2\[7\]/C  data_recive_RNO_2\[7\]/Y  data_recive_RNO_1\[7\]/B  data_recive_RNO_1\[7\]/Y  data_recive_RNO\[7\]/S  data_recive_RNO\[7\]/Y  data_recive\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[10\]/CLK  cnt\[10\]/Q  cnt_RNIDQBI\[10\]/A  cnt_RNIDQBI\[10\]/Y  data_recive_RNO_3\[4\]/C  data_recive_RNO_3\[4\]/Y  data_recive_RNO_1\[4\]/C  data_recive_RNO_1\[4\]/Y  data_recive_RNO\[4\]/S  data_recive_RNO\[4\]/Y  data_recive\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  cnt_RNI0RHP\[6\]/B  cnt_RNI0RHP\[6\]/Y  cnt_RNIORF52\[11\]/A  cnt_RNIORF52\[11\]/Y  cnt_RNICJVA4\[11\]/B  cnt_RNICJVA4\[11\]/Y  recive_RNO/A  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  cnt_RNI0RHP\[6\]/A  cnt_RNI0RHP\[6\]/Y  data_recive_RNO_2\[3\]/A  data_recive_RNO_2\[3\]/Y  data_recive_RNO_1\[3\]/A  data_recive_RNO_1\[3\]/Y  data_recive_RNO\[3\]/S  data_recive_RNO\[3\]/Y  data_recive\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  cnt_RNI4VHP_0\[7\]/A  cnt_RNI4VHP_0\[7\]/Y  data_recive_RNO_2\[1\]/A  data_recive_RNO_2\[1\]/Y  data_recive_RNO_1\[1\]/B  data_recive_RNO_1\[1\]/Y  data_recive_RNO\[1\]/S  data_recive_RNO\[1\]/Y  data_recive\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  cnt_RNI4VHP_0\[7\]/A  cnt_RNI4VHP_0\[7\]/Y  data_recive_RNO_3\[6\]/B  data_recive_RNO_3\[6\]/Y  data_recive_RNO_1\[6\]/B  data_recive_RNO_1\[6\]/Y  data_recive_RNO\[6\]/S  data_recive_RNO\[6\]/Y  data_recive\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[7\]/CLK  cnt\[7\]/Q  un7_cnt_1_I_21/B  un7_cnt_1_I_21/Y  un7_cnt_1_I_24/C  un7_cnt_1_I_24/Y  un7_cnt_1_I_25/B  un7_cnt_1_I_25/Y  un7_cnt_1_I_26/A  un7_cnt_1_I_26/Y  cnt\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  cnt_RNIDQBI\[10\]/B  cnt_RNIDQBI\[10\]/Y  data_recive_RNO_2\[5\]/A  data_recive_RNO_2\[5\]/Y  data_recive_RNO_1\[5\]/A  data_recive_RNO_1\[5\]/Y  data_recive_RNO\[5\]/S  data_recive_RNO\[5\]/Y  data_recive\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  cnt_RNIDQBI\[10\]/B  cnt_RNIDQBI\[10\]/Y  data_recive_RNO_2\[6\]/C  data_recive_RNO_2\[6\]/Y  data_recive_RNO_1\[6\]/A  data_recive_RNO_1\[6\]/Y  data_recive_RNO\[6\]/S  data_recive_RNO\[6\]/Y  data_recive\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  cnt_RNI4VHP_1\[7\]/B  cnt_RNI4VHP_1\[7\]/Y  data_recive_RNO_3\[0\]/B  data_recive_RNO_3\[0\]/Y  data_recive_RNO_1\[0\]/B  data_recive_RNO_1\[0\]/Y  data_recive_RNO\[0\]/S  data_recive_RNO\[0\]/Y  data_recive\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[5\]/CLK  cnt\[5\]/Q  cnt_RNIHUBI\[11\]/B  cnt_RNIHUBI\[11\]/Y  cnt_RNIORF52\[11\]/B  cnt_RNIORF52\[11\]/Y  cnt_RNICJVA4\[11\]/B  cnt_RNICJVA4\[11\]/Y  recive_RNO/A  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT cnt\[1\]/CLK  cnt\[1\]/Q  cnt_RNI3UHP_0\[1\]/A  cnt_RNI3UHP_0\[1\]/Y  data_recive_RNO_3\[6\]/A  data_recive_RNO_3\[6\]/Y  data_recive_RNO_1\[6\]/B  data_recive_RNO_1\[6\]/Y  data_recive_RNO\[6\]/S  data_recive_RNO\[6\]/Y  data_recive\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[5\]/CLK  cnt\[5\]/Q  cnt_RNIHUBI_1\[11\]/A  cnt_RNIHUBI_1\[11\]/Y  data_recive_RNO_2\[0\]/A  data_recive_RNO_2\[0\]/Y  data_recive_RNO_1\[0\]/A  data_recive_RNO_1\[0\]/Y  data_recive_RNO\[0\]/S  data_recive_RNO\[0\]/Y  data_recive\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[5\]/CLK  cnt\[5\]/Q  cnt_RNIHUBI_0\[11\]/A  cnt_RNIHUBI_0\[11\]/Y  cnt_RNIO0UB1_0\[9\]/C  cnt_RNIO0UB1_0\[9\]/Y  data_recive_RNO_1\[2\]/B  data_recive_RNO_1\[2\]/Y  data_recive_RNO\[2\]/S  data_recive_RNO\[2\]/Y  data_recive\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  data_recive_RNO_4\[4\]/A  data_recive_RNO_4\[4\]/Y  data_recive_RNO_3\[4\]/A  data_recive_RNO_3\[4\]/Y  data_recive_RNO_1\[4\]/C  data_recive_RNO_1\[4\]/Y  data_recive_RNO\[4\]/S  data_recive_RNO\[4\]/Y  data_recive\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[7\]/CLK  cnt\[7\]/Q  data_recive_RNO_5\[4\]/A  data_recive_RNO_5\[4\]/Y  data_recive_RNO_3\[4\]/B  data_recive_RNO_3\[4\]/Y  data_recive_RNO_1\[4\]/C  data_recive_RNO_1\[4\]/Y  data_recive_RNO\[4\]/S  data_recive_RNO\[4\]/Y  data_recive\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[7\]/CLK  cnt\[7\]/Q  cnt_RNI4VHP_1\[7\]/A  cnt_RNI4VHP_1\[7\]/Y  data_recive_RNO_2\[7\]/C  data_recive_RNO_2\[7\]/Y  data_recive_RNO_1\[7\]/B  data_recive_RNO_1\[7\]/Y  data_recive_RNO\[7\]/S  data_recive_RNO\[7\]/Y  data_recive\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  un7_cnt_1_I_15/A  un7_cnt_1_I_15/Y  un7_cnt_1_I_16/B  un7_cnt_1_I_16/Y  un7_cnt_1_I_17/A  un7_cnt_1_I_17/Y  cnt_RNO\[6\]/B  cnt_RNO\[6\]/Y  cnt\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[4\]/CLK  cnt\[4\]/Q  un7_cnt_1_I_15/B  un7_cnt_1_I_15/Y  un7_cnt_1_I_16/B  un7_cnt_1_I_16/Y  un7_cnt_1_I_17/A  un7_cnt_1_I_17/Y  cnt_RNO\[6\]/B  cnt_RNO\[6\]/Y  cnt\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  un7_cnt_1_I_18/A  un7_cnt_1_I_18/Y  un7_cnt_1_I_22/B  un7_cnt_1_I_22/Y  un7_cnt_1_I_23/A  un7_cnt_1_I_23/Y  cnt\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  cnt_RNIDQBI_0\[10\]/A  cnt_RNIDQBI_0\[10\]/Y  data_recive_RNO_3\[0\]/A  data_recive_RNO_3\[0\]/Y  data_recive_RNO_1\[0\]/B  data_recive_RNO_1\[0\]/Y  data_recive_RNO\[0\]/S  data_recive_RNO\[0\]/Y  data_recive\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  data_recive_RNO_3\[3\]/B  data_recive_RNO_3\[3\]/Y  data_recive_RNO_2\[3\]/B  data_recive_RNO_2\[3\]/Y  data_recive_RNO_1\[3\]/A  data_recive_RNO_1\[3\]/Y  data_recive_RNO\[3\]/S  data_recive_RNO\[3\]/Y  data_recive\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[5\]/CLK  cnt\[5\]/Q  cnt_RNIHUBI_0\[11\]/A  cnt_RNIHUBI_0\[11\]/Y  cnt_RNIO0UB1_0\[9\]/C  cnt_RNIO0UB1_0\[9\]/Y  data_recive_RNO_1\[7\]/A  data_recive_RNO_1\[7\]/Y  data_recive_RNO\[7\]/S  data_recive_RNO\[7\]/Y  data_recive\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[7\]/CLK  cnt\[7\]/Q  cnt_RNI4VHP\[7\]/A  cnt_RNI4VHP\[7\]/Y  data_recive_RNO_1\[3\]/B  data_recive_RNO_1\[3\]/Y  data_recive_RNO\[3\]/S  data_recive_RNO\[3\]/Y  data_recive\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[7\]/CLK  cnt\[7\]/Q  cnt_RNI4VHP_0\[7\]/B  cnt_RNI4VHP_0\[7\]/Y  data_recive_RNO_2\[1\]/A  data_recive_RNO_2\[1\]/Y  data_recive_RNO_1\[1\]/B  data_recive_RNO_1\[1\]/Y  data_recive_RNO\[1\]/S  data_recive_RNO\[1\]/Y  data_recive\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[1\]/CLK  cnt\[1\]/Q  data_recive_RNO_4\[4\]/B  data_recive_RNO_4\[4\]/Y  data_recive_RNO_3\[4\]/A  data_recive_RNO_3\[4\]/Y  data_recive_RNO_1\[4\]/C  data_recive_RNO_1\[4\]/Y  data_recive_RNO\[4\]/S  data_recive_RNO\[4\]/Y  data_recive\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[9\]/CLK  cnt\[9\]/Q  cnt_RNI72IP\[9\]/B  cnt_RNI72IP\[9\]/Y  data_recive_RNO_1\[4\]/B  data_recive_RNO_1\[4\]/Y  data_recive_RNO\[4\]/S  data_recive_RNO\[4\]/Y  data_recive\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[5\]/CLK  cnt\[5\]/Q  cnt_RNIHUBI_0\[11\]/A  cnt_RNIHUBI_0\[11\]/Y  data_recive_RNO_2\[4\]/B  data_recive_RNO_2\[4\]/Y  data_recive_RNO_1\[4\]/A  data_recive_RNO_1\[4\]/Y  data_recive_RNO\[4\]/S  data_recive_RNO\[4\]/Y  data_recive\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[8\]/CLK  cnt\[8\]/Q  data_recive_RNO_5\[4\]/B  data_recive_RNO_5\[4\]/Y  data_recive_RNO_3\[4\]/B  data_recive_RNO_3\[4\]/Y  data_recive_RNO_1\[4\]/C  data_recive_RNO_1\[4\]/Y  data_recive_RNO\[4\]/S  data_recive_RNO\[4\]/Y  data_recive\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[11\]/CLK  cnt\[11\]/Q  cnt_RNIHUBI\[11\]/A  cnt_RNIHUBI\[11\]/Y  cnt_RNIORF52\[11\]/B  cnt_RNIORF52\[11\]/Y  cnt_RNICJVA4\[11\]/B  cnt_RNICJVA4\[11\]/Y  recive_RNO/A  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  data_recive_RNO_3\[7\]/C  data_recive_RNO_3\[7\]/Y  data_recive_RNO_1\[7\]/C  data_recive_RNO_1\[7\]/Y  data_recive_RNO\[7\]/S  data_recive_RNO\[7\]/Y  data_recive\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  data_recive_RNO_2\[1\]/C  data_recive_RNO_2\[1\]/Y  data_recive_RNO_1\[1\]/B  data_recive_RNO_1\[1\]/Y  data_recive_RNO\[1\]/S  data_recive_RNO\[1\]/Y  data_recive\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[11\]/CLK  cnt\[11\]/Q  cnt_RNIHUBI_0\[11\]/B  cnt_RNIHUBI_0\[11\]/Y  cnt_RNIO0UB1_0\[9\]/C  cnt_RNIO0UB1_0\[9\]/Y  data_recive_RNO_1\[2\]/B  data_recive_RNO_1\[2\]/Y  data_recive_RNO\[2\]/S  data_recive_RNO\[2\]/Y  data_recive\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[4\]/CLK  cnt\[4\]/Q  cnt_RNIO0UB1\[9\]/B  cnt_RNIO0UB1\[9\]/Y  data_recive_RNO_1\[6\]/C  data_recive_RNO_1\[6\]/Y  data_recive_RNO\[6\]/S  data_recive_RNO\[6\]/Y  data_recive\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[10\]/CLK  cnt\[10\]/Q  data_recive_RNO_3\[3\]/A  data_recive_RNO_3\[3\]/Y  data_recive_RNO_2\[3\]/B  data_recive_RNO_2\[3\]/Y  data_recive_RNO_1\[3\]/A  data_recive_RNO_1\[3\]/Y  data_recive_RNO\[3\]/S  data_recive_RNO\[3\]/Y  data_recive\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  data_recive_RNO_4\[0\]/B  data_recive_RNO_4\[0\]/Y  data_recive_RNO_1\[0\]/C  data_recive_RNO_1\[0\]/Y  data_recive_RNO\[0\]/S  data_recive_RNO\[0\]/Y  data_recive\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  data_recive_RNO_2\[2\]/B  data_recive_RNO_2\[2\]/Y  data_recive_RNO_1\[2\]/C  data_recive_RNO_1\[2\]/Y  data_recive_RNO\[2\]/S  data_recive_RNO\[2\]/Y  data_recive\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  data_recive_RNO_2\[5\]/C  data_recive_RNO_2\[5\]/Y  data_recive_RNO_1\[5\]/A  data_recive_RNO_1\[5\]/Y  data_recive_RNO\[5\]/S  data_recive_RNO\[5\]/Y  data_recive\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  un7_cnt_1_I_19/C  un7_cnt_1_I_19/Y  un7_cnt_1_I_20/A  un7_cnt_1_I_20/Y  cnt_RNO\[7\]/B  cnt_RNO\[7\]/Y  cnt\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  un7_cnt_1_I_21/A  un7_cnt_1_I_21/Y  un7_cnt_1_I_22/C  un7_cnt_1_I_22/Y  un7_cnt_1_I_23/A  un7_cnt_1_I_23/Y  cnt\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  data_recive_RNO_2\[6\]/B  data_recive_RNO_2\[6\]/Y  data_recive_RNO_1\[6\]/A  data_recive_RNO_1\[6\]/Y  data_recive_RNO\[6\]/S  data_recive_RNO\[6\]/Y  data_recive\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  data_recive_RNO_3\[7\]/B  data_recive_RNO_3\[7\]/Y  data_recive_RNO_1\[7\]/C  data_recive_RNO_1\[7\]/Y  data_recive_RNO\[7\]/S  data_recive_RNO\[7\]/Y  data_recive\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[9\]/CLK  cnt\[9\]/Q  cnt_RNIO0UB1\[9\]/A  cnt_RNIO0UB1\[9\]/Y  data_recive_RNO_1\[6\]/C  data_recive_RNO_1\[6\]/Y  data_recive_RNO\[6\]/S  data_recive_RNO\[6\]/Y  data_recive\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  data_recive_RNO_2\[4\]/C  data_recive_RNO_2\[4\]/Y  data_recive_RNO_1\[4\]/A  data_recive_RNO_1\[4\]/Y  data_recive_RNO\[4\]/S  data_recive_RNO\[4\]/Y  data_recive\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  data_recive_RNO_2\[1\]/B  data_recive_RNO_2\[1\]/Y  data_recive_RNO_1\[1\]/B  data_recive_RNO_1\[1\]/Y  data_recive_RNO\[1\]/S  data_recive_RNO\[1\]/Y  data_recive\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  data_recive_RNO_2\[4\]/A  data_recive_RNO_2\[4\]/Y  data_recive_RNO_1\[4\]/A  data_recive_RNO_1\[4\]/Y  data_recive_RNO\[4\]/S  data_recive_RNO\[4\]/Y  data_recive\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  data_recive_RNO_4\[0\]/A  data_recive_RNO_4\[0\]/Y  data_recive_RNO_1\[0\]/C  data_recive_RNO_1\[0\]/Y  data_recive_RNO\[0\]/S  data_recive_RNO\[0\]/Y  data_recive\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  data_recive_RNO_2\[2\]/A  data_recive_RNO_2\[2\]/Y  data_recive_RNO_1\[2\]/C  data_recive_RNO_1\[2\]/Y  data_recive_RNO\[2\]/S  data_recive_RNO\[2\]/Y  data_recive\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  un7_cnt_1_I_8/A  un7_cnt_1_I_8/Y  un7_cnt_1_I_9/A  un7_cnt_1_I_9/Y  cnt_RNO\[3\]/B  cnt_RNO\[3\]/Y  cnt\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  data_recive_RNO_2\[5\]/B  data_recive_RNO_2\[5\]/Y  data_recive_RNO_1\[5\]/A  data_recive_RNO_1\[5\]/Y  data_recive_RNO\[5\]/S  data_recive_RNO\[5\]/Y  data_recive\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  un7_cnt_1_I_13/B  un7_cnt_1_I_13/Y  un7_cnt_1_I_14/A  un7_cnt_1_I_14/Y  cnt_RNO\[5\]/B  cnt_RNO\[5\]/Y  cnt\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[1\]/CLK  cnt\[1\]/Q  un7_cnt_1_I_8/B  un7_cnt_1_I_8/Y  un7_cnt_1_I_9/A  un7_cnt_1_I_9/Y  cnt_RNO\[3\]/B  cnt_RNO\[3\]/Y  cnt\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  data_recive_RNO_2\[6\]/A  data_recive_RNO_2\[6\]/Y  data_recive_RNO_1\[6\]/A  data_recive_RNO_1\[6\]/Y  data_recive_RNO\[6\]/S  data_recive_RNO\[6\]/Y  data_recive\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[4\]/CLK  cnt\[4\]/Q  cnt_RNIO0UB1_0\[9\]/B  cnt_RNIO0UB1_0\[9\]/Y  data_recive_RNO_1\[2\]/B  data_recive_RNO_1\[2\]/Y  data_recive_RNO\[2\]/S  data_recive_RNO\[2\]/Y  data_recive\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  un7_cnt_1_I_8/C  un7_cnt_1_I_8/Y  un7_cnt_1_I_9/A  un7_cnt_1_I_9/Y  cnt_RNO\[3\]/B  cnt_RNO\[3\]/Y  cnt\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[4\]/CLK  cnt\[4\]/Q  un7_cnt_1_I_13/C  un7_cnt_1_I_13/Y  un7_cnt_1_I_14/A  un7_cnt_1_I_14/Y  cnt_RNO\[5\]/B  cnt_RNO\[5\]/Y  cnt\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[1\]/CLK  cnt\[1\]/Q  data_recive_RNO_3\[5\]/A  data_recive_RNO_3\[5\]/Y  data_recive_RNO_1\[5\]/B  data_recive_RNO_1\[5\]/Y  data_recive_RNO\[5\]/S  data_recive_RNO\[5\]/Y  data_recive\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[8\]/CLK  cnt\[8\]/Q  data_recive_RNO_3\[5\]/B  data_recive_RNO_3\[5\]/Y  data_recive_RNO_1\[5\]/B  data_recive_RNO_1\[5\]/Y  data_recive_RNO\[5\]/S  data_recive_RNO\[5\]/Y  data_recive\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[5\]/CLK  cnt\[5\]/Q  un7_cnt_1_I_16/C  un7_cnt_1_I_16/Y  un7_cnt_1_I_17/A  un7_cnt_1_I_17/Y  cnt_RNO\[6\]/B  cnt_RNO\[6\]/Y  cnt\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[6\]/CLK  cnt\[6\]/Q  un7_cnt_1_I_17/B  un7_cnt_1_I_17/Y  cnt_RNO\[6\]/B  cnt_RNO\[6\]/Y  cnt\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[9\]/CLK  cnt\[9\]/Q  un7_cnt_1_I_31/B  un7_cnt_1_I_31/Y  un7_cnt_1_I_32/A  un7_cnt_1_I_32/Y  cnt_RNO\[11\]/B  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  data_recive_RNO_2\[7\]/A  data_recive_RNO_2\[7\]/Y  data_recive_RNO_1\[7\]/B  data_recive_RNO_1\[7\]/Y  data_recive_RNO\[7\]/S  data_recive_RNO\[7\]/Y  data_recive\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[9\]/CLK  cnt\[9\]/Q  cnt_RNIO0UB1_0\[9\]/A  cnt_RNIO0UB1_0\[9\]/Y  data_recive_RNO_1\[2\]/B  data_recive_RNO_1\[2\]/Y  data_recive_RNO\[2\]/S  data_recive_RNO\[2\]/Y  data_recive\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[10\]/CLK  cnt\[10\]/Q  un7_cnt_1_I_31/C  un7_cnt_1_I_31/Y  un7_cnt_1_I_32/A  un7_cnt_1_I_32/Y  cnt_RNO\[11\]/B  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[10\]/CLK  cnt\[10\]/Q  data_recive_RNO_2\[7\]/B  data_recive_RNO_2\[7\]/Y  data_recive_RNO_1\[7\]/B  data_recive_RNO_1\[7\]/Y  data_recive_RNO\[7\]/S  data_recive_RNO\[7\]/Y  data_recive\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  un7_cnt_1_I_9/B  un7_cnt_1_I_9/Y  cnt_RNO\[3\]/B  cnt_RNO\[3\]/Y  cnt\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  un7_cnt_1_I_6/B  un7_cnt_1_I_6/Y  un7_cnt_1_I_7/A  un7_cnt_1_I_7/Y  cnt\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[7\]/CLK  cnt\[7\]/Q  un7_cnt_1_I_20/B  un7_cnt_1_I_20/Y  cnt_RNO\[7\]/B  cnt_RNO\[7\]/Y  cnt\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[5\]/CLK  cnt\[5\]/Q  un7_cnt_1_I_14/B  un7_cnt_1_I_14/Y  cnt_RNO\[5\]/B  cnt_RNO\[5\]/Y  cnt\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[3\]/CLK  cnt\[3\]/Q  un7_cnt_1_I_11/A  un7_cnt_1_I_11/Y  un7_cnt_1_I_12/A  un7_cnt_1_I_12/Y  cnt\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[1\]/CLK  cnt\[1\]/Q  un7_cnt_1_I_6/A  un7_cnt_1_I_6/Y  un7_cnt_1_I_7/A  un7_cnt_1_I_7/Y  cnt\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[11\]/CLK  cnt\[11\]/Q  un7_cnt_1_I_32/B  un7_cnt_1_I_32/Y  cnt_RNO\[11\]/B  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[8\]/CLK  cnt\[8\]/Q  un7_cnt_1_I_27/B  un7_cnt_1_I_27/Y  un7_cnt_1_I_28/A  un7_cnt_1_I_28/Y  cnt\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[9\]/CLK  cnt\[9\]/Q  un7_cnt_1_I_27/C  un7_cnt_1_I_27/Y  un7_cnt_1_I_28/A  un7_cnt_1_I_28/Y  cnt\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[8\]/CLK  cnt\[8\]/Q  un7_cnt_1_I_25/A  un7_cnt_1_I_25/Y  un7_cnt_1_I_26/A  un7_cnt_1_I_26/Y  cnt\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[1\]/CLK  cnt\[1\]/Q  un7_cnt_1_I_5/B  un7_cnt_1_I_5/Y  cnt\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[2\]/CLK  cnt\[2\]/Q  un7_cnt_1_I_7/B  un7_cnt_1_I_7/Y  cnt\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[4\]/CLK  cnt\[4\]/Q  un7_cnt_1_I_12/B  un7_cnt_1_I_12/Y  cnt\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[8\]/CLK  cnt\[8\]/Q  un7_cnt_1_I_23/B  un7_cnt_1_I_23/Y  cnt\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  un7_cnt_1_I_5/A  un7_cnt_1_I_5/Y  cnt\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[9\]/CLK  cnt\[9\]/Q  un7_cnt_1_I_26/B  un7_cnt_1_I_26/Y  cnt\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[0\]/CLK  cnt\[0\]/Q  cnt_RNO\[0\]/B  cnt_RNO\[0\]/Y  cnt\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT cnt\[10\]/CLK  cnt\[10\]/Q  un7_cnt_1_I_28/B  un7_cnt_1_I_28/Y  cnt\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT recive/CLK  recive/Q  cnt_RNO\[0\]/A  cnt_RNO\[0\]/Y  cnt\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT recive/CLK  recive/Q  cnt_RNO\[3\]/A  cnt_RNO\[3\]/Y  cnt\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT recive/CLK  recive/Q  cnt_RNO\[11\]/A  cnt_RNO\[11\]/Y  cnt\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT recive/CLK  recive/Q  cnt_RNO\[5\]/A  cnt_RNO\[5\]/Y  cnt\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT recive/CLK  recive/Q  cnt_RNO\[6\]/A  cnt_RNO\[6\]/Y  cnt\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT recive/CLK  recive/Q  cnt_RNO\[7\]/A  cnt_RNO\[7\]/Y  cnt\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rx_down/CLK  rx_down/Q  recive_RNO_0/A  recive_RNO_0/Y  recive_RNO/B  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT data_recive\[0\]/CLK  data_recive\[0\]/Q  data_recive_RNO_0\[0\]/A  data_recive_RNO_0\[0\]/Y  data_recive_RNO\[0\]/A  data_recive_RNO\[0\]/Y  data_recive\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_recive\[1\]/CLK  data_recive\[1\]/Q  data_recive_RNO_0\[1\]/A  data_recive_RNO_0\[1\]/Y  data_recive_RNO\[1\]/A  data_recive_RNO\[1\]/Y  data_recive\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_recive\[2\]/CLK  data_recive\[2\]/Q  data_recive_RNO_0\[2\]/A  data_recive_RNO_0\[2\]/Y  data_recive_RNO\[2\]/A  data_recive_RNO\[2\]/Y  data_recive\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_recive\[3\]/CLK  data_recive\[3\]/Q  data_recive_RNO_0\[3\]/A  data_recive_RNO_0\[3\]/Y  data_recive_RNO\[3\]/A  data_recive_RNO\[3\]/Y  data_recive\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_recive\[4\]/CLK  data_recive\[4\]/Q  data_recive_RNO_0\[4\]/A  data_recive_RNO_0\[4\]/Y  data_recive_RNO\[4\]/A  data_recive_RNO\[4\]/Y  data_recive\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_recive\[5\]/CLK  data_recive\[5\]/Q  data_recive_RNO_0\[5\]/A  data_recive_RNO_0\[5\]/Y  data_recive_RNO\[5\]/A  data_recive_RNO\[5\]/Y  data_recive\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_recive\[6\]/CLK  data_recive\[6\]/Q  data_recive_RNO_0\[6\]/A  data_recive_RNO_0\[6\]/Y  data_recive_RNO\[6\]/A  data_recive_RNO\[6\]/Y  data_recive\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_recive\[7\]/CLK  data_recive\[7\]/Q  data_recive_RNO_0\[7\]/A  data_recive_RNO_0\[7\]/Y  data_recive_RNO\[7\]/A  data_recive_RNO\[7\]/Y  data_recive\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT idle_recive/CLK  idle_recive/Q  recive_RNO_0/B  recive_RNO_0/Y  recive_RNO/B  recive_RNO/Y  recive/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT recive/CLK  recive/Q  idle_recive/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rx_fall2/CLK  rx_fall2/Q  rx_down_RNO/A  rx_down_RNO/Y  rx_down/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rx_fall1/CLK  rx_fall1/Q  rx_down_RNO/B  rx_down_RNO/Y  rx_down/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rx_fall1/CLK  rx_fall1/Q  rx_fall2/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rx_fall/CLK  rx_fall/Q  rx_fall1/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_recive\[0\]/CLK  data_recive\[0\]/Q  data_recive_pad\[0\]/D  data_recive_pad\[0\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT data_recive\[1\]/CLK  data_recive\[1\]/Q  data_recive_pad\[1\]/D  data_recive_pad\[1\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT data_recive\[2\]/CLK  data_recive\[2\]/Q  data_recive_pad\[2\]/D  data_recive_pad\[2\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT data_recive\[3\]/CLK  data_recive\[3\]/Q  data_recive_pad\[3\]/D  data_recive_pad\[3\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT data_recive\[4\]/CLK  data_recive\[4\]/Q  data_recive_pad\[4\]/D  data_recive_pad\[4\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT data_recive\[5\]/CLK  data_recive\[5\]/Q  data_recive_pad\[5\]/D  data_recive_pad\[5\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT data_recive\[6\]/CLK  data_recive\[6\]/Q  data_recive_pad\[6\]/D  data_recive_pad\[6\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT data_recive\[7\]/CLK  data_recive\[7\]/Q  data_recive_pad\[7\]/D  data_recive_pad\[7\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT idle_recive/CLK  idle_recive/Q  idle_recive_pad/D  idle_recive_pad/PAD  	(10.0:10.0:10.0) )
+
+  )
+)
+)

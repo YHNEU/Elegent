@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\yh\desktop\rs422\rs4221106\hdl\single_recive.vhd":63:1:63:2|Found inferred clock buf|sys_clk which controls 311 sequential elements including single_recive_0.cnt[11:0]. This clock has no specified timing constraint which may adversely impact design performance. 

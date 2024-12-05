@@ -1,0 +1,16 @@
+D:\libero11.9\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\YH\Desktop\RS422\RS4221106\synthesis   -part A3P1000  -package PQFP208  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Users\YH\Desktop\RS422\RS4221106\synthesis\synlog\report\buf_fpga_mapper.xml  -top_level_module  work.buf  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\buf.edn   -freq 100.000   C:\Users\YH\Desktop\RS422\RS4221106\synthesis\synwork\buf_prem.srd  -sap  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\buf.sap  -otap  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\buf.tap  -omap  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\buf.map  -devicelib  D:\libero11.9\SynplifyPro\lib\proasic\proasic3.v  -sap  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\buf.sap  -ologparam  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\syntmp\buf.plg  -osyn  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\buf.srm  -prjdir  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\  -prjname  buf_syn  -log  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\synlog\buf_fpga_mapper.srr 
+relcom:D:\libero11.9\SynplifyPro\bin64\m_proasic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P1000 -package PQFP208 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\buf_fpga_mapper.xml -top_level_module work.buf -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\buf.edn -freq 100.000 ..\synwork\buf_prem.srd -sap ..\buf.sap -otap ..\buf.tap -omap ..\buf.map -devicelib D:\libero11.9\SynplifyPro\lib\proasic\proasic3.v -sap ..\buf.sap -ologparam buf.plg -osyn ..\buf.srm -prjdir ..\ -prjname buf_syn -log ..\synlog\buf_fpga_mapper.srr
+rc:1 success:1 runtime:9
+file:..\scratchproject.prs|io:o|time:1730876381|size:1896|exec:0|csum:
+file:..\buf.edn|io:o|time:1730877416|size:750818|exec:0|csum:
+file:..\synwork\buf_prem.srd|io:i|time:1730877407|size:36079|exec:0|csum:8DBED3FEA7B37316E7B167EE07022A27
+file:..\buf.sap|io:o|time:1730877407|size:946|exec:0|csum:
+file:..\buf.tap|io:o|time:0|size:0|exec:0|csum:
+file:..\buf.map|io:o|time:1730877416|size:28|exec:0|csum:
+file:D:\libero11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\buf.sap|io:o|time:1730877407|size:946|exec:0|csum:
+file:buf.plg|io:o|time:1730877416|size:387|exec:0|csum:
+file:..\buf.srm|io:o|time:1730877416|size:147204|exec:0|csum:
+file:..\synlog\buf_fpga_mapper.srr|io:o|time:1730877416|size:37907|exec:0|csum:
+file:D:\libero11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:D:\libero11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

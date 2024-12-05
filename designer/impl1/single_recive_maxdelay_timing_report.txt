@@ -1,0 +1,490 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.9
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+Date: Thu Nov 07 15:32:13 2024
+
+
+Design: single_recive
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+Temperature Range: -40 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - -40 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               sys_clk
+Period (ns):                7.495
+Frequency (MHz):            133.422
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        5.170
+Max Clock-To-Out (ns):      9.902
+
+                            Input to Output
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain sys_clk
+
+SET Register to Register
+
+Path 1
+  From:                  cnt[6]:CLK
+  To:                    recive/U1:D
+  Delay (ns):            6.912
+  Slack (ns):
+  Arrival (ns):          9.248
+  Required (ns):
+  Setup (ns):            0.583
+  Minimum Period (ns):   7.495
+
+Path 2
+  From:                  cnt[2]:CLK
+  To:                    recive/U1:D
+  Delay (ns):            6.835
+  Slack (ns):
+  Arrival (ns):          9.187
+  Required (ns):
+  Setup (ns):            0.583
+  Minimum Period (ns):   7.434
+
+Path 3
+  From:                  cnt[5]:CLK
+  To:                    recive/U1:D
+  Delay (ns):            6.672
+  Slack (ns):
+  Arrival (ns):          9.008
+  Required (ns):
+  Setup (ns):            0.583
+  Minimum Period (ns):   7.255
+
+Path 4
+  From:                  cnt[0]:CLK
+  To:                    recive/U1:D
+  Delay (ns):            6.696
+  Slack (ns):
+  Arrival (ns):          9.032
+  Required (ns):
+  Setup (ns):            0.547
+  Minimum Period (ns):   7.243
+
+Path 5
+  From:                  cnt[1]:CLK
+  To:                    data_recive[7]:D
+  Delay (ns):            6.629
+  Slack (ns):
+  Arrival (ns):          8.981
+  Required (ns):
+  Setup (ns):            0.583
+  Minimum Period (ns):   7.236
+
+
+Expanded Path 1
+  From: cnt[6]:CLK
+  To: recive/U1:D
+  data required time                             N/C
+  data arrival time                          -   9.248
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        sys_clk
+               +     0.000          Clock source
+  0.000                        sys_clk (r)
+               +     0.000          net: sys_clk
+  0.000                        sys_clk_pad/U0/U0:PAD (r)
+               +     1.043          cell: ADLIB:IOPAD_IN
+  1.043                        sys_clk_pad/U0/U0:Y (r)
+               +     0.000          net: sys_clk_pad/U0/NET1
+  1.043                        sys_clk_pad/U0/U1:A (r)
+               +     0.353          cell: ADLIB:CLKIO
+  1.396                        sys_clk_pad/U0/U1:Y (r)
+               +     0.940          net: sys_clk_c
+  2.336                        cnt[6]:CLK (r)
+               +     0.749          cell: ADLIB:DFN1C0
+  3.085                        cnt[6]:Q (f)
+               +     0.330          net: cnt[6]
+  3.415                        cnt_RNI0RHP[6]:A (f)
+               +     0.637          cell: ADLIB:NOR2A
+  4.052                        cnt_RNI0RHP[6]:Y (f)
+               +     1.561          net: un1_cnt_0_a2_1
+  5.613                        cnt_RNIORF52[11]:A (f)
+               +     0.365          cell: ADLIB:NOR3C
+  5.978                        cnt_RNIORF52[11]:Y (f)
+               +     0.330          net: un1_cnt_0_a2_3
+  6.308                        cnt_RNICJVA4[11]:C (f)
+               +     0.651          cell: ADLIB:OR3C
+  6.959                        cnt_RNICJVA4[11]:Y (r)
+               +     0.327          net: cnt_RNICJVA4[11]
+  7.286                        recive_RNO:C (r)
+               +     0.779          cell: ADLIB:AO1C
+  8.065                        recive_RNO:Y (f)
+               +     0.325          net: recive_RNO
+  8.390                        recive/U0:S (f)
+               +     0.528          cell: ADLIB:MX2
+  8.918                        recive/U0:Y (f)
+               +     0.330          net: recive/Y
+  9.248                        recive/U1:D (f)
+                                    
+  9.248                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          sys_clk
+               +     0.000          Clock source
+  N/C                          sys_clk (r)
+               +     0.000          net: sys_clk
+  N/C                          sys_clk_pad/U0/U0:PAD (r)
+               +     1.043          cell: ADLIB:IOPAD_IN
+  N/C                          sys_clk_pad/U0/U0:Y (r)
+               +     0.000          net: sys_clk_pad/U0/NET1
+  N/C                          sys_clk_pad/U0/U1:A (r)
+               +     0.353          cell: ADLIB:CLKIO
+  N/C                          sys_clk_pad/U0/U1:Y (r)
+               +     0.940          net: sys_clk_c
+  N/C                          recive/U1:CLK (r)
+               -     0.583          Library setup time: ADLIB:DFN1C0
+  N/C                          recive/U1:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                  rx_uart
+  To:                    data_recive[2]:D
+  Delay (ns):            6.953
+  Slack (ns):
+  Arrival (ns):          6.953
+  Required (ns):
+  Setup (ns):            0.547
+  External Setup (ns):   5.170
+
+Path 2
+  From:                  rx_uart
+  To:                    rx_fall:D
+  Delay (ns):            6.747
+  Slack (ns):
+  Arrival (ns):          6.747
+  Required (ns):
+  Setup (ns):            0.583
+  External Setup (ns):   4.986
+
+Path 3
+  From:                  rx_uart
+  To:                    data_recive[4]:D
+  Delay (ns):            6.593
+  Slack (ns):
+  Arrival (ns):          6.593
+  Required (ns):
+  Setup (ns):            0.547
+  External Setup (ns):   4.808
+
+Path 4
+  From:                  send_end
+  To:                    data_recive[1]:D
+  Delay (ns):            5.980
+  Slack (ns):
+  Arrival (ns):          5.980
+  Required (ns):
+  Setup (ns):            0.583
+  External Setup (ns):   4.246
+
+Path 5
+  From:                  rx_uart
+  To:                    data_recive[7]:D
+  Delay (ns):            5.960
+  Slack (ns):
+  Arrival (ns):          5.960
+  Required (ns):
+  Setup (ns):            0.547
+  External Setup (ns):   4.179
+
+
+Expanded Path 1
+  From: rx_uart
+  To: data_recive[2]:D
+  data required time                             N/C
+  data arrival time                          -   6.953
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        rx_uart (r)
+               +     0.000          net: rx_uart
+  0.000                        rx_uart_pad/U0/U0:PAD (r)
+               +     1.028          cell: ADLIB:IOPAD_IN
+  1.028                        rx_uart_pad/U0/U0:Y (r)
+               +     0.000          net: rx_uart_pad/U0/NET1
+  1.028                        rx_uart_pad/U0/U1:YIN (r)
+               +     0.044          cell: ADLIB:IOIN_IB
+  1.072                        rx_uart_pad/U0/U1:Y (r)
+               +     4.852          net: rx_uart_c
+  5.924                        data_recive_RNO[2]:B (r)
+               +     0.688          cell: ADLIB:MX2
+  6.612                        data_recive_RNO[2]:Y (r)
+               +     0.341          net: data_recive_12[2]
+  6.953                        data_recive[2]:D (r)
+                                    
+  6.953                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          sys_clk
+               +     0.000          Clock source
+  N/C                          sys_clk (r)
+               +     0.000          net: sys_clk
+  N/C                          sys_clk_pad/U0/U0:PAD (r)
+               +     1.043          cell: ADLIB:IOPAD_IN
+  N/C                          sys_clk_pad/U0/U0:Y (r)
+               +     0.000          net: sys_clk_pad/U0/NET1
+  N/C                          sys_clk_pad/U0/U1:A (r)
+               +     0.353          cell: ADLIB:CLKIO
+  N/C                          sys_clk_pad/U0/U1:Y (r)
+               +     0.934          net: sys_clk_c
+  N/C                          data_recive[2]:CLK (r)
+               -     0.547          Library setup time: ADLIB:DFN1C0
+  N/C                          data_recive[2]:D
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                  idle_recive:CLK
+  To:                    idle_recive
+  Delay (ns):            7.566
+  Slack (ns):
+  Arrival (ns):          9.902
+  Required (ns):
+  Clock to Out (ns):     9.902
+
+Path 2
+  From:                  data_recive[3]:CLK
+  To:                    data_recive[3]
+  Delay (ns):            7.431
+  Slack (ns):
+  Arrival (ns):          9.769
+  Required (ns):
+  Clock to Out (ns):     9.769
+
+Path 3
+  From:                  data_recive[1]:CLK
+  To:                    data_recive[1]
+  Delay (ns):            7.371
+  Slack (ns):
+  Arrival (ns):          9.688
+  Required (ns):
+  Clock to Out (ns):     9.688
+
+Path 4
+  From:                  data_recive[5]:CLK
+  To:                    data_recive[5]
+  Delay (ns):            7.289
+  Slack (ns):
+  Arrival (ns):          9.619
+  Required (ns):
+  Clock to Out (ns):     9.619
+
+Path 5
+  From:                  data_recive[0]:CLK
+  To:                    data_recive[0]
+  Delay (ns):            7.074
+  Slack (ns):
+  Arrival (ns):          9.402
+  Required (ns):
+  Clock to Out (ns):     9.402
+
+
+Expanded Path 1
+  From: idle_recive:CLK
+  To: idle_recive
+  data required time                             N/C
+  data arrival time                          -   9.902
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        sys_clk
+               +     0.000          Clock source
+  0.000                        sys_clk (r)
+               +     0.000          net: sys_clk
+  0.000                        sys_clk_pad/U0/U0:PAD (r)
+               +     1.043          cell: ADLIB:IOPAD_IN
+  1.043                        sys_clk_pad/U0/U0:Y (r)
+               +     0.000          net: sys_clk_pad/U0/NET1
+  1.043                        sys_clk_pad/U0/U1:A (r)
+               +     0.353          cell: ADLIB:CLKIO
+  1.396                        sys_clk_pad/U0/U1:Y (r)
+               +     0.940          net: sys_clk_c
+  2.336                        idle_recive:CLK (r)
+               +     0.749          cell: ADLIB:DFN1C0
+  3.085                        idle_recive:Q (f)
+               +     2.903          net: idle_recive_c
+  5.988                        idle_recive_pad/U0/U1:D (f)
+               +     0.669          cell: ADLIB:IOTRI_OB_EB
+  6.657                        idle_recive_pad/U0/U1:DOUT (f)
+               +     0.000          net: idle_recive_pad/U0/NET1
+  6.657                        idle_recive_pad/U0/U0:D (f)
+               +     3.245          cell: ADLIB:IOPAD_TRI
+  9.902                        idle_recive_pad/U0/U0:PAD (f)
+               +     0.000          net: idle_recive
+  9.902                        idle_recive (f)
+                                    
+  9.902                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          sys_clk
+               +     0.000          Clock source
+  N/C                          sys_clk (r)
+                                    
+  N/C                          idle_recive (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+Path 1
+  From:                  sys_rest
+  To:                    data_recive[0]:CLR
+  Delay (ns):            5.943
+  Slack (ns):
+  Arrival (ns):          5.943
+  Required (ns):
+  Recovery (ns):         0.302
+  External Recovery (ns): 3.917
+
+Path 2
+  From:                  sys_rest
+  To:                    data_recive[3]:CLR
+  Delay (ns):            5.882
+  Slack (ns):
+  Arrival (ns):          5.882
+  Required (ns):
+  Recovery (ns):         0.302
+  External Recovery (ns): 3.846
+
+Path 3
+  From:                  sys_rest
+  To:                    data_recive[7]:CLR
+  Delay (ns):            5.822
+  Slack (ns):
+  Arrival (ns):          5.822
+  Required (ns):
+  Recovery (ns):         0.302
+  External Recovery (ns): 3.796
+
+Path 4
+  From:                  sys_rest
+  To:                    data_recive[6]:CLR
+  Delay (ns):            5.733
+  Slack (ns):
+  Arrival (ns):          5.733
+  Required (ns):
+  Recovery (ns):         0.302
+  External Recovery (ns): 3.683
+
+Path 5
+  From:                  sys_rest
+  To:                    recive/U1:CLR
+  Delay (ns):            5.702
+  Slack (ns):
+  Arrival (ns):          5.702
+  Required (ns):
+  Recovery (ns):         0.302
+  External Recovery (ns): 3.668
+
+
+Expanded Path 1
+  From: sys_rest
+  To: data_recive[0]:CLR
+  data required time                             N/C
+  data arrival time                          -   5.943
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        sys_rest (r)
+               +     0.000          net: sys_rest
+  0.000                        sys_rest_pad/U0/U0:PAD (r)
+               +     1.028          cell: ADLIB:IOPAD_IN
+  1.028                        sys_rest_pad/U0/U0:Y (r)
+               +     0.000          net: sys_rest_pad/U0/NET1
+  1.028                        sys_rest_pad/U0/U1:YIN (r)
+               +     0.044          cell: ADLIB:IOIN_IB
+  1.072                        sys_rest_pad/U0/U1:Y (r)
+               +     1.984          net: sys_rest_c
+  3.056                        sys_rest_pad_RNIGVND:A (r)
+               +     0.473          cell: ADLIB:BUFF
+  3.529                        sys_rest_pad_RNIGVND:Y (r)
+               +     2.414          net: sys_rest_c_0
+  5.943                        data_recive[0]:CLR (r)
+                                    
+  5.943                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          sys_clk
+               +     0.000          Clock source
+  N/C                          sys_clk (r)
+               +     0.000          net: sys_clk
+  N/C                          sys_clk_pad/U0/U0:PAD (r)
+               +     1.043          cell: ADLIB:IOPAD_IN
+  N/C                          sys_clk_pad/U0/U0:Y (r)
+               +     0.000          net: sys_clk_pad/U0/NET1
+  N/C                          sys_clk_pad/U0/U1:A (r)
+               +     0.353          cell: ADLIB:CLKIO
+  N/C                          sys_clk_pad/U0/U1:Y (r)
+               +     0.932          net: sys_clk_c
+  N/C                          data_recive[0]:CLK (r)
+               -     0.302          Library recovery time: ADLIB:DFN1C0
+  N/C                          data_recive[0]:CLR
+
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

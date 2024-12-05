@@ -1,0 +1,39 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Date: Mon Nov 11 09:11:18 2024
+Design Name: buf  Family: ProASIC3  Die: A3P1000  Package: 208 PQFP
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    269               Net   : N_378
+                      Driver: send_end_RNI08T6/U_GL
+    693               Net   : sys_clk_c
+                      Driver: sys_clk_pad/U0/U1/U_GL
+    194               Net   : cnt_recive_1_sqmuxa
+                      Driver: idle_recive_down_RNIIQRK_0/U_GL
+    176               Net   : ident_coreinst.IICE_INST.b3_SoW.N_1550
+                      Driver: I_491/U_GL
+    498               Net   : ident_coreinst/IICE_comm2iice[11]
+                      Driver: ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U_GL
+    179               Net   : ident_coreinst/IICE_INST/b5_voSc3
+                      Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_RNI0GM6/U_GL
+
+
+The following nets have been routed to a quadrant global resource:
+
+    Fanout            Name
+    ----------------------
+    322               Net   : sys_rest_c
+                      Driver: sys_rest_pad/U0/U1/U_GL
+                      Region : quadrant_LL
+
+
+

@@ -1,0 +1,22 @@
+*****************************************************************
+Pin Report - Date: Mon Nov 11 09:15:27 2024 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: buf
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+*****************************************************************
+Port     |Pin |Fixed |Function       |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+---------|----|------|---------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+atck      101  Fixed  TCK
+atdi      102  Fixed  TDI
+atdo      108  Fixed  TDO
+atms      103  Fixed  TMS
+atrstb    109  Fixed  TRST
+rx_uart   6    Yes    GAC2/IO223PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+sys_clk   26   Yes    GFA0/IO207NPB3  LVTTL    ---                ---   None           ---   ---               No           No
+sys_rest  54   Yes    GEA2/IO187RSB2  LVTTL    ---                ---   None           ---   ---               No           No
+test      49   Yes    GEA0/IO188NDB3  LVTTL    12                 High  None           No    35                No           No
+tx_uart   2    Yes    GAA2/IO225PDB3  LVTTL    12                 High  None           No    35                No           No

@@ -1,0 +1,67 @@
+FlashPro
+Version: 11.9.0.4
+Release: v11.9
+
+Software Version: 11.9.0.4
+PDB file 'C:\Users\YH\Desktop\RS422\RS4221106 - good\designer\impl1\buf.pdb' has been loaded
+successfully.
+DESIGN : buf;  CHECKSUM : 1D38;  PDB_VERSION : 1.9
+Driver : 3.0.0 build 1
+programmer '03871' : FlashPro4
+Opened 'C:\Users\YH\Desktop\RS422\RS4221106 - good\designer\impl1\buf_fp\buf.pro'
+PDB file 'C:\Users\YH\Desktop\new\rs422code\designer\impl1\uart_top_test.pdb' has been loaded
+successfully.
+DESIGN : uart_top_test;  CHECKSUM : 7886;  PDB_VERSION : 1.9
+programmer '03871' : Scan Chain...
+programmer '03871' : Scan Chain PASSED.
+programmer '03871' : Executing action PROGRAM
+programmer '03871' : EXPORT FSN[48] = 817e9f1c7868
+programmer '03871' : Erase ...
+programmer '03871' : Completed erase
+programmer '03871' : EXPORT CHECKSUM[16] = 7886
+programmer '03871' : Programming FPGA Array
+programmer '03871' : Verifying FPGA Array
+programmer '03871' :         Verifying FPGA Array -- pass
+programmer '03871' : Finished: Wed Nov 06 17:08:10 2024 (Elapsed time 00:00:58)
+programmer '03871' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+PDB file 'C:\Users\YH\Desktop\RS422\RS4221106 - good\designer\impl1\buf.pdb' has been loaded
+successfully.
+DESIGN : buf;  CHECKSUM : 1D38;  PDB_VERSION : 1.9
+programmer '03871' : Scan Chain...
+programmer '03871' : Scan Chain PASSED.
+programmer '03871' : Executing action PROGRAM
+programmer '03871' : EXPORT FSN[48] = 817e9f1c7868
+programmer '03871' : Erase ...
+programmer '03871' : Completed erase
+programmer '03871' : EXPORT CHECKSUM[16] = 1d38
+programmer '03871' : Programming FPGA Array
+programmer '03871' : Verifying FPGA Array
+programmer '03871' :         Verifying FPGA Array -- pass
+programmer '03871' : Finished: Wed Nov 06 17:28:32 2024 (Elapsed time 00:00:59)
+programmer '03871' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+PDB file 'C:\Users\YH\Desktop\RS422\RS4221106 - good\designer\impl1\buf.pdb' has been loaded
+successfully.
+DESIGN : buf;  CHECKSUM : 02E1;  PDB_VERSION : 1.9
+programmer '03871' : Scan Chain...
+programmer '03871' : Scan Chain PASSED.
+programmer '03871' : Executing action PROGRAM
+programmer '03871' : EXPORT FSN[48] = 817e9f1c7868
+programmer '03871' : Erase ...
+programmer '03871' : Completed erase
+programmer '03871' : EXPORT CHECKSUM[16] = 02e1
+programmer '03871' : Programming FPGA Array
+programmer '03871' : Verifying FPGA Array
+programmer '03871' :         Verifying FPGA Array -- pass
+programmer '03871' : Finished: Wed Nov 06 18:16:57 2024 (Elapsed time 00:00:57)
+programmer '03871' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'buf' has been modified. Do you want to save it? [NO]
+Project closed.

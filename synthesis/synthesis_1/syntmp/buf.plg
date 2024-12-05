@@ -1,0 +1,55 @@
+@P:  Worst Slack : -5.680
+@P:  buf|atck - Estimated Frequency : 87.1 MHz
+@P:  buf|atck - Requested Frequency : 100.0 MHz
+@P:  buf|atck - Estimated Period : 11.476
+@P:  buf|atck - Requested Period : 10.000
+@P:  buf|atck - Slack : -1.476
+@P:  buf|sys_clk - Estimated Frequency : 63.8 MHz
+@P:  buf|sys_clk - Requested Frequency : 100.0 MHz
+@P:  buf|sys_clk - Estimated Period : 15.680
+@P:  buf|sys_clk - Requested Period : 10.000
+@P:  buf|sys_clk - Slack : -5.680
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Estimated Frequency : 472.4 MHz
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Requested Frequency : 1.0 MHz
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Estimated Period : 2.117
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Requested Period : 1000.000
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Slack : 997.883
+@P:  jtag_interface_x|b9_nv_oQwfYF - Estimated Frequency : NA
+@P:  jtag_interface_x|b9_nv_oQwfYF - Requested Frequency : 100.0 MHz
+@P:  jtag_interface_x|b9_nv_oQwfYF - Estimated Period : NA
+@P:  jtag_interface_x|b9_nv_oQwfYF - Requested Period : 10.000
+@P:  jtag_interface_x|b9_nv_oQwfYF - Slack : NA
+@P:  jtag_interface_x|b10_8Kz_rKlrtX - Estimated Frequency : NA
+@P:  jtag_interface_x|b10_8Kz_rKlrtX - Requested Frequency : 100.0 MHz
+@P:  jtag_interface_x|b10_8Kz_rKlrtX - Estimated Period : NA
+@P:  jtag_interface_x|b10_8Kz_rKlrtX - Requested Period : 10.000
+@P:  jtag_interface_x|b10_8Kz_rKlrtX - Slack : NA
+@P:  jtag_interface_x|identify_clk_int_inferred_clock - Estimated Frequency : 140.2 MHz
+@P:  jtag_interface_x|identify_clk_int_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  jtag_interface_x|identify_clk_int_inferred_clock - Estimated Period : 7.132
+@P:  jtag_interface_x|identify_clk_int_inferred_clock - Requested Period : 10.000
+@P:  jtag_interface_x|identify_clk_int_inferred_clock - Slack : 2.868
+@P:  Total Area : 3012.0
+@P:  Total Area : 1322.0
+@P:  Total Area : 1183.0
+@P:  Total Area : 794.0
+@P:  Total Area : 164.0
+@P:  Total Area : 0.0
+@P:  Total Area : 21.0
+@P:  Total Area : 74.0
+@P:  Total Area : 11.0
+@P:  Total Area : 4.0
+@P:  Total Area : 7.0
+@P:  Total Area : 7.0
+@P:  Total Area : 180.0
+@P:  Total Area : 22.0
+@P:  Total Area : 22.0
+@P:  Total Area : 34.0
+@P:  Total Area : 137.0
+@P:  Total Area : 98.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 244.0
+@P:  Total Area : 139.0
+@P:  Total Area : 3012.0
+@P:  CPU Time : 0h:00m:03s

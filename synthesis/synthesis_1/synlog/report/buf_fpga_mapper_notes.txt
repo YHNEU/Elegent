@@ -1,0 +1,27 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MT480 :"c:/users/yh/desktop/rs422/rs4221107/synthesis/synthesis_1/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: MO231 :"c:\users\yh\desktop\rs422\rs4221107\hdl\buf.vhd":154:2:154:3|Found counter in view:work.buf(architecture_buf) instance cnt_delay[7:0] 
+@N: MO231 :"c:\users\yh\desktop\rs422\rs4221107\hdl\buf.vhd":154:2:154:3|Found counter in view:work.buf(architecture_buf) instance cnt_flag[4:0] 
+@N: MO231 :"c:\users\yh\desktop\rs422\rs4221107\hdl\buf.vhd":186:2:186:3|Found counter in view:work.buf(architecture_buf) instance cnt_send[30:0] 
+@N: MO231 :"c:\users\yh\desktop\rs422\rs4221107\hdl\buf.vhd":96:2:96:3|Found counter in view:work.buf(architecture_buf) instance cnt_recive[30:0] 
+@N: MO231 :"c:\users\yh\desktop\rs422\rs4221107\hdl\buf.vhd":129:2:129:3|Found counter in view:work.buf(architecture_buf) instance cnt_recive_end[9:0] 
+@N: MF238 :"c:\users\yh\desktop\rs422\rs4221107\hdl\buf.vhd":196:24:196:31|Found 8-bit incrementor, 'un19_data_send_buffer_1[7:0]'
+@N: MF238 :"c:\users\yh\desktop\rs422\rs4221107\hdl\single_recive.vhd":86:12:86:20|Found 12-bit incrementor, 'un7_cnt_1[11:0]'
+@N: MO231 :"c:\users\yh\desktop\rs422\rs4221107\hdl\signal_send.vhd":47:1:47:2|Found counter in view:work.signal_send(architecture_signal_send) instance cnt_end[9:0] 
+@N: MF238 :"c:\users\yh\desktop\rs422\rs4221107\hdl\signal_send.vhd":86:31:86:39|Found 12-bit incrementor, 'un7_cnt_1[11:0]'
+@N: MF794 |RAM b3_SoW.b3_SoW[160:0] required 9 registers during mapping 
+@N: MF794 |RAM b3_SoW.b3_SoW[160:0] required 9 registers during mapping 
+@N: FP130 |Promoting Net sys_rest_c on CLKBUF  sys_rest_pad 
+@N: FP130 |Promoting Net sys_clk_c on CLKBUF  sys_clk_pad 
+@N: FP130 |Promoting Net N_378 on CLKINT  I_488 
+@N: FP130 |Promoting Net cnt_recive_1_sqmuxa on CLKINT  I_489 
+@N: FP130 |Promoting Net ident_coreinst.IICE_INST.b5_voSc3 on CLKINT  I_490 
+@N: FP130 |Promoting Net ident_coreinst.IICE_INST.b3_SoW.N_1550 on CLKINT  I_491 
+@N: MT480 :"c:/users/yh/desktop/rs422/rs4221107/synthesis/synthesis_1/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: MT480 :"c:/users/yh/desktop/rs422/rs4221107/synthesis/synthesis_1/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: MT480 :"c:/users/yh/desktop/rs422/rs4221107/synthesis/synthesis_1/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: MT615 |Found clock ident_coreinst.comm_block_INST.dr2_tck with period 1000.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

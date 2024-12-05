@@ -1,0 +1,9 @@
+D:\libero11.9\SynplifyPro\bin\identify_instrumentor_shell.exe  -idb  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\identify.db  -synplify_install  D:\libero11.9\SynplifyPro  -synplify_tool  synplify_pro  -log  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\synlog\buf_identify_compile.log  -family  ProASIC3  -prj  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\buf_syn.prj  -curimpl  synthesis_1  -dbgimpl  synthesis_1  -fver  2024.09  -idc  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\identify.idc  -f  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\identifylaunch.tcl 
+relcom:D:\libero11.9\SynplifyPro\bin\identify_instrumentor_shell.exe -idb ..\identify.db -synplify_install D:\libero11.9\SynplifyPro -synplify_tool synplify_pro -log ..\synlog\buf_identify_compile.log -family ProASIC3 -prj ..\..\buf_syn.prj -curimpl synthesis_1 -dbgimpl synthesis_1 -fver 2024.09 -idc ..\identify.idc -f ..\identifylaunch.tcl
+rc:0 success:1 runtime:3
+file:..\identify.db|io:i|time:1731287029|size:26812|exec:0|csum:BF918FD1630BD50357410C924538CBEE
+file:..\synlog\buf_identify_compile.log|io:o|time:1731287031|size:1560|exec:0|csum:
+file:..\..\buf_syn.prj|io:i|time:1731287029|size:3054|exec:0|csum:FAEFCE4E5AE7A90C5AC76C5076F0C710
+file:..\identify.idc|io:i|time:1730889570|size:338|exec:0|csum:4BA98FC796B612EC19703E8889D9D88C
+file:..\identifylaunch.tcl|io:o|time:1731287029|size:123|exec:0|csum:
+file:D:\libero11.9\SynplifyPro\bin\identify_instrumentor_shell.exe|io:i|time:1508987048|size:125440|exec:1|csum:731A27F4E390D7195E5D5A9AE1F7750F

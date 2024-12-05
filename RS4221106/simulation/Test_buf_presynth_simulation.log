@@ -1,0 +1,575 @@
+# Reading D:/libero11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:49:21 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/single_recive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 14:49:21 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:49:21 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 14:49:21 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:49:21 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 14:49:21 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:49:21 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/stimulus/Test_buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Test_buf
+# -- Compiling architecture behavioral of Test_buf
+# End time: 14:49:21 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.Test_buf 
+# Start time: 14:49:21 on Nov 06,2024
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.test_buf(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.signal_send(architecture_signal_send)
+add wave -position insertpoint  \
+sim:/test_buf/buf_0/BITE_N \
+sim:/test_buf/buf_0/sys_clk \
+sim:/test_buf/buf_0/sys_rest \
+sim:/test_buf/buf_0/rx_uart \
+sim:/test_buf/buf_0/tx_uart \
+sim:/test_buf/buf_0/idle_recive \
+sim:/test_buf/buf_0/idle_send \
+sim:/test_buf/buf_0/data_recive_buffer \
+sim:/test_buf/buf_0/data_send_buffer \
+sim:/test_buf/buf_0/idle_recive_fall \
+sim:/test_buf/buf_0/idle_recive_down \
+sim:/test_buf/buf_0/idle_send_fall \
+sim:/test_buf/buf_0/idle_send_down \
+sim:/test_buf/buf_0/receive_end \
+sim:/test_buf/buf_0/send_end \
+sim:/test_buf/buf_0/cnt_recive_end \
+sim:/test_buf/buf_0/cnt_delay \
+sim:/test_buf/buf_0/cnt_recive \
+sim:/test_buf/buf_0/cnt_send \
+sim:/test_buf/buf_0/data_all \
+sim:/test_buf/buf_0/vld_send \
+sim:/test_buf/buf_0/end_flag \
+sim:/test_buf/buf_0/cnt_flag
+restart
+run
+restart
+run
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:51:38 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/single_recive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 14:51:38 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:51:38 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 14:51:38 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:51:38 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 14:51:39 on Nov 06,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:51:39 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/stimulus/Test_buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Test_buf
+# -- Compiling architecture behavioral of Test_buf
+# End time: 14:51:39 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:51:41 on Nov 06,2024, Elapsed time: 0:02:20
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.Test_buf 
+# Start time: 14:51:41 on Nov 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.test_buf(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.signal_send(architecture_signal_send)
+add wave -position insertpoint  \
+sim:/test_buf/buf_0/BITE_N \
+sim:/test_buf/buf_0/sys_clk \
+sim:/test_buf/buf_0/sys_rest \
+sim:/test_buf/buf_0/rx_uart \
+sim:/test_buf/buf_0/tx_uart \
+sim:/test_buf/buf_0/idle_recive \
+sim:/test_buf/buf_0/idle_send \
+sim:/test_buf/buf_0/data_recive_buffer \
+sim:/test_buf/buf_0/data_send_buffer \
+sim:/test_buf/buf_0/idle_recive_fall \
+sim:/test_buf/buf_0/idle_recive_down \
+sim:/test_buf/buf_0/idle_send_fall \
+sim:/test_buf/buf_0/idle_send_down \
+sim:/test_buf/buf_0/receive_end \
+sim:/test_buf/buf_0/send_end \
+sim:/test_buf/buf_0/cnt_recive_end \
+sim:/test_buf/buf_0/cnt_delay \
+sim:/test_buf/buf_0/cnt_recive \
+sim:/test_buf/buf_0/cnt_send \
+sim:/test_buf/buf_0/data_all \
+sim:/test_buf/buf_0/vld_send \
+sim:/test_buf/buf_0/end_flag \
+sim:/test_buf/buf_0/cnt_flag
+restart
+run
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:53:23 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/single_recive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 14:53:24 on Nov 06,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:53:24 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 14:53:24 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:53:24 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 14:53:24 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:53:24 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/stimulus/Test_buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Test_buf
+# -- Compiling architecture behavioral of Test_buf
+# End time: 14:53:24 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:53:26 on Nov 06,2024, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.Test_buf 
+# Start time: 14:53:26 on Nov 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.test_buf(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.signal_send(architecture_signal_send)
+add wave -position insertpoint  \
+sim:/test_buf/buf_0/BITE_N \
+sim:/test_buf/buf_0/sys_clk \
+sim:/test_buf/buf_0/sys_rest \
+sim:/test_buf/buf_0/rx_uart \
+sim:/test_buf/buf_0/tx_uart \
+sim:/test_buf/buf_0/idle_recive \
+sim:/test_buf/buf_0/idle_send \
+sim:/test_buf/buf_0/data_recive_buffer \
+sim:/test_buf/buf_0/data_send_buffer \
+sim:/test_buf/buf_0/idle_recive_fall \
+sim:/test_buf/buf_0/idle_recive_down \
+sim:/test_buf/buf_0/idle_send_fall \
+sim:/test_buf/buf_0/idle_send_down \
+sim:/test_buf/buf_0/receive_end \
+sim:/test_buf/buf_0/send_end \
+sim:/test_buf/buf_0/cnt_recive_end \
+sim:/test_buf/buf_0/cnt_delay \
+sim:/test_buf/buf_0/cnt_recive \
+sim:/test_buf/buf_0/cnt_send \
+sim:/test_buf/buf_0/data_all \
+sim:/test_buf/buf_0/vld_send \
+sim:/test_buf/buf_0/end_flag \
+sim:/test_buf/buf_0/cnt_flag
+restart
+run
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:54:06 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/single_recive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 14:54:06 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:54:06 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 14:54:06 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:54:06 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 14:54:06 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:54:06 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/stimulus/Test_buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Test_buf
+# -- Compiling architecture behavioral of Test_buf
+# End time: 14:54:06 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:54:09 on Nov 06,2024, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.Test_buf 
+# Start time: 14:54:09 on Nov 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.test_buf(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.signal_send(architecture_signal_send)
+restart
+add wave -position insertpoint  \
+sim:/test_buf/buf_0/BITE_N \
+sim:/test_buf/buf_0/sys_clk \
+sim:/test_buf/buf_0/sys_rest \
+sim:/test_buf/buf_0/rx_uart \
+sim:/test_buf/buf_0/tx_uart \
+sim:/test_buf/buf_0/idle_recive \
+sim:/test_buf/buf_0/idle_send \
+sim:/test_buf/buf_0/data_recive_buffer \
+sim:/test_buf/buf_0/data_send_buffer \
+sim:/test_buf/buf_0/idle_recive_fall \
+sim:/test_buf/buf_0/idle_recive_down \
+sim:/test_buf/buf_0/idle_send_fall \
+sim:/test_buf/buf_0/idle_send_down \
+sim:/test_buf/buf_0/receive_end \
+sim:/test_buf/buf_0/send_end \
+sim:/test_buf/buf_0/cnt_recive_end \
+sim:/test_buf/buf_0/cnt_delay \
+sim:/test_buf/buf_0/cnt_recive \
+sim:/test_buf/buf_0/cnt_send \
+sim:/test_buf/buf_0/data_all \
+sim:/test_buf/buf_0/vld_send \
+sim:/test_buf/buf_0/end_flag \
+sim:/test_buf/buf_0/cnt_flag
+run
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:55:18 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/single_recive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 14:55:18 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:55:18 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 14:55:18 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:55:18 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 14:55:18 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:55:18 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/stimulus/Test_buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Test_buf
+# -- Compiling architecture behavioral of Test_buf
+# End time: 14:55:18 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:55:21 on Nov 06,2024, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.Test_buf 
+# Start time: 14:55:21 on Nov 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.test_buf(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.signal_send(architecture_signal_send)
+add wave -position insertpoint  \
+sim:/test_buf/buf_0/BITE_N \
+sim:/test_buf/buf_0/sys_clk \
+sim:/test_buf/buf_0/sys_rest \
+sim:/test_buf/buf_0/rx_uart \
+sim:/test_buf/buf_0/tx_uart \
+sim:/test_buf/buf_0/idle_recive \
+sim:/test_buf/buf_0/idle_send \
+sim:/test_buf/buf_0/data_recive_buffer \
+sim:/test_buf/buf_0/data_send_buffer \
+sim:/test_buf/buf_0/idle_recive_fall \
+sim:/test_buf/buf_0/idle_recive_down \
+sim:/test_buf/buf_0/idle_send_fall \
+sim:/test_buf/buf_0/idle_send_down \
+sim:/test_buf/buf_0/receive_end \
+sim:/test_buf/buf_0/send_end \
+sim:/test_buf/buf_0/cnt_recive_end \
+sim:/test_buf/buf_0/cnt_delay \
+sim:/test_buf/buf_0/cnt_recive \
+sim:/test_buf/buf_0/cnt_send \
+sim:/test_buf/buf_0/data_all \
+sim:/test_buf/buf_0/vld_send \
+sim:/test_buf/buf_0/end_flag \
+sim:/test_buf/buf_0/cnt_flag
+restart
+run
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:57:36 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/single_recive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 14:57:36 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:57:36 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 14:57:36 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:57:36 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 14:57:36 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:57:36 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106/stimulus/Test_buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Test_buf
+# -- Compiling architecture behavioral of Test_buf
+# End time: 14:57:36 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:57:38 on Nov 06,2024, Elapsed time: 0:02:17
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.Test_buf 
+# Start time: 14:57:38 on Nov 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.test_buf(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.signal_send(architecture_signal_send)
+add wave -position insertpoint  \
+sim:/test_buf/buf_0/BITE_N \
+sim:/test_buf/buf_0/sys_clk \
+sim:/test_buf/buf_0/sys_rest \
+sim:/test_buf/buf_0/rx_uart \
+sim:/test_buf/buf_0/tx_uart \
+sim:/test_buf/buf_0/idle_recive \
+sim:/test_buf/buf_0/idle_send \
+sim:/test_buf/buf_0/data_recive_buffer \
+sim:/test_buf/buf_0/data_send_buffer \
+sim:/test_buf/buf_0/idle_recive_fall \
+sim:/test_buf/buf_0/idle_recive_down \
+sim:/test_buf/buf_0/idle_send_fall \
+sim:/test_buf/buf_0/idle_send_down \
+sim:/test_buf/buf_0/receive_end \
+sim:/test_buf/buf_0/send_end \
+sim:/test_buf/buf_0/cnt_recive_end \
+sim:/test_buf/buf_0/cnt_delay \
+sim:/test_buf/buf_0/cnt_recive \
+sim:/test_buf/buf_0/cnt_send \
+sim:/test_buf/buf_0/data_all \
+sim:/test_buf/buf_0/vld_send \
+sim:/test_buf/buf_0/end_flag \
+sim:/test_buf/buf_0/cnt_flag
+restart
+run

@@ -1,0 +1,4 @@
+@W: CD434 :"C:\Users\YH\Desktop\RS422\RS4221106 - good\hdl\buf.vhd":117:28:117:43|Signal idle_recive_down in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\YH\Desktop\RS422\RS4221106 - good\hdl\signal_send.vhd":73:28:73:35|Signal vld_send in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CL169 :"C:\Users\YH\Desktop\RS422\RS4221106 - good\hdl\single_recive.vhd":64:1:64:2|Pruning unused register parity_check_4. Make sure that there are no unused intermediate registers.
+

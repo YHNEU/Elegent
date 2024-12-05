@@ -1,0 +1,19 @@
+FlashPro
+Version: 11.9.0.4
+Release: v11.9
+
+Software Version: 11.9.0.4
+PDB file 'C:\Users\YH\Desktop\RS422\RS4221106\designer\impl1\buf.pdb' has been loaded
+successfully.
+DESIGN : buf;  CHECKSUM : EFA1;  PDB_VERSION : 1.9
+Driver : 3.0.0 build 1
+programmer '03871' : FlashPro4
+Opened 'C:\Users\YH\Desktop\RS422\RS4221106\designer\impl1\buf_fp\buf.pro'
+PDB file 'C:\Users\YH\Desktop\RS422\RS4221106\designer\impl1\buf.pdb' has been loaded
+successfully.
+DESIGN : buf;  CHECKSUM : EFA1;  PDB_VERSION : 1.9
+programmer '03871' : Scan Chain...
+Error: Vjtag is disconnected or shorted. Please check the FPGA's Vjtag pin is properly
+       connected. Please check that the target board is powered.
+Error: programmer '03871' : Scan Chain FAILED.
+Error: Failed to run Action.

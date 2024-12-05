@@ -1,0 +1,615 @@
+KEY LIBERO "11.9"
+KEY CAPTURE "11.9.0.4"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IS8X8M2"
+KEY VendorTechnology_Package "pq208"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "IND"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IS8X8M2"
+KEY VendorTechnology_TEMPR "IND"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "IND"
+KEY ProjectLocation "D:\Awork\RS422\RS4221107"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "buf::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\buf.adb,adb"
+STATE="ood"
+TIME="1730889257"
+SIZE="1568768"
+ENDFILE
+VALUE "<project>\designer\impl1\buf.ide_des,ide_des"
+STATE="utd"
+TIME="1730889257"
+SIZE="964"
+ENDFILE
+VALUE "<project>\designer\impl1\buf.pdb,pdb"
+STATE="ood"
+TIME="1730888130"
+SIZE="126426"
+ENDFILE
+VALUE "<project>\designer\impl1\Buffer.ide_des,ide_des"
+STATE="utd"
+TIME="1730786293"
+SIZE="193"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_ba.sdf,ba_sdf"
+STATE="ood"
+TIME="1730898351"
+SIZE="1882989"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_ba.vhd,ba_hdl"
+STATE="ood"
+TIME="1730898351"
+SIZE="986703"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_compile_log.rpt,log"
+STATE="utd"
+TIME="1731287053"
+SIZE="11817"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_fp\buf.pro,pro"
+STATE="utd"
+TIME="1731896399"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_fp\projectData\buf.pdb,pdb"
+STATE="utd"
+TIME="1730810384"
+SIZE="125902"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1731288281"
+SIZE="2053"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_prgdata_log.rpt,log"
+STATE="utd"
+TIME="1731287504"
+SIZE="823"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_synthesis_1.adb,adb"
+STATE="ood"
+TIME="1731287725"
+SIZE="2513920"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_synthesis_1.ide_des,ide_des"
+STATE="utd"
+TIME="1731287726"
+SIZE="968"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_synthesis_1.pdb,pdb"
+STATE="ood"
+TIME="1731287504"
+SIZE="190175"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_synthesis_1_ba.sdf,ba_sdf"
+STATE="ood"
+TIME="1731287719"
+SIZE="1869962"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_synthesis_1_ba.vhd,ba_hdl"
+STATE="ood"
+TIME="1731287719"
+SIZE="911831"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_synthesis_1_fp\buf_synthesis_1.pro,pro"
+STATE="utd"
+TIME="1731896399"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_synthesis_1_fp\projectData\buf_synthesis_1.pdb,pdb"
+STATE="utd"
+TIME="1730901251"
+SIZE="190195"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_timingconstraints_log.rpt,log"
+STATE="utd"
+TIME="1730877042"
+SIZE="2764"
+ENDFILE
+VALUE "<project>\designer\impl1\buf_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1731287486"
+SIZE="1140"
+ENDFILE
+VALUE "<project>\designer\impl1\signal_send.ide_des,ide_des"
+STATE="utd"
+TIME="1730774096"
+SIZE="198"
+ENDFILE
+VALUE "<project>\designer\impl1\single_recive.adb,adb"
+STATE="utd"
+TIME="1730964755"
+SIZE="92160"
+ENDFILE
+VALUE "<project>\designer\impl1\single_recive.ide_des,ide_des"
+STATE="utd"
+TIME="1730964756"
+SIZE="980"
+ENDFILE
+VALUE "<project>\designer\impl1\single_recive.pdb,pdb"
+STATE="utd"
+TIME="1730964755"
+SIZE="86440"
+ENDFILE
+VALUE "<project>\designer\impl1\single_recive_compile_log.rpt,log"
+STATE="utd"
+TIME="1730964703"
+SIZE="8161"
+ENDFILE
+VALUE "<project>\designer\impl1\single_recive_fp\single_recive.pro,pro"
+STATE="utd"
+TIME="1731896399"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\single_recive_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1730964729"
+SIZE="2486"
+ENDFILE
+VALUE "<project>\designer\impl1\single_recive_prgdata_log.rpt,log"
+STATE="utd"
+TIME="1730964756"
+SIZE="692"
+ENDFILE
+VALUE "<project>\designer\impl1\single_recive_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1730964733"
+SIZE="1184"
+ENDFILE
+VALUE "<project>\hdl\buf.vhd,hdl"
+STATE="utd"
+TIME="1730956351"
+SIZE="7801"
+ENDFILE
+VALUE "<project>\hdl\Buffer.vhd,hdl"
+STATE="utd"
+TIME="1730786834"
+SIZE="6435"
+ENDFILE
+VALUE "<project>\hdl\signal_send.vhd,hdl"
+STATE="utd"
+TIME="1732083515"
+SIZE="5611"
+ENDFILE
+VALUE "<project>\hdl\single_recive.vhd,hdl"
+STATE="utd"
+TIME="1730946127"
+SIZE="4351"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1730949042"
+SIZE="621"
+ENDFILE
+VALUE "<project>\simulation\Test_buf_presynth_simulation.log,log"
+STATE="utd"
+TIME="1730901373"
+SIZE="32627"
+ENDFILE
+VALUE "<project>\simulation\Test_recive_presynth_simulation.log,log"
+STATE="utd"
+TIME="1730955977"
+SIZE="9749"
+ENDFILE
+VALUE "<project>\simulation\Test_send_presynth_simulation.log,log"
+STATE="utd"
+TIME="1730806749"
+SIZE="4883"
+ENDFILE
+VALUE "<project>\stimulus\Test_buf.vhd,tb_hdl"
+STATE="utd"
+TIME="1730894945"
+SIZE="17792"
+ENDFILE
+VALUE "<project>\stimulus\Test_recive.vhd,tb_hdl"
+STATE="utd"
+TIME="1730949336"
+SIZE="4043"
+ENDFILE
+VALUE "<project>\stimulus\Test_send.vhd,tb_hdl"
+STATE="utd"
+TIME="1730806026"
+SIZE="2696"
+ENDFILE
+VALUE "<project>\synthesis\buf.edn,syn_edn"
+STATE="ood"
+TIME="1730889250"
+SIZE="750638"
+ENDFILE
+VALUE "<project>\synthesis\buf.so,so"
+STATE="utd"
+TIME="1730889250"
+SIZE="218"
+ENDFILE
+VALUE "<project>\synthesis\buf.vhd,syn_hdl"
+STATE="ood"
+TIME="1730884809"
+SIZE="324290"
+ENDFILE
+VALUE "<project>\synthesis\buf_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1730889250"
+SIZE="400"
+ENDFILE
+VALUE "<project>\synthesis\buf_syn.prj,prj"
+STATE="utd"
+TIME="1731896399"
+SIZE="3390"
+ENDFILE
+VALUE "<project>\synthesis\single_recive.edn,syn_edn"
+STATE="utd"
+TIME="1730964694"
+SIZE="62042"
+ENDFILE
+VALUE "<project>\synthesis\single_recive.so,so"
+STATE="utd"
+TIME="1730964694"
+SIZE="231"
+ENDFILE
+VALUE "<project>\synthesis\single_recive_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1730964694"
+SIZE="410"
+ENDFILE
+VALUE "<project>\synthesis\single_recive_syn.prj,prj"
+STATE="utd"
+TIME="1731896399"
+SIZE="0"
+ENDFILE
+VALUE "<project>\synthesis\synthesis_1\buf.edn,syn_edn"
+STATE="ood"
+TIME="1731287043"
+SIZE="1664237"
+ENDFILE
+VALUE "<project>\synthesis\synthesis_1\buf.so,so"
+STATE="utd"
+TIME="1731287043"
+SIZE="223"
+ENDFILE
+VALUE "<project>\synthesis\synthesis_1\buf_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1731287043"
+SIZE="653"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "buf::work"
+FILE "<project>\hdl\buf.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\Test_buf.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\synthesis_1\buf.edn,syn_edn"
+VALUE "<project>\synthesis\buf.vm,syn_vm"
+VALUE "<project>\synthesis\synthesis_1\buf_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\synthesis_1\buf.vhd,syn_hdl"
+VALUE "<project>\phy_synthesis\buf_synthesis_1_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\buf_synthesis_1_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\buf_synthesis_1_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\buf_synthesis_1_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\buf_synthesis_1_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl1\buf_synthesis_1.adb,adb"
+VALUE "<project>\designer\impl1\buf_synthesis_1.prb,prb"
+VALUE "<project>\designer\impl1\buf_synthesis_1.fdb,fdb"
+VALUE "<project>\designer\impl1\buf_synthesis_1.stp,stp"
+VALUE "<project>\designer\impl1\buf_synthesis_1_fp\buf_synthesis_1.pro,pro"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "signal_send::work"
+FILE "<project>\hdl\signal_send.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\Test_send.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "single_recive::work"
+FILE "<project>\hdl\single_recive.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\Test_recive.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideDESIGNER(<project>\designer\impl1\single_recive.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\single_recive.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\single_recive_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\single_recive_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST single_recive
+VALUE "<project>\stimulus\Test_recive.vhd,tb_hdl"
+ENDLIST
+LIST signal_send
+VALUE "<project>\stimulus\Test_send.vhd,tb_hdl"
+ENDLIST
+LIST buf
+VALUE "<project>\stimulus\Test_buf.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=Test_recive
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="D:\libero11.9\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="D:\libero11.9\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="D:\libero11.9\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="D:\libero11.9\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "buf::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\synthesis_1\buf.edn,syn_edn"
+VALUE "<project>\synthesis\buf.vm,syn_vm"
+VALUE "<project>\synthesis\synthesis_1\buf_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\synthesis_1\buf.vhd,syn_hdl"
+VALUE "<project>\phy_synthesis\buf_synthesis_1_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\buf_synthesis_1_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\buf_synthesis_1_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\buf_synthesis_1_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\buf_synthesis_1_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl1\buf_synthesis_1.adb,adb"
+VALUE "<project>\designer\impl1\buf_synthesis_1.prb,prb"
+VALUE "<project>\designer\impl1\buf_synthesis_1.fdb,fdb"
+VALUE "<project>\designer\impl1\buf_synthesis_1.stp,stp"
+VALUE "<project>\designer\impl1\buf_synthesis_1_fp\buf_synthesis_1.pro,pro"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "signal_send::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "single_recive::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideDESIGNER(<project>\designer\impl1\single_recive.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\single_recive.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Generate Programming Data:buf_prgdata_log.rpt
+StartPage;StartPage;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "buf::work","hdl\buf.vhd","FALSE","FALSE"
+SUBBLOCK "signal_send::work","hdl\signal_send.vhd","FALSE","FALSE"
+SUBBLOCK "single_recive::work","hdl\single_recive.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Buffer::work","hdl\Buffer.vhd","FALSE","FALSE"
+SUBBLOCK "single_recive::work","hdl\single_recive.vhd","FALSE","FALSE"
+SUBBLOCK "signal_send::work","hdl\signal_send.vhd","FALSE","FALSE"
+ENDLIST
+LIST "signal_send::work","hdl\signal_send.vhd","FALSE","FALSE"
+ENDLIST
+LIST "single_recive::work","hdl\single_recive.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Test_buf::work","stimulus\Test_buf.vhd","FALSE","TRUE"
+SUBBLOCK "buf::work","hdl\buf.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Test_recive::work","stimulus\Test_recive.vhd","FALSE","TRUE"
+SUBBLOCK "single_recive::work","hdl\single_recive.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Test_send::work","stimulus\Test_send.vhd","FALSE","TRUE"
+SUBBLOCK "signal_send::work","hdl\signal_send.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "single_recive::work"
+ACTIVETESTBENCH "Test_recive::work","stimulus\Test_recive.vhd","FALSE"
+ENDLIST
+LIST "signal_send::work"
+ACTIVETESTBENCH "Test_send::work","stimulus\Test_send.vhd","FALSE"
+ENDLIST
+LIST "buf::work"
+ACTIVETESTBENCH "Test_buf::work","stimulus\Test_buf.vhd","FALSE"
+ENDLIST
+LIST "signal_send::work"
+ACTIVETESTBENCH "Test_send::work","stimulus\Test_send.vhd","FALSE"
+ENDLIST
+LIST "single_recive::work"
+ACTIVETESTBENCH "Test_recive::work","stimulus\Test_recive.vhd","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

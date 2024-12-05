@@ -1,0 +1,10 @@
+D:\libero11.9\SynplifyPro\bin64\c_hdl.exe  -osyn  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\synwork\buf_comp.srs  -top  work.buf  -hdllog  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\synlog\buf_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -nram -fixsmult -divnmod  -encrypt  -pro  -dmgen  C:\Users\YH\Desktop\RS422\RS4221106\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work C:\Users\YH\Desktop\RS422\RS4221106\hdl\signal_send.vhd -lib work C:\Users\YH\Desktop\RS422\RS4221106\hdl\single_recive.vhd -lib work C:\Users\YH\Desktop\RS422\RS4221106\hdl\buf.vhd 
+relcom:D:\libero11.9\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\buf_comp.srs -top work.buf -hdllog ..\synlog\buf_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -nram -fixsmult -divnmod -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -vhdl2008 -ignore_undefined_lib -lib work ..\..\hdl\signal_send.vhd -lib work ..\..\hdl\single_recive.vhd -lib work ..\..\hdl\buf.vhd
+rc:0 success:1 runtime:2
+file:..\synwork\buf_comp.srs|io:o|time:1730877406|size:17298|exec:0|csum:
+file:..\synlog\buf_compiler.srr|io:o|time:1730877406|size:3669|exec:0|csum:
+file:..\..\hdl\signal_send.vhd|io:i|time:1730871128|size:5274|exec:0|csum:FB90AC18404215E70E01945D524C0888
+file:..\..\hdl\single_recive.vhd|io:i|time:1730813223|size:3903|exec:0|csum:CA1E4131D9FAE16C81E0BB605C0335A2
+file:..\..\hdl\buf.vhd|io:i|time:1730877399|size:7463|exec:0|csum:B48B21E941972F3E24BD1F0173E6EF95
+file:D:\libero11.9\SynplifyPro\bin\c_hdl.exe|io:i|time:1508986516|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
+file:D:\libero11.9\SynplifyPro\bin64\c_hdl.exe|io:i|time:1508986724|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C

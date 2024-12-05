@@ -1,0 +1,10 @@
+1730891446 -19:10:46 -0 -Client create_ipc, start a new server process in mode B !
+1730891446 -19:10:46 -0 -Server started !?
+1730891446 -19:10:46 -0 -client create_ipc modus B, open client jtagapi_c::g_pmC !
+1730891446 -19:10:46 -17563916 -ipcClient::Reconnect params
+Hostname:  127.0.0.1
+Port:      58015
+Logfile:   C:/Users/YH/Desktop/RS422/RS4221106 - good/synthesis/ipc_tcp_microsemi.log
+Reconnect: 0
+Use ipv6:  0
+

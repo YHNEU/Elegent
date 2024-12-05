@@ -1,0 +1,910 @@
+Timing Report Min Delay Analysis
+
+SmartTime Version v11.9
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+Date: Mon Nov 11 09:11:25 2024
+
+
+Design: buf
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+Temperature Range: -40 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - -40 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               atck
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Hold (ns):         -6.822
+Min Clock-To-Out (ns):      5.631
+
+Clock Domain:               sys_clk
+Required Period (ns):       40.000
+Required Frequency (MHz):   25.000
+External Hold (ns):         -0.536
+Min Clock-To-Out (ns):      2.777
+
+                            Input to Output
+Min Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain atck
+
+SET Register to Register
+
+Path 1
+  From:                  ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gr[14]:CLK
+  To:                    ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gs[14]:D
+  Delay (ns):            0.302
+  Slack (ns):
+  Arrival (ns):          1.769
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 2
+  From:                  ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[103]:CLK
+  To:                    ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[104]:D
+  Delay (ns):            0.308
+  Slack (ns):
+  Arrival (ns):          1.778
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 3
+  From:                  ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gr[11]:CLK
+  To:                    ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gs[11]:D
+  Delay (ns):            0.302
+  Slack (ns):
+  Arrival (ns):          1.769
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 4
+  From:                  ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[123]:CLK
+  To:                    ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[124]:D
+  Delay (ns):            0.316
+  Slack (ns):
+  Arrival (ns):          1.804
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 5
+  From:                  ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gr[5]:CLK
+  To:                    ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gs[5]:D
+  Delay (ns):            0.305
+  Slack (ns):
+  Arrival (ns):          1.772
+  Required (ns):
+  Hold (ns):             0.000
+
+
+Expanded Path 1
+  From: ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gr[14]:CLK
+  To: ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gs[14]:D
+  data arrival time                              1.769
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        atck
+               +     0.000          Clock source
+  0.000                        atck (r)
+               +     0.000          net: atck
+  0.000                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK (r)
+               +     0.057          cell: ADLIB:UJTAG
+  0.057                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UDRCK (r)
+               +     0.829          net: ident_coreinst/comm_block_INST/jtagi/identify_clk_int
+  0.886                        ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim:A (r)
+               +     0.247          cell: ADLIB:CLKINT
+  1.133                        ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim:Y (r)
+               +     0.334          net: ident_coreinst/IICE_comm2iice[11]
+  1.467                        ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gr[14]:CLK (r)
+               +     0.192          cell: ADLIB:DFN1
+  1.659                        ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gr[14]:Q (r)
+               +     0.110          net: ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gr[14]
+  1.769                        ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gs[14]:D (r)
+                                    
+  1.769                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          atck
+               +     0.000          Clock source
+  N/C                          atck (r)
+               +     0.000          net: atck
+  N/C                          ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK (r)
+               +     0.057          cell: ADLIB:UJTAG
+  N/C                          ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UDRCK (r)
+               +     0.829          net: ident_coreinst/comm_block_INST/jtagi/identify_clk_int
+  N/C                          ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim:A (r)
+               +     0.247          cell: ADLIB:CLKINT
+  N/C                          ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim:Y (r)
+               +     0.363          net: ident_coreinst/IICE_comm2iice[11]
+  N/C                          ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gs[14]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1
+  N/C                          ident_coreinst/IICE_INST/b5_nUTGT/b15_uRrc2XfY_rbN_gs[14]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                  ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To:                    ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UTDO
+  Delay (ns):            6.822
+  Slack (ns):
+  Arrival (ns):          6.822
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):
+
+Path 2
+  From:                  ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To:                    ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb[6]:D
+  Delay (ns):            6.505
+  Slack (ns):
+  Arrival (ns):          6.505
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):
+
+Path 3
+  From:                  ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To:                    ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb[4]:D
+  Delay (ns):            6.724
+  Slack (ns):
+  Arrival (ns):          6.724
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):
+
+Path 4
+  From:                  ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To:                    ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb[11]:D
+  Delay (ns):            6.719
+  Slack (ns):
+  Arrival (ns):          6.719
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):
+
+Path 5
+  From:                  ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To:                    ident_coreinst/comm_block_INST/b7_Rcmi_ql/b9_OvyH3_saL[4]:E
+  Delay (ns):            6.730
+  Slack (ns):
+  Arrival (ns):          6.730
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):
+
+
+Expanded Path 1
+  From: ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To: ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UTDO
+  data arrival time                              6.822
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        atck
+               +     0.000          Clock source
+  0.000                        atck (f)
+               +     0.000          net: atck
+  0.000                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK (f)
+               +     5.631          cell: ADLIB:UJTAG
+  5.631                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UIREG6 (f)
+               +     0.504          net: ident_coreinst/comm_block_INST/jtagi_UIREGdummy[6]
+  6.135                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw_RNO_0:A (f)
+               +     0.125          cell: ADLIB:NOR2B
+  6.260                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw_RNO_0:Y (f)
+               +     0.107          net: ident_coreinst/comm_block_INST/jtagi/b9_PLF_6lNa2_0
+  6.367                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw_RNO:C (f)
+               +     0.157          cell: ADLIB:OA1
+  6.524                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw_RNO:Y (f)
+               +     0.298          net: ident_coreinst/comm_block_INST/jtagi/b9_PLF_6lNa2
+  6.822                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UTDO (f)
+                                    
+  6.822                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          atck
+               +     0.000          Clock source
+  N/C                          atck (f)
+               +     0.000          net: atck
+  N/C                          ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK (f)
+               +     0.000          Library hold time: ADLIB:UJTAG
+  N/C                          ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UTDO
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                  ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To:                    atdo
+  Delay (ns):            5.631
+  Slack (ns):
+  Arrival (ns):          5.631
+  Required (ns):
+  Clock to Out (ns):     5.631
+
+
+Expanded Path 1
+  From: ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To: atdo
+  data arrival time                              5.631
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        atck
+               +     0.000          Clock source
+  0.000                        atck (f)
+               +     0.000          net: atck
+  0.000                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK (f)
+               +     5.631          cell: ADLIB:UJTAG
+  5.631                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TDO (f)
+               +     0.000          net: atdo
+  5.631                        atdo (f)
+                                    
+  5.631                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          atck
+               +     0.000          Clock source
+  N/C                          atck (r)
+                                    
+  N/C                          atdo (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+Path 1
+  From:                  atrstb
+  To:                    ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TRSTB
+  Delay (ns):            0.000
+  Slack (ns):
+  Arrival (ns):          0.000
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): 0.000
+
+
+Expanded Path 1
+  From: atrstb
+  To: ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TRSTB
+  data arrival time                              0.000
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        atrstb (r)
+               +     0.000          net: atrstb
+  0.000                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TRSTB (r)
+                                    
+  0.000                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          atck
+               +     0.000          Clock source
+  N/C                          atck (r)
+               +     0.000          net: atck
+  N/C                          ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK (r)
+               +     0.000          Library removal time: ADLIB:UJTAG
+  N/C                          ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TRSTB
+
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+Path 1
+  From:                  ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To:                    ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UTDO
+  Delay (ns):            6.822
+  Slack (ns):
+  Arrival (ns):          6.822
+  Required (ns):
+
+Path 2
+  From:                  ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To:                    ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb[6]:D
+  Delay (ns):            6.505
+  Slack (ns):
+  Arrival (ns):          6.505
+  Required (ns):
+
+Path 3
+  From:                  ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To:                    ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb[4]:D
+  Delay (ns):            6.724
+  Slack (ns):
+  Arrival (ns):          6.724
+  Required (ns):
+
+Path 4
+  From:                  ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To:                    ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb[11]:D
+  Delay (ns):            6.719
+  Slack (ns):
+  Arrival (ns):          6.719
+  Required (ns):
+
+Path 5
+  From:                  ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To:                    ident_coreinst/comm_block_INST/b7_Rcmi_ql/b9_OvyH3_saL[4]:E
+  Delay (ns):            6.730
+  Slack (ns):
+  Arrival (ns):          6.730
+  Required (ns):
+
+
+Expanded Path 1
+  From: ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK
+  To: ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UTDO
+  data arrival time                              6.822
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        atck
+               +     0.000          Clock source
+  0.000                        atck (f)
+               +     0.000          net: atck
+  0.000                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK (f)
+               +     5.631          cell: ADLIB:UJTAG
+  5.631                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UIREG6 (f)
+               +     0.504          net: ident_coreinst/comm_block_INST/jtagi_UIREGdummy[6]
+  6.135                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw_RNO_0:A (f)
+               +     0.125          cell: ADLIB:NOR2B
+  6.260                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw_RNO_0:Y (f)
+               +     0.107          net: ident_coreinst/comm_block_INST/jtagi/b9_PLF_6lNa2_0
+  6.367                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw_RNO:C (f)
+               +     0.157          cell: ADLIB:OA1
+  6.524                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw_RNO:Y (f)
+               +     0.298          net: ident_coreinst/comm_block_INST/jtagi/b9_PLF_6lNa2
+  6.822                        ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UTDO (f)
+                                    
+  6.822                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          atck
+               +     0.000          Clock source
+  N/C                          atck (f)
+               +     0.000          net: atck
+  N/C                          ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:TCK (f)
+               +     0.000          Library hold time: ADLIB:UJTAG
+  N/C                          ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UTDO
+
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain sys_clk
+
+SET Register to Register
+
+Path 1
+  From:                  ident_coreinst/IICE_INST/mdiclink_reg[53]:CLK
+  To:                    ident_coreinst/IICE_INST/b3_SoW/b6_SoWyQD/genblk2.b5_oRB_C[107]:D
+  Delay (ns):            0.302
+  Slack (ns):            0.261
+  Arrival (ns):          1.084
+  Required (ns):         0.823
+  Hold (ns):             0.000
+
+Path 2
+  From:                  ident_coreinst/IICE_INST/mdiclink_reg[149]:CLK
+  To:                    ident_coreinst/IICE_INST/b3_SoW/b6_SoWyQD/genblk2.b5_oRB_C[11]:D
+  Delay (ns):            0.302
+  Slack (ns):            0.268
+  Arrival (ns):          1.055
+  Required (ns):         0.787
+  Hold (ns):             0.000
+
+Path 3
+  From:                  ident_coreinst/IICE_INST/mdiclink_reg[95]:CLK
+  To:                    ident_coreinst/IICE_INST/b3_SoW/b6_SoWyQD/genblk2.b5_oRB_C[65]:D
+  Delay (ns):            0.302
+  Slack (ns):            0.274
+  Arrival (ns):          1.064
+  Required (ns):         0.790
+  Hold (ns):             0.000
+
+Path 4
+  From:                  ident_coreinst/IICE_INST/mdiclink_reg[150]:CLK
+  To:                    ident_coreinst/IICE_INST/b3_SoW/b6_SoWyQD/genblk2.b5_oRB_C[10]:D
+  Delay (ns):            0.306
+  Slack (ns):            0.275
+  Arrival (ns):          1.059
+  Required (ns):         0.784
+  Hold (ns):             0.000
+
+Path 5
+  From:                  ident_coreinst/IICE_INST/mdiclink_reg[57]:CLK
+  To:                    ident_coreinst/IICE_INST/b3_SoW/b6_SoWyQD/genblk2.b5_oRB_C[103]:D
+  Delay (ns):            0.302
+  Slack (ns):            0.276
+  Arrival (ns):          1.099
+  Required (ns):         0.823
+  Hold (ns):             0.000
+
+
+Expanded Path 1
+  From: ident_coreinst/IICE_INST/mdiclink_reg[53]:CLK
+  To: ident_coreinst/IICE_INST/b3_SoW/b6_SoWyQD/genblk2.b5_oRB_C[107]:D
+  data arrival time                              1.084
+  data required time                         -   0.823
+  slack                                          0.261
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        sys_clk
+               +     0.000          Clock source
+  0.000                        sys_clk (r)
+               +     0.000          net: sys_clk
+  0.000                        sys_clk_pad/U0/U0:PAD (r)
+               +     0.304          cell: ADLIB:IOPAD_IN
+  0.304                        sys_clk_pad/U0/U0:Y (r)
+               +     0.000          net: sys_clk_pad/U0/NET1
+  0.304                        sys_clk_pad/U0/U1:A (r)
+               +     0.115          cell: ADLIB:CLKIO
+  0.419                        sys_clk_pad/U0/U1:Y (r)
+               +     0.363          net: sys_clk_c
+  0.782                        ident_coreinst/IICE_INST/mdiclink_reg[53]:CLK (r)
+               +     0.192          cell: ADLIB:DFN1
+  0.974                        ident_coreinst/IICE_INST/mdiclink_reg[53]:Q (r)
+               +     0.110          net: ident_coreinst/IICE_INST/mdiclink_reg[53]
+  1.084                        ident_coreinst/IICE_INST/b3_SoW/b6_SoWyQD/genblk2.b5_oRB_C[107]:D (r)
+                                    
+  1.084                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        sys_clk
+               +     0.000          Clock source
+  0.000                        sys_clk (r)
+               +     0.000          net: sys_clk
+  0.000                        sys_clk_pad/U0/U0:PAD (r)
+               +     0.304          cell: ADLIB:IOPAD_IN
+  0.304                        sys_clk_pad/U0/U0:Y (r)
+               +     0.000          net: sys_clk_pad/U0/NET1
+  0.304                        sys_clk_pad/U0/U1:A (r)
+               +     0.115          cell: ADLIB:CLKIO
+  0.419                        sys_clk_pad/U0/U1:Y (r)
+               +     0.404          net: sys_clk_c
+  0.823                        ident_coreinst/IICE_INST/b3_SoW/b6_SoWyQD/genblk2.b5_oRB_C[107]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1
+  0.823                        ident_coreinst/IICE_INST/b3_SoW/b6_SoWyQD/genblk2.b5_oRB_C[107]:D
+                                    
+  0.823                        data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                  rx_uart
+  To:                    single_recive_0/rx_fall:D
+  Delay (ns):            1.477
+  Slack (ns):
+  Arrival (ns):          1.477
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):    -0.536
+
+Path 2
+  From:                  rx_uart
+  To:                    single_recive_0/data_recive[7]:D
+  Delay (ns):            2.125
+  Slack (ns):
+  Arrival (ns):          2.125
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):    -1.183
+
+Path 3
+  From:                  rx_uart
+  To:                    single_recive_0/data_recive[4]:D
+  Delay (ns):            2.307
+  Slack (ns):
+  Arrival (ns):          2.307
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):    -1.347
+
+Path 4
+  From:                  rx_uart
+  To:                    single_recive_0/data_recive[1]:D
+  Delay (ns):            2.300
+  Slack (ns):
+  Arrival (ns):          2.300
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):    -1.358
+
+Path 5
+  From:                  rx_uart
+  To:                    single_recive_0/data_recive[0]:D
+  Delay (ns):            2.464
+  Slack (ns):
+  Arrival (ns):          2.464
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):    -1.512
+
+
+Expanded Path 1
+  From: rx_uart
+  To: single_recive_0/rx_fall:D
+  data arrival time                              1.477
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        rx_uart (f)
+               +     0.000          net: rx_uart
+  0.000                        rx_uart_pad/U0/U0:PAD (f)
+               +     0.208          cell: ADLIB:IOPAD_IN
+  0.208                        rx_uart_pad/U0/U0:Y (f)
+               +     0.000          net: rx_uart_pad/U0/NET1
+  0.208                        rx_uart_pad/U0/U1:YIN (f)
+               +     0.013          cell: ADLIB:IOIN_IB
+  0.221                        rx_uart_pad/U0/U1:Y (f)
+               +     1.256          net: rx_uart_c
+  1.477                        single_recive_0/rx_fall:D (f)
+                                    
+  1.477                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          sys_clk
+               +     0.000          Clock source
+  N/C                          sys_clk (r)
+               +     0.000          net: sys_clk
+  N/C                          sys_clk_pad/U0/U0:PAD (r)
+               +     0.381          cell: ADLIB:IOPAD_IN
+  N/C                          sys_clk_pad/U0/U0:Y (r)
+               +     0.000          net: sys_clk_pad/U0/NET1
+  N/C                          sys_clk_pad/U0/U1:A (r)
+               +     0.144          cell: ADLIB:CLKIO
+  N/C                          sys_clk_pad/U0/U1:Y (r)
+               +     0.416          net: sys_clk_c
+  N/C                          single_recive_0/rx_fall:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1C0
+  N/C                          single_recive_0/rx_fall:D
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                  test:CLK
+  To:                    test
+  Delay (ns):            2.005
+  Slack (ns):
+  Arrival (ns):          2.777
+  Required (ns):
+  Clock to Out (ns):     2.777
+
+Path 2
+  From:                  signal_send_0/tx_uart:CLK
+  To:                    tx_uart
+  Delay (ns):            2.690
+  Slack (ns):
+  Arrival (ns):          3.449
+  Required (ns):
+  Clock to Out (ns):     3.449
+
+
+Expanded Path 1
+  From: test:CLK
+  To: test
+  data arrival time                              2.777
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        sys_clk
+               +     0.000          Clock source
+  0.000                        sys_clk (r)
+               +     0.000          net: sys_clk
+  0.000                        sys_clk_pad/U0/U0:PAD (r)
+               +     0.304          cell: ADLIB:IOPAD_IN
+  0.304                        sys_clk_pad/U0/U0:Y (r)
+               +     0.000          net: sys_clk_pad/U0/NET1
+  0.304                        sys_clk_pad/U0/U1:A (r)
+               +     0.115          cell: ADLIB:CLKIO
+  0.419                        sys_clk_pad/U0/U1:Y (r)
+               +     0.353          net: sys_clk_c
+  0.772                        test:CLK (r)
+               +     0.192          cell: ADLIB:DFN1C0
+  0.964                        test:Q (r)
+               +     0.753          net: test_c
+  1.717                        test_pad/U0/U1:D (r)
+               +     0.215          cell: ADLIB:IOTRI_OB_EB
+  1.932                        test_pad/U0/U1:DOUT (r)
+               +     0.000          net: test_pad/U0/NET1
+  1.932                        test_pad/U0/U0:D (r)
+               +     0.845          cell: ADLIB:IOPAD_TRI
+  2.777                        test_pad/U0/U0:PAD (r)
+               +     0.000          net: test
+  2.777                        test (r)
+                                    
+  2.777                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          sys_clk
+               +     0.000          Clock source
+  N/C                          sys_clk (r)
+                                    
+  N/C                          test (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                  ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb:CLK
+  To:                    ident_coreinst/IICE_INST/b3_SoW/b8_FZFFLXYE[0]:CLR
+  Delay (ns):            1.457
+  Slack (ns):            1.434
+  Arrival (ns):          2.210
+  Required (ns):         0.776
+  Removal (ns):          0.000
+  Skew (ns):             -0.023
+
+Path 2
+  From:                  ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb:CLK
+  To:                    ident_coreinst/IICE_INST/b3_SoW/b12_2_St6KCa_jHv[2]:CLR
+  Delay (ns):            1.463
+  Slack (ns):            1.438
+  Arrival (ns):          2.216
+  Required (ns):         0.778
+  Removal (ns):          0.000
+  Skew (ns):             -0.025
+
+Path 3
+  From:                  ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb:CLK
+  To:                    ident_coreinst/IICE_INST/b3_SoW/b8_FZFFLXYE[2]:CLR
+  Delay (ns):            1.455
+  Slack (ns):            1.438
+  Arrival (ns):          2.208
+  Required (ns):         0.770
+  Removal (ns):          0.000
+  Skew (ns):             -0.017
+
+Path 4
+  From:                  ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb:CLK
+  To:                    ident_coreinst/IICE_INST/b3_SoW/b12_2_St6KCa_jHv[1]:CLR
+  Delay (ns):            1.463
+  Slack (ns):            1.438
+  Arrival (ns):          2.216
+  Required (ns):         0.778
+  Removal (ns):          0.000
+  Skew (ns):             -0.025
+
+Path 5
+  From:                  ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb:CLK
+  To:                    ident_coreinst/IICE_INST/b3_SoW/b8_FZFFLXYE[1]:CLR
+  Delay (ns):            1.456
+  Slack (ns):            1.439
+  Arrival (ns):          2.209
+  Required (ns):         0.770
+  Removal (ns):          0.000
+  Skew (ns):             -0.017
+
+
+Expanded Path 1
+  From: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb:CLK
+  To: ident_coreinst/IICE_INST/b3_SoW/b8_FZFFLXYE[0]:CLR
+  data arrival time                              2.210
+  data required time                         -   0.776
+  slack                                          1.434
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        sys_clk
+               +     0.000          Clock source
+  0.000                        sys_clk (r)
+               +     0.000          net: sys_clk
+  0.000                        sys_clk_pad/U0/U0:PAD (r)
+               +     0.304          cell: ADLIB:IOPAD_IN
+  0.304                        sys_clk_pad/U0/U0:Y (r)
+               +     0.000          net: sys_clk_pad/U0/NET1
+  0.304                        sys_clk_pad/U0/U1:A (r)
+               +     0.115          cell: ADLIB:CLKIO
+  0.419                        sys_clk_pad/U0/U1:Y (r)
+               +     0.334          net: sys_clk_c
+  0.753                        ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb:CLK (r)
+               +     0.239          cell: ADLIB:DFN1
+  0.992                        ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb:Q (f)
+               +     0.638          net: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb
+  1.630                        ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_RNI0GM6:A (f)
+               +     0.249          cell: ADLIB:CLKINT
+  1.879                        ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_RNI0GM6:Y (f)
+               +     0.331          net: ident_coreinst/IICE_INST/b5_voSc3
+  2.210                        ident_coreinst/IICE_INST/b3_SoW/b8_FZFFLXYE[0]:CLR (f)
+                                    
+  2.210                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        sys_clk
+               +     0.000          Clock source
+  0.000                        sys_clk (r)
+               +     0.000          net: sys_clk
+  0.000                        sys_clk_pad/U0/U0:PAD (r)
+               +     0.304          cell: ADLIB:IOPAD_IN
+  0.304                        sys_clk_pad/U0/U0:Y (r)
+               +     0.000          net: sys_clk_pad/U0/NET1
+  0.304                        sys_clk_pad/U0/U1:A (r)
+               +     0.115          cell: ADLIB:CLKIO
+  0.419                        sys_clk_pad/U0/U1:Y (r)
+               +     0.357          net: sys_clk_c
+  0.776                        ident_coreinst/IICE_INST/b3_SoW/b8_FZFFLXYE[0]:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1E1C1
+  0.776                        ident_coreinst/IICE_INST/b3_SoW/b8_FZFFLXYE[0]:CLR
+                                    
+  0.776                        data required time
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+Path 1
+  From:                  sys_rest
+  To:                    data_all[105]:CLR
+  Delay (ns):            0.654
+  Slack (ns):
+  Arrival (ns):          0.654
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): 0.341
+
+Path 2
+  From:                  sys_rest
+  To:                    data_all[109]:CLR
+  Delay (ns):            0.654
+  Slack (ns):
+  Arrival (ns):          0.654
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): 0.341
+
+Path 3
+  From:                  sys_rest
+  To:                    data_all[111]:CLR
+  Delay (ns):            0.654
+  Slack (ns):
+  Arrival (ns):          0.654
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): 0.341
+
+Path 4
+  From:                  sys_rest
+  To:                    data_all[89]:CLR
+  Delay (ns):            0.651
+  Slack (ns):
+  Arrival (ns):          0.651
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): 0.332
+
+Path 5
+  From:                  sys_rest
+  To:                    data_all[93]:CLR
+  Delay (ns):            0.654
+  Slack (ns):
+  Arrival (ns):          0.654
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): 0.326
+
+
+Expanded Path 1
+  From: sys_rest
+  To: data_all[105]:CLR
+  data arrival time                              0.654
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        sys_rest (r)
+               +     0.000          net: sys_rest
+  0.000                        sys_rest_pad/U0/U0:PAD (r)
+               +     0.299          cell: ADLIB:IOPAD_IN
+  0.299                        sys_rest_pad/U0/U0:Y (r)
+               +     0.000          net: sys_rest_pad/U0/NET1
+  0.299                        sys_rest_pad/U0/U1:A (r)
+               +     0.115          cell: ADLIB:CLKIO
+  0.414                        sys_rest_pad/U0/U1:Y (r)
+               +     0.240          net: sys_rest_c
+  0.654                        data_all[105]:CLR (r)
+                                    
+  0.654                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          sys_clk
+               +     0.000          Clock source
+  N/C                          sys_clk (r)
+               +     0.000          net: sys_clk
+  N/C                          sys_clk_pad/U0/U0:PAD (r)
+               +     0.381          cell: ADLIB:IOPAD_IN
+  N/C                          sys_clk_pad/U0/U0:Y (r)
+               +     0.000          net: sys_clk_pad/U0/NET1
+  N/C                          sys_clk_pad/U0/U1:A (r)
+               +     0.144          cell: ADLIB:CLKIO
+  N/C                          sys_clk_pad/U0/U1:Y (r)
+               +     0.470          net: sys_clk_c
+  N/C                          data_all[105]:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1E0C0
+  N/C                          data_all[105]:CLR
+
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

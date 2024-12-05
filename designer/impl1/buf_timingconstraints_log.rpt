@@ -1,0 +1,89 @@
+Microsemi Libero Software
+Version: 11.9.0.4
+Release: v11.9
+
+Info: The design buf.adb was last modified by software version 11.9.0.4.
+Opened an existing Libero design buf.adb.
+
+The Execute Script command succeeded ( 00:00:02 )
+Checking for software updates...
+Info: The software cannot reach the Microsemi SoC server to confirm the version you are running.
+      Visit
+      http://www.microsemi.com/products/fpga-soc/design-resources/design-software/libero-soc#do\
+      wnloads to download the latest major release or service pack.
+      You can check the version of your current installation by starting the tool and selecting
+      Help -> About.
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Wed Nov 06 15:09:17 2024
+
+Placer Finished: Wed Nov 06 15:09:30 2024
+Total Placer CPU Time:     00:00:13
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: buf                             Started: Wed Nov 06 15:09:32 2024
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: buf                             
+Finished: Wed Nov 06 15:09:53 2024
+Total CPU Time:     00:00:16            Total Elapsed Time: 00:00:21
+Total Memory Usage: 386.4 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:40 )
+Warning: Files
+          C:\Users\YH\Desktop\RS422\RS4221106\designer\impl1\buf_ba.sdf
+          C:\Users\YH\Desktop\RS422\RS4221106\designer\impl1\buf_ba.vhd
+         already exist.
+         Do you want to replace the files? [YES]
+Back-annotated to the file(s):
+   .\buf_ba.sdf
+   .\buf_ba.vhd
+
+The Back-Annotate command succeeded ( 00:00:00 )
+Warning: The following files already exist:
+         
+         C:\Users\YH\Desktop\RS422\RS4221106\designer\impl1\buf.pdb
+         
+         Do you want to replace the files? [YES]
+
+The Export-map command succeeded ( 00:00:15 )
+Warning: Overwriting the existing file:
+         C:\Users\YH\Desktop\RS422\RS4221106\designer\impl1\buf.pdb.
+Wrote to the file: C:\Users\YH\Desktop\RS422\RS4221106\designer\impl1\buf.pdb
+CHECKSUM: EFA1
+
+The Generate programming file command succeeded ( 00:00:16 )
+Design saved to file C:\Users\YH\Desktop\RS422\RS4221106\designer\impl1\buf.adb.
+Design closed.
+

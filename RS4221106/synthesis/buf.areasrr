@@ -1,0 +1,125 @@
+----------------------------------------------------------------------
+Report for cell buf.architecture_buf
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                                AO1        50       1.0       50.0
+                               AO1A        27       1.0       27.0
+                               AO1D        30       1.0       30.0
+                               AOI1         5       1.0        5.0
+                                AX1         1       1.0        1.0
+                               AX1C        12       1.0       12.0
+                             CLKBUF         2       0.0        0.0
+                             CLKINT         2       0.0        0.0
+                             DFN1C0        16       1.0       16.0
+                           DFN1E0C0       202       1.0      202.0
+                           DFN1E1C0        43       1.0       43.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                MX2        66       1.0       66.0
+                               MX2B         4       1.0        4.0
+                               MX2C         5       1.0        5.0
+                               NOR2        60       1.0       60.0
+                              NOR2A       140       1.0      140.0
+                              NOR2B       166       1.0      166.0
+                               NOR3        44       1.0       44.0
+                              NOR3A        53       1.0       53.0
+                              NOR3B        41       1.0       41.0
+                              NOR3C       102       1.0      102.0
+                                OA1         5       1.0        5.0
+                               OA1A         4       1.0        4.0
+                               OA1B        13       1.0       13.0
+                               OA1C        31       1.0       31.0
+                               OAI1         2       1.0        2.0
+                                OR2        19       1.0       19.0
+                               OR2A         6       1.0        6.0
+                               OR2B         3       1.0        3.0
+                                OR3        65       1.0       65.0
+                               OR3A        10       1.0       10.0
+                               OR3B         3       1.0        3.0
+                             OUTBUF         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1B        50       1.0       50.0
+                              XNOR2        12       1.0       12.0
+                                XO1        10       1.0       10.0
+                               XOR2        33       1.0       33.0
+                        signal_send         1     214.0      214.0
+                      single_recive         1     186.0      186.0
+                            
+                         TOTAL           1350               1740.0
+----------------------------------------------------------------------
+Report for cell signal_send.netlist
+     Instance path:  signal_send_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AND3        12       1.0       12.0
+                                AO1         6       1.0        6.0
+                               AO1A         3       1.0        3.0
+                               AO1B         2       1.0        2.0
+                               AOI1         2       1.0        2.0
+                               AX1C         3       1.0        3.0
+                             DFN1C0        14       1.0       14.0
+                           DFN1E0C0        11       1.0       11.0
+                           DFN1E0P0         2       1.0        2.0
+                           DFN1E1C0         1       1.0        1.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2        13       1.0       13.0
+                              NOR2A        18       1.0       18.0
+                              NOR2B        34       1.0       34.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         8       1.0        8.0
+                              NOR3B        16       1.0       16.0
+                              NOR3C        23       1.0       23.0
+                               OA1A         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         4       1.0        4.0
+                                OR3         7       1.0        7.0
+                                VCC         1       0.0        0.0
+                               XA1A         4       1.0        4.0
+                              XNOR2         1       1.0        1.0
+                               XOR2        21       1.0       21.0
+                            
+                         TOTAL            216                214.0
+----------------------------------------------------------------------
+Report for cell single_recive.netlist
+     Instance path:  single_recive_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AND3        12       1.0       12.0
+                                AO1         8       1.0        8.0
+                               AO1A         7       1.0        7.0
+                               AO1D         2       1.0        2.0
+                               AX1C         1       1.0        1.0
+                             DFN1C0        15       1.0       15.0
+                           DFN1E1C0         9       1.0        9.0
+                                GND         1       0.0        0.0
+                               MX2C         3       1.0        3.0
+                               NOR2        10       1.0       10.0
+                              NOR2A        34       1.0       34.0
+                              NOR2B        23       1.0       23.0
+                               NOR3         3       1.0        3.0
+                              NOR3A         5       1.0        5.0
+                              NOR3B         8       1.0        8.0
+                              NOR3C        10       1.0       10.0
+                                OA1         3       1.0        3.0
+                               OA1A         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OA1C         3       1.0        3.0
+                                OR2         3       1.0        3.0
+                               OR2A         1       1.0        1.0
+                               OR2B         2       1.0        2.0
+                                OR3         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1B         7       1.0        7.0
+                               XOR2        11       1.0       11.0
+                            
+                         TOTAL            188                186.0

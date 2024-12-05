@@ -1,0 +1,26 @@
+----------------------------------------------------------------------
+Report for cell single_recive.architecture_single_recive
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AND3        12       1.0       12.0
+                               BUFF         1       1.0        1.0
+                             CLKBUF         1       0.0        0.0
+                             DFN1C0        25       1.0       25.0
+                           DFN1E1C0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              INBUF         3       0.0        0.0
+                                MX2         8       1.0        8.0
+                               NOR2         4       1.0        4.0
+                              NOR2A        21       1.0       21.0
+                              NOR2B        15       1.0       15.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C        18       1.0       18.0
+                               OR2A         1       1.0        1.0
+                               OR2B         1       1.0        1.0
+                             OUTBUF         9       0.0        0.0
+                                VCC         1       0.0        0.0
+                               XOR2        11       1.0       11.0
+                            
+                         TOTAL            139                124.0

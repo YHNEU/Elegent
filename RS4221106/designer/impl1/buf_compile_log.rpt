@@ -1,0 +1,216 @@
+Microsemi Libero Software
+Version: 11.9.0.4
+Release: v11.9
+
+Info: The design buf.adb was last modified by software version 11.9.0.4.
+Opened an existing Libero design buf.adb.
+'BA_NAME' set to 'buf_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\YH\Desktop\RS422\RS4221106\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+
+ Netlist Reading Time = 0.0 seconds
+Imported the file:
+   C:\Users\YH\Desktop\RS422\RS4221106\synthesis\buf.edn
+
+The Import command succeeded ( 00:00:01 )
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P1000
+Package     : 208 PQFP
+Source      : C:\Users\YH\Desktop\RS422\RS4221106\synthesis\buf.edn
+Format      : EDIF
+Topcell     : buf
+Speed grade : STD
+Temp        : -40:25:85
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : Yes
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              1
+  - Tieoff:                 0
+  - Logic combining:        44
+
+    Total macros optimized  45
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:   1695  Total:  24576   (6.90%)
+    IO (W/ clocks)             Used:      4  Total:    154   (2.60%)
+    Differential IO            Used:      0  Total:     35   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      4  Total:     18   (22.22%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:     32   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 3      | 6  (50.00%)*
+    Quadrant global | 1      | 12 (8.33%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 1380         | 1380
+    SEQ     | 315          | 315
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 3             | 0            | 0
+    Output I/O                            | 1             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 3     | 1      | 0
+
+I/O Placement:
+
+    Locked  :   4 ( 100.00% )
+    Placed  :   0
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    315     CLK_NET       Net   : sys_clk_c
+                          Driver: sys_clk_pad
+                          Source: NETLIST
+    293     INT_NET       Net   : N_398
+                          Driver: send_end_RNI08T6
+                          Source: NETLIST
+    192     INT_NET       Net   : cnt_recive_1_sqmuxa
+                          Driver: idle_recive_down_RNIIQRK_0
+                          Source: NETLIST
+
+The following nets have been assigned to a quadrant global resource:
+    Fanout  Type          Name
+    --------------------------
+    315     SET/RESET_NET Net   : sys_rest_c
+                          Driver: sys_rest_pad
+                          Region: quadrant_LL
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : cnt_recive[3]
+                          Driver: cnt_recive[3]
+    23      INT_NET       Net   : cnt_send[2]
+                          Driver: cnt_send[2]
+    23      INT_NET       Net   : N_1841
+                          Driver: cnt_send_0_RNIFIO51_0[4]
+    22      INT_NET       Net   : cnt_recive[2]
+                          Driver: cnt_recive[2]
+    22      INT_NET       Net   : cnt_send[3]
+                          Driver: cnt_send[3]
+    21      INT_NET       Net   : data_recive_buffer[0]
+                          Driver: single_recive_0/data_recive[0]
+    21      INT_NET       Net   : data_recive_buffer[1]
+                          Driver: single_recive_0/data_recive[1]
+    20      INT_NET       Net   : data_recive_buffer[2]
+                          Driver: single_recive_0/data_recive[2]
+    19      INT_NET       Net   : cnt_recive[0]
+                          Driver: cnt_recive[0]
+    19      INT_NET       Net   : cnt_recive[1]
+                          Driver: cnt_recive[1]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : cnt_recive[3]
+                          Driver: cnt_recive[3]
+    23      INT_NET       Net   : cnt_send[2]
+                          Driver: cnt_send[2]
+    23      INT_NET       Net   : N_1841
+                          Driver: cnt_send_0_RNIFIO51_0[4]
+    22      INT_NET       Net   : cnt_recive[2]
+                          Driver: cnt_recive[2]
+    22      INT_NET       Net   : cnt_send[3]
+                          Driver: cnt_send[3]
+    21      INT_NET       Net   : data_recive_buffer[0]
+                          Driver: single_recive_0/data_recive[0]
+    21      INT_NET       Net   : data_recive_buffer[1]
+                          Driver: single_recive_0/data_recive[1]
+    20      INT_NET       Net   : data_recive_buffer[2]
+                          Driver: single_recive_0/data_recive[2]
+    19      INT_NET       Net   : cnt_recive[0]
+                          Driver: cnt_recive[0]
+    19      INT_NET       Net   : cnt_recive[1]
+                          Driver: cnt_recive[1]
+
+The Compile command succeeded ( 00:00:01 )
+Wrote status report to file: buf_compile_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: buf_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: buf_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+Design saved to file C:\Users\YH\Desktop\RS422\RS4221106\designer\impl1\buf.adb.
+
+The Execute Script command succeeded ( 00:00:04 )
+Design closed.
+

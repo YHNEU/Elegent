@@ -1,0 +1,10 @@
+D:\libero11.9\SynplifyPro\bin64\c_vhdl.exe  -identify  -oidb  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\identify.db   -identify  -top  work.buf  -prodtype  synplify_pro  -nram -fixsmult -divnmod  -encrypt  -pro  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -srs_instrumentation  -ignore_undefined_lib  -lib work C:\Users\YH\Desktop\RS422\RS4221107\hdl\signal_send.vhd -lib work C:\Users\YH\Desktop\RS422\RS4221107\hdl\single_recive.vhd -lib work C:\Users\YH\Desktop\RS422\RS4221107\hdl\buf.vhd  -log  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\synlog\buf_identify_db_generator.srr  
+relcom:D:\libero11.9\SynplifyPro\bin64\c_vhdl.exe -identify -oidb ..\identify.db -identify -top work.buf -prodtype synplify_pro -nram -fixsmult -divnmod -encrypt -pro -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -vhdl2008 -srs_instrumentation -ignore_undefined_lib -lib work ..\..\..\hdl\signal_send.vhd -lib work ..\..\..\hdl\single_recive.vhd -lib work ..\..\..\hdl\buf.vhd -log ..\synlog\buf_identify_db_generator.srr
+rc:0 success:1 runtime:0
+file:..\..\..\hdl\signal_send.vhd|io:i|time:1730949798|size:5621|exec:0|csum:62ED7E5A3AA9DA9C6CD509DA458C2FC8
+file:..\..\..\hdl\single_recive.vhd|io:i|time:1730946127|size:4351|exec:0|csum:2907BF959845BC2FB2A5FA093A4880D8
+file:..\..\..\hdl\buf.vhd|io:i|time:1730956351|size:7801|exec:0|csum:470C599DE64B55FD1415E1D1BF5D50F5
+file:..\synlog\buf_identify_db_generator.srr|io:o|time:1731287029|size:2279|exec:0|csum:
+file:..\identify.db|io:o|time:1731287029|size:26812|exec:0|csum:
+file:D:\libero11.9\SynplifyPro\bin\c_vhdl.exe|io:i|time:1508986572|size:2418176|exec:1|csum:D9F812D79EB94CBBDB0D541970A78D0C
+file:D:\libero11.9\SynplifyPro\bin64\c_vhdl.exe|io:i|time:1508986828|size:3083776|exec:1|csum:D24FB2723E79C141A9CED32D990A5B55

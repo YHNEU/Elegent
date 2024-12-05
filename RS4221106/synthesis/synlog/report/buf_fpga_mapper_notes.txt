@@ -1,0 +1,16 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"c:\users\yh\desktop\rs422\rs4221106\hdl\buf.vhd":144:2:144:3|Found counter in view:work.buf(architecture_buf) instance cnt_delay[8:0] 
+@N: MO231 :"c:\users\yh\desktop\rs422\rs4221106\hdl\buf.vhd":176:2:176:3|Found counter in view:work.buf(architecture_buf) instance cnt_send[30:0] 
+@N: MO231 :"c:\users\yh\desktop\rs422\rs4221106\hdl\buf.vhd":95:2:95:3|Found counter in view:work.buf(architecture_buf) instance cnt_recive[30:0] 
+@N: MO231 :"c:\users\yh\desktop\rs422\rs4221106\hdl\buf.vhd":119:2:119:3|Found counter in view:work.buf(architecture_buf) instance cnt_recive_end[9:0] 
+@N: MF238 :"c:\users\yh\desktop\rs422\rs4221106\hdl\buf.vhd":186:24:186:31|Found 8-bit incrementor, 'un20_data_send_buffer_1[7:0]'
+@N: MF238 :"c:\users\yh\desktop\rs422\rs4221106\hdl\single_recive.vhd":77:12:77:20|Found 12-bit incrementor, 'un7_cnt_1[11:0]'
+@N: MO231 :"c:\users\yh\desktop\rs422\rs4221106\hdl\signal_send.vhd":47:1:47:2|Found counter in view:work.signal_send(architecture_signal_send) instance cnt_end[9:0] 
+@N: MF238 :"c:\users\yh\desktop\rs422\rs4221106\hdl\signal_send.vhd":85:31:85:39|Found 12-bit incrementor, 'un7_cnt_1[11:0]'
+@N: FP130 |Promoting Net sys_rest_c on CLKBUF  sys_rest_pad 
+@N: FP130 |Promoting Net sys_clk_c on CLKBUF  sys_clk_pad 
+@N: FP130 |Promoting Net N_398 on CLKINT  I_439 
+@N: FP130 |Promoting Net cnt_recive_1_sqmuxa on CLKINT  I_440 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -1,0 +1,21 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Date: Thu Nov 07 15:32:07 2024
+Design Name: single_recive  Family: ProASIC3  Die: A3P1000  Package: 208 PQFP
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    26                Net   : sys_clk_c
+                      Driver: sys_clk_pad/U0/U1/U_GL
+
+
+
+

@@ -1,0 +1,707 @@
+# Reading D:/libero11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 19:50:43 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 19:50:44 on Nov 06,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 19:50:44 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/single_recive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 19:50:44 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 19:50:44 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 19:50:44 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 19:50:44 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/stimulus/Test_buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Test_buf
+# -- Compiling architecture behavioral of Test_buf
+# End time: 19:50:44 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.Test_buf 
+# Start time: 19:50:44 on Nov 06,2024
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.test_buf(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.signal_send(architecture_signal_send)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: YH  Hostname: LAPTOP-4PVSALH1  ProcessID: 820
+#           Attempting to use alternate WLF file "./wlft7t6b8m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7t6b8m
+add wave -position insertpoint  \
+sim:/test_buf/buf_0/BITE_N \
+sim:/test_buf/buf_0/sys_clk \
+sim:/test_buf/buf_0/sys_rest \
+sim:/test_buf/buf_0/rx_uart \
+sim:/test_buf/buf_0/tx_uart \
+sim:/test_buf/buf_0/test \
+sim:/test_buf/buf_0/idle_recive \
+sim:/test_buf/buf_0/idle_send \
+sim:/test_buf/buf_0/data_recive_buffer \
+sim:/test_buf/buf_0/data_send_buffer \
+sim:/test_buf/buf_0/idle_recive_fall \
+sim:/test_buf/buf_0/idle_recive_down \
+sim:/test_buf/buf_0/idle_send_fall \
+sim:/test_buf/buf_0/idle_send_down \
+sim:/test_buf/buf_0/receive_end \
+sim:/test_buf/buf_0/send_end \
+sim:/test_buf/buf_0/cnt_recive_end \
+sim:/test_buf/buf_0/cnt_delay \
+sim:/test_buf/buf_0/cnt_recive \
+sim:/test_buf/buf_0/cnt_send \
+sim:/test_buf/buf_0/data_all \
+sim:/test_buf/buf_0/vld_send \
+sim:/test_buf/buf_0/end_flag \
+sim:/test_buf/buf_0/cnt_flag
+restart
+run
+restart
+run
+# GetModuleFileName: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£
+# 
+# 
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:00:51 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# ** Error: C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/signal_send.vhd(68): (vcom-1136) Unknown identifier "ï".
+# ** Error: C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/signal_send.vhd(68): near "¼": (vcom-1576) expecting ';'.
+# ** Error: C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/signal_send.vhd(68): near "<byte 0x88>": illegal character found in source
+# ** Error: C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/signal_send.vhd(146): VHDL Compiler exiting
+# End time: 20:00:51 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: D:/libero11.9/Modelsim/win32acoem/vcom failed.
+# Error in macro ./run.do line 13
+# D:/libero11.9/Modelsim/win32acoem/vcom failed.
+#     while executing
+# "vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/hdl/signal_send.vhd""
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:01:12 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 20:01:13 on Nov 06,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:01:13 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/single_recive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 20:01:13 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:01:13 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 20:01:13 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:01:13 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/stimulus/Test_buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Test_buf
+# -- Compiling architecture behavioral of Test_buf
+# End time: 20:01:13 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:01:14 on Nov 06,2024, Elapsed time: 0:10:30
+# Errors: 7, Warnings: 2
+# vsim -L proasic3 -L presynth -t 1ps presynth.Test_buf 
+# Start time: 20:01:14 on Nov 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.test_buf(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.signal_send(architecture_signal_send)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: YH  Hostname: LAPTOP-4PVSALH1  ProcessID: 820
+#           Attempting to use alternate WLF file "./wlftvbcxgn".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvbcxgn
+add wave -position insertpoint  \
+sim:/test_buf/buf_0/BITE_N \
+sim:/test_buf/buf_0/sys_clk \
+sim:/test_buf/buf_0/sys_rest \
+sim:/test_buf/buf_0/rx_uart \
+sim:/test_buf/buf_0/tx_uart \
+sim:/test_buf/buf_0/test \
+sim:/test_buf/buf_0/idle_recive \
+sim:/test_buf/buf_0/idle_send \
+sim:/test_buf/buf_0/data_recive_buffer \
+sim:/test_buf/buf_0/data_send_buffer \
+sim:/test_buf/buf_0/idle_recive_fall \
+sim:/test_buf/buf_0/idle_recive_down \
+sim:/test_buf/buf_0/idle_send_fall \
+sim:/test_buf/buf_0/idle_send_down \
+sim:/test_buf/buf_0/receive_end \
+sim:/test_buf/buf_0/send_end \
+sim:/test_buf/buf_0/cnt_recive_end \
+sim:/test_buf/buf_0/cnt_delay \
+sim:/test_buf/buf_0/cnt_recive \
+sim:/test_buf/buf_0/cnt_send \
+sim:/test_buf/buf_0/data_all \
+sim:/test_buf/buf_0/vld_send \
+sim:/test_buf/buf_0/end_flag \
+sim:/test_buf/buf_0/cnt_flag
+restart
+run
+# ** Fatal: (vsim-3734) Index value 167 is out of range 159 downto 0.
+#    Time: 2070980 ns  Iteration: 0  Process: /test_buf/buf_0/line__94 File: C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd
+# Fatal error in Process line__94 at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd line 106
+# 
+# HDL call sequence:
+# Stopped at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 106 Process line__94
+# 
+restart
+run
+# ** Fatal: (vsim-3734) Index value 167 is out of range 159 downto 0.
+#    Time: 2070980 ns  Iteration: 0  Process: /test_buf/buf_0/line__94 File: C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd
+# Fatal error in Process line__94 at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd line 106
+# 
+# HDL call sequence:
+# Stopped at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 106 Process line__94
+# 
+restart
+run
+# ** Fatal: (vsim-3734) Index value 167 is out of range 159 downto 0.
+#    Time: 2070980 ns  Iteration: 0  Process: /test_buf/buf_0/line__94 File: C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd
+# Fatal error in Process line__94 at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd line 106
+# 
+# HDL call sequence:
+# Stopped at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 106 Process line__94
+# 
+restart
+run
+# ** Fatal: (vsim-3734) Index value 167 is out of range 159 downto 0.
+#    Time: 2070980 ns  Iteration: 0  Process: /test_buf/buf_0/line__94 File: C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd
+# Fatal error in Process line__94 at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd line 106
+# 
+# HDL call sequence:
+# Stopped at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 106 Process line__94
+# 
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:03:03 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 20:03:03 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:03:03 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/single_recive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 20:03:03 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:03:03 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 20:03:03 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:03:03 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/stimulus/Test_buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Test_buf
+# -- Compiling architecture behavioral of Test_buf
+# End time: 20:03:03 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:03:04 on Nov 06,2024, Elapsed time: 0:01:50
+# Errors: 8, Warnings: 2
+# vsim -L proasic3 -L presynth -t 1ps presynth.Test_buf 
+# Start time: 20:03:04 on Nov 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.test_buf(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.signal_send(architecture_signal_send)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: YH  Hostname: LAPTOP-4PVSALH1  ProcessID: 820
+#           Attempting to use alternate WLF file "./wlfta3j434".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfta3j434
+add wave -position insertpoint  \
+sim:/test_buf/buf_0/BITE_N \
+sim:/test_buf/buf_0/sys_clk \
+sim:/test_buf/buf_0/sys_rest \
+sim:/test_buf/buf_0/rx_uart \
+sim:/test_buf/buf_0/tx_uart \
+sim:/test_buf/buf_0/test \
+sim:/test_buf/buf_0/idle_recive \
+sim:/test_buf/buf_0/idle_send \
+sim:/test_buf/buf_0/data_recive_buffer \
+sim:/test_buf/buf_0/data_send_buffer \
+sim:/test_buf/buf_0/idle_recive_fall \
+sim:/test_buf/buf_0/idle_recive_down \
+sim:/test_buf/buf_0/idle_send_fall \
+sim:/test_buf/buf_0/idle_send_down \
+sim:/test_buf/buf_0/receive_end \
+sim:/test_buf/buf_0/send_end \
+sim:/test_buf/buf_0/cnt_recive_end \
+sim:/test_buf/buf_0/cnt_delay \
+sim:/test_buf/buf_0/cnt_recive \
+sim:/test_buf/buf_0/cnt_send \
+sim:/test_buf/buf_0/data_all \
+sim:/test_buf/buf_0/vld_send \
+sim:/test_buf/buf_0/end_flag \
+sim:/test_buf/buf_0/cnt_flag
+restart
+run
+# ** Fatal: (vsim-3734) Index value 167 is out of range 159 downto 0.
+#    Time: 2149100 ns  Iteration: 0  Process: /test_buf/buf_0/line__94 File: C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd
+# Fatal error in Process line__94 at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd line 106
+# 
+# HDL call sequence:
+# Stopped at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 106 Process line__94
+# 
+restart
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:03:52 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 20:03:52 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:03:53 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/single_recive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 20:03:53 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:03:53 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 20:03:53 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:03:53 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/stimulus/Test_buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Test_buf
+# -- Compiling architecture behavioral of Test_buf
+# End time: 20:03:53 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:03:54 on Nov 06,2024, Elapsed time: 0:00:50
+# Errors: 2, Warnings: 2
+# vsim -L proasic3 -L presynth -t 1ps presynth.Test_buf 
+# Start time: 20:03:54 on Nov 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.test_buf(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.signal_send(architecture_signal_send)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: YH  Hostname: LAPTOP-4PVSALH1  ProcessID: 820
+#           Attempting to use alternate WLF file "./wlft2cs6ey".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2cs6ey
+add wave -position insertpoint  \
+sim:/test_buf/buf_0/BITE_N \
+sim:/test_buf/buf_0/sys_clk \
+sim:/test_buf/buf_0/sys_rest \
+sim:/test_buf/buf_0/rx_uart \
+sim:/test_buf/buf_0/tx_uart \
+sim:/test_buf/buf_0/test \
+sim:/test_buf/buf_0/idle_recive \
+sim:/test_buf/buf_0/idle_send \
+sim:/test_buf/buf_0/data_recive_buffer \
+sim:/test_buf/buf_0/data_send_buffer \
+sim:/test_buf/buf_0/idle_recive_fall \
+sim:/test_buf/buf_0/idle_recive_down \
+sim:/test_buf/buf_0/idle_send_fall \
+sim:/test_buf/buf_0/idle_send_down \
+sim:/test_buf/buf_0/receive_end \
+sim:/test_buf/buf_0/send_end \
+sim:/test_buf/buf_0/cnt_recive_end \
+sim:/test_buf/buf_0/cnt_delay \
+sim:/test_buf/buf_0/cnt_recive \
+sim:/test_buf/buf_0/cnt_send \
+sim:/test_buf/buf_0/data_all \
+sim:/test_buf/buf_0/vld_send \
+sim:/test_buf/buf_0/end_flag \
+sim:/test_buf/buf_0/cnt_flag
+restart
+run
+# ** Fatal: (vsim-3734) Index value 167 is out of range 159 downto 0.
+#    Time: 2930300 ns  Iteration: 0  Process: /test_buf/buf_0/line__94 File: C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd
+# Fatal error in Process line__94 at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd line 106
+# 
+# HDL call sequence:
+# Stopped at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 106 Process line__94
+# 
+restart
+run
+# ** Fatal: (vsim-3734) Index value 167 is out of range 159 downto 0.
+#    Time: 2930300 ns  Iteration: 0  Process: /test_buf/buf_0/line__94 File: C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd
+# Fatal error in Process line__94 at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd line 106
+# 
+# HDL call sequence:
+# Stopped at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 106 Process line__94
+# 
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:05:59 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 20:05:59 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:05:59 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/single_recive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 20:05:59 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:05:59 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 20:05:59 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:05:59 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/stimulus/Test_buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Test_buf
+# -- Compiling architecture behavioral of Test_buf
+# End time: 20:05:59 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:06:00 on Nov 06,2024, Elapsed time: 0:02:06
+# Errors: 4, Warnings: 2
+# vsim -L proasic3 -L presynth -t 1ps presynth.Test_buf 
+# Start time: 20:06:00 on Nov 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.test_buf(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.signal_send(architecture_signal_send)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: YH  Hostname: LAPTOP-4PVSALH1  ProcessID: 820
+#           Attempting to use alternate WLF file "./wlftymcqna".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftymcqna
+restart
+add wave -position insertpoint  \
+sim:/test_buf/buf_0/BITE_N \
+sim:/test_buf/buf_0/sys_clk \
+sim:/test_buf/buf_0/sys_rest \
+sim:/test_buf/buf_0/rx_uart \
+sim:/test_buf/buf_0/tx_uart \
+sim:/test_buf/buf_0/test \
+sim:/test_buf/buf_0/idle_recive \
+sim:/test_buf/buf_0/idle_send \
+sim:/test_buf/buf_0/data_recive_buffer \
+sim:/test_buf/buf_0/data_send_buffer \
+sim:/test_buf/buf_0/idle_recive_fall \
+sim:/test_buf/buf_0/idle_recive_down \
+sim:/test_buf/buf_0/idle_send_fall \
+sim:/test_buf/buf_0/idle_send_down \
+sim:/test_buf/buf_0/receive_end \
+sim:/test_buf/buf_0/send_end \
+sim:/test_buf/buf_0/cnt_recive_end \
+sim:/test_buf/buf_0/cnt_delay \
+sim:/test_buf/buf_0/cnt_recive \
+sim:/test_buf/buf_0/cnt_send \
+sim:/test_buf/buf_0/data_all \
+sim:/test_buf/buf_0/vld_send \
+sim:/test_buf/buf_0/end_flag \
+sim:/test_buf/buf_0/cnt_flag
+run
+# ** Fatal: (vsim-3734) Index value 167 is out of range 159 downto 0.
+#    Time: 2930300 ns  Iteration: 0  Process: /test_buf/buf_0/line__94 File: C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd
+# Fatal error in Process line__94 at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd line 106
+# 
+# HDL call sequence:
+# Stopped at C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 106 Process line__94
+# 
+do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:07:50 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/signal_send.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity signal_send
+# -- Compiling architecture architecture_signal_send of signal_send
+# End time: 20:07:50 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:07:50 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/single_recive.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity single_recive
+# -- Compiling architecture architecture_single_recive of single_recive
+# End time: 20:07:50 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:07:50 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/hdl/buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity buf
+# -- Compiling architecture architecture_buf of buf
+# End time: 20:07:50 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:07:51 on Nov 06,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/YH/Desktop/RS422/RS4221106 - good/stimulus/Test_buf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Test_buf
+# -- Compiling architecture behavioral of Test_buf
+# End time: 20:07:51 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:07:51 on Nov 06,2024, Elapsed time: 0:01:51
+# Errors: 2, Warnings: 2
+# vsim -L proasic3 -L presynth -t 1ps presynth.Test_buf 
+# Start time: 20:07:52 on Nov 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.test_buf(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.buf(architecture_buf)
+# Loading presynth.single_recive(architecture_single_recive)
+# Loading presynth.signal_send(architecture_signal_send)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: YH  Hostname: LAPTOP-4PVSALH1  ProcessID: 820
+#           Attempting to use alternate WLF file "./wlftvri7b1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvri7b1
+add wave -position insertpoint  \
+sim:/test_buf/buf_0/BITE_N \
+sim:/test_buf/buf_0/sys_clk \
+sim:/test_buf/buf_0/sys_rest \
+sim:/test_buf/buf_0/rx_uart \
+sim:/test_buf/buf_0/tx_uart \
+sim:/test_buf/buf_0/test \
+sim:/test_buf/buf_0/idle_recive \
+sim:/test_buf/buf_0/idle_send \
+sim:/test_buf/buf_0/data_recive_buffer \
+sim:/test_buf/buf_0/data_send_buffer \
+sim:/test_buf/buf_0/idle_recive_fall \
+sim:/test_buf/buf_0/idle_recive_down \
+sim:/test_buf/buf_0/idle_send_fall \
+sim:/test_buf/buf_0/idle_send_down \
+sim:/test_buf/buf_0/receive_end \
+sim:/test_buf/buf_0/send_end \
+sim:/test_buf/buf_0/cnt_recive_end \
+sim:/test_buf/buf_0/cnt_delay \
+sim:/test_buf/buf_0/cnt_recive \
+sim:/test_buf/buf_0/cnt_send \
+sim:/test_buf/buf_0/data_all \
+sim:/test_buf/buf_0/vld_send \
+sim:/test_buf/buf_0/end_flag \
+sim:/test_buf/buf_0/cnt_flag
+restart
+run
+# End time: 21:56:11 on Nov 06,2024, Elapsed time: 1:48:19
+# Errors: 0, Warnings: 2

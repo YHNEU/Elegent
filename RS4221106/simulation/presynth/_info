@@ -1,0 +1,256 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/YH/Desktop/RS422/RS4221105/simulation
+Ebuf
+Z1 w1730875999
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/Users/YH/Desktop/RS422/RS4221106/simulation
+Z7 8C:/Users/YH/Desktop/RS422/RS4221106/hdl/buf.vhd
+Z8 FC:/Users/YH/Desktop/RS422/RS4221106/hdl/buf.vhd
+l0
+L24
+VimW9iIGhNmChi7TZe<0XU1
+!s100 Y`F12Mbc]4gUH=j;gWSo]1
+Z9 OW;C;10.5c;63
+33
+Z10 !s110 1730876256
+!i10b 1
+Z11 !s108 1730876256.000000
+Z12 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/YH/Desktop/RS422/RS4221106/hdl/buf.vhd|
+Z13 !s107 C:/Users/YH/Desktop/RS422/RS4221106/hdl/buf.vhd|
+!i113 1
+Z14 o-2008 -explicit -work presynth -O0
+Z15 tCvgOpt 0
+Aarchitecture_buf
+R2
+R3
+R4
+R5
+DEx4 work 3 buf 0 22 imW9iIGhNmChi7TZe<0XU1
+l89
+L33
+VVMEbjFo2bg1]^jH6HE6T12
+!s100 XAS>1HA>GH^Ai`hNlS8fX2
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Esignal_send
+Z16 w1730871128
+R2
+R3
+R4
+R5
+R6
+Z17 8C:/Users/YH/Desktop/RS422/RS4221106/hdl/signal_send.vhd
+Z18 FC:/Users/YH/Desktop/RS422/RS4221106/hdl/signal_send.vhd
+l0
+L24
+VWl;7j0GJiDI2TaPfe5[?93
+!s100 hGR7OVd1eRU[NdHQCYD3G0
+R9
+33
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/YH/Desktop/RS422/RS4221106/hdl/signal_send.vhd|
+Z20 !s107 C:/Users/YH/Desktop/RS422/RS4221106/hdl/signal_send.vhd|
+!i113 1
+R14
+R15
+Aarchitecture_signal_send
+R2
+R3
+R4
+R5
+DEx4 work 11 signal_send 0 22 Wl;7j0GJiDI2TaPfe5[?93
+l43
+L34
+Vkm`]K`1?0n@EFokH;^Mz@3
+!s100 czfl^60@8MG`QXQN^7EoC1
+R9
+33
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 1
+R14
+R15
+Esingle_recive
+Z21 w1730813223
+R2
+R3
+R4
+R5
+R6
+Z22 8C:/Users/YH/Desktop/RS422/RS4221106/hdl/single_recive.vhd
+Z23 FC:/Users/YH/Desktop/RS422/RS4221106/hdl/single_recive.vhd
+l0
+L24
+V4;j[M?m1f`@F1`SZMHG>f1
+!s100 BhU[X15=5;LHn`WgL2@5S0
+R9
+33
+R10
+!i10b 1
+R11
+Z24 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/YH/Desktop/RS422/RS4221106/hdl/single_recive.vhd|
+Z25 !s107 C:/Users/YH/Desktop/RS422/RS4221106/hdl/single_recive.vhd|
+!i113 1
+R14
+R15
+Aarchitecture_single_recive
+R2
+R3
+R4
+R5
+DEx4 work 13 single_recive 0 22 4;j[M?m1f`@F1`SZMHG>f1
+l41
+L33
+VV2JVk`?XmT2?T9CFzSfe`0
+!s100 <49ZS0d7VRH;V0oQ1[D1l2
+R9
+33
+R10
+!i10b 1
+R11
+R24
+R25
+!i113 1
+R14
+R15
+Etest_buf
+Z26 w1730876252
+R4
+R5
+R6
+Z27 8C:/Users/YH/Desktop/RS422/RS4221106/stimulus/Test_buf.vhd
+Z28 FC:/Users/YH/Desktop/RS422/RS4221106/stimulus/Test_buf.vhd
+l0
+L32
+VZ4LfbWNT>N@o_7^IC[TP63
+!s100 hLgeOcTVgTei9zDRBA5nL3
+R9
+33
+R10
+!i10b 1
+R11
+Z29 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/YH/Desktop/RS422/RS4221106/stimulus/Test_buf.vhd|
+Z30 !s107 C:/Users/YH/Desktop/RS422/RS4221106/stimulus/Test_buf.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+Z31 DEx4 work 8 test_buf 0 22 Z4LfbWNT>N@o_7^IC[TP63
+l59
+L35
+VUW`MlYM^TA?5OecV:fQF:0
+!s100 4?QeT]bV5]FSX=Bj3UOj=1
+R9
+33
+R10
+!i10b 1
+R11
+R29
+R30
+!i113 1
+R14
+R15
+Etest_recive
+Z32 w1730776619
+R4
+R5
+R0
+Z33 8C:/Users/YH/Desktop/RS422/RS4221105/stimulus/Test_recive.vhd
+Z34 FC:/Users/YH/Desktop/RS422/RS4221105/stimulus/Test_recive.vhd
+l0
+L32
+VmD5X?HCLGWSa9ACzLFE2_2
+!s100 7_EF:TcIK7m9nG9a1kA2L1
+R9
+33
+Z35 !s110 1730791989
+!i10b 1
+Z36 !s108 1730791989.000000
+Z37 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/YH/Desktop/RS422/RS4221105/stimulus/Test_recive.vhd|
+Z38 !s107 C:/Users/YH/Desktop/RS422/RS4221105/stimulus/Test_recive.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+DEx4 work 11 test_recive 0 22 mD5X?HCLGWSa9ACzLFE2_2
+l60
+L35
+VImkmCH^IX>I=5PR]VhRTZ2
+!s100 f8mO4TkdUX:Ha7>O1]oc60
+R9
+33
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R14
+R15
+Etest_send
+Z39 w1730806026
+R4
+R5
+R0
+Z40 8C:/Users/YH/Desktop/RS422/RS4221105/stimulus/Test_send.vhd
+Z41 FC:/Users/YH/Desktop/RS422/RS4221105/stimulus/Test_send.vhd
+l0
+L32
+VZl<UjGk`XniIgh@JO6n1D3
+!s100 OSWN;TW[malCH@FXQi=N@3
+R9
+33
+Z42 !s110 1730806136
+!i10b 1
+Z43 !s108 1730806136.000000
+Z44 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/YH/Desktop/RS422/RS4221105/stimulus/Test_send.vhd|
+Z45 !s107 C:/Users/YH/Desktop/RS422/RS4221105/stimulus/Test_send.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+DEx4 work 9 test_send 0 22 Zl<UjGk`XniIgh@JO6n1D3
+l62
+L35
+VHRZ=fQiX=CRR@N3]Pn77I3
+!s100 H^TAeMPkiF8E6A:na@64V3
+R9
+33
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R14
+R15

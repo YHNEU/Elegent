@@ -1,0 +1,11 @@
+@P:  Worst Slack : -6.345
+@P:  buf|sys_clk - Estimated Frequency : 61.2 MHz
+@P:  buf|sys_clk - Requested Frequency : 100.0 MHz
+@P:  buf|sys_clk - Estimated Period : 16.345
+@P:  buf|sys_clk - Requested Period : 10.000
+@P:  buf|sys_clk - Slack : -6.345
+@P:  Total Area : 1761.0
+@P:  Total Area : 204.0
+@P:  Total Area : 149.0
+@P:  Total Area : 1761.0
+@P:  CPU Time : 0h:00m:04s
