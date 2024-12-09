@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\libero11.9\SynplifyPro\bin64\c_hdl.exe  -osyn  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synwork\single_recive_comp.srs  -top  work.single_recive  -hdllog  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synlog\single_recive_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -nram -fixsmult -divnmod  -encrypt  -pro  -dmgen  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work C:\Users\YH\Desktop\RS422\RS4221107\hdl\single_recive.vhd 
 relcom:D:\libero11.9\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\single_recive_comp.srs -top work.single_recive -hdllog ..\synlog\single_recive_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -nram -fixsmult -divnmod -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -vhdl2008 -ignore_undefined_lib -lib work ..\..\hdl\single_recive.vhd
 rc:0 success:1 runtime:5
@@ -6,3 +7,19 @@ file:..\synlog\single_recive_compiler.srr|io:o|time:1730964689|size:2895|exec:0|
 file:..\..\hdl\single_recive.vhd|io:i|time:1730946127|size:4351|exec:0|csum:2907BF959845BC2FB2A5FA093A4880D8
 file:D:\libero11.9\SynplifyPro\bin\c_hdl.exe|io:i|time:1508986516|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
 file:D:\libero11.9\SynplifyPro\bin64\c_hdl.exe|io:i|time:1508986724|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C
+=======
+D:\libero11.9\SynplifyPro\bin64\c_hdl.exe  -osyn  D:\Awork\AD\AD574-11.28\synthesis\synwork\Top_AD_comp.srs  -top  work.Top_AD  -hdllog  D:\Awork\AD\AD574-11.28\synthesis\synlog\Top_AD_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -nram -fixsmult -divnmod  -encrypt  -pro  -dmgen  D:\Awork\AD\AD574-11.28\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work D:\Awork\AD\AD574-11.28\hdl\AD574.vhd -lib work D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd -lib work D:\Awork\AD\AD574-11.28\hdl\signal_send.vhd -lib work D:\Awork\AD\AD574-11.28\hdl\single_receive.vhd -lib work D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd -lib work D:\Awork\AD\AD574-11.28\hdl\buf.vhd -lib work D:\Awork\AD\AD574-11.28\hdl\Top_AD.vhd 
+relcom:..\..\..\..\..\libero11.9\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\Top_AD_comp.srs -top work.Top_AD -hdllog ..\synlog\Top_AD_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -nram -fixsmult -divnmod -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -vhdl2008 -ignore_undefined_lib -lib work ..\..\hdl\AD574.vhd -lib work ..\..\hdl\addr_manage.vhd -lib work ..\..\hdl\signal_send.vhd -lib work ..\..\hdl\single_receive.vhd -lib work ..\..\hdl\whole_send.vhd -lib work ..\..\hdl\buf.vhd -lib work ..\..\hdl\Top_AD.vhd
+rc:0 success:1 runtime:2
+file:..\synwork\Top_AD_comp.srs|io:o|time:1732840852|size:23408|exec:0|csum:
+file:..\synlog\Top_AD_compiler.srr|io:o|time:1732840852|size:10641|exec:0|csum:
+file:..\..\hdl\AD574.vhd|io:i|time:1732762493|size:5287|exec:0|csum:C2C377E772FAE87D382B995A61438738
+file:..\..\hdl\addr_manage.vhd|io:i|time:1732719653|size:3514|exec:0|csum:65337D26A8B2896FA45AD4F89AE41521
+file:..\..\hdl\signal_send.vhd|io:i|time:1732150738|size:5169|exec:0|csum:EA7E2F0BF2D414C665A262A270766CEB
+file:..\..\hdl\single_receive.vhd|io:i|time:1732618029|size:4531|exec:0|csum:7A18BAA07FFC7C1372B930970B149980
+file:..\..\hdl\whole_send.vhd|io:i|time:1732715307|size:3186|exec:0|csum:B9A0368803180A701DE178D9DE4422C4
+file:..\..\hdl\buf.vhd|io:i|time:1732840801|size:9193|exec:0|csum:5C08488005300F11F2F85391C704D449
+file:..\..\hdl\Top_AD.vhd|io:i|time:1732762612|size:8991|exec:0|csum:1296879824F70B31F4F0E7FD44E2F0A0
+file:..\..\..\..\..\libero11.9\SynplifyPro\bin\c_hdl.exe|io:i|time:1508986516|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
+file:..\..\..\..\..\libero11.9\SynplifyPro\bin64\c_hdl.exe|io:i|time:1508986724|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5

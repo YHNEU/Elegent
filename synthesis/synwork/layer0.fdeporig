@@ -1,5 +1,9 @@
 #defaultlanguage:vhdl
+<<<<<<< HEAD
 #OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\YH\\Desktop\\RS422\\RS4221107\\synthesis\\synwork\\single_recive_comp.srs|-top|work.single_recive|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work"
+=======
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Awork\\AD\\AD574-11.28\\synthesis\\synwork\\Top_AD_comp.srs|-top|work.Top_AD|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5
 #CUR:"D:\\libero11.9\\SynplifyPro\\bin64\\c_vhdl.exe":1508986828
 #CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd2008\\location.map":1508992836
 #CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd2008\\std.vhd":1508986328
@@ -11,6 +15,7 @@
 #CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1508986328
 #CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1508986328
 #CUR:"D:\\libero11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1508986328
+<<<<<<< HEAD
 #CUR:"C:\\Users\\YH\\Desktop\\RS422\\RS4221107\\hdl\\single_recive.vhd":1730946127
 0 "C:\Users\YH\Desktop\RS422\RS4221107\hdl\single_recive.vhd" vhdl
 
@@ -23,3 +28,53 @@
 # Design Unit to File Association
 arch work single_recive architecture_single_recive 0
 module work single_recive 0
+=======
+#CUR:"D:\\Awork\\AD\\AD574-11.28\\hdl\\AD574.vhd":1732762493
+#CUR:"D:\\Awork\\AD\\AD574-11.28\\hdl\\addr_manage.vhd":1732719653
+#CUR:"D:\\Awork\\AD\\AD574-11.28\\hdl\\signal_send.vhd":1732150738
+#CUR:"D:\\Awork\\AD\\AD574-11.28\\hdl\\single_receive.vhd":1732618029
+#CUR:"D:\\Awork\\AD\\AD574-11.28\\hdl\\whole_send.vhd":1732715307
+#CUR:"D:\\Awork\\AD\\AD574-11.28\\hdl\\buf.vhd":1732840801
+#CUR:"D:\\Awork\\AD\\AD574-11.28\\hdl\\Top_AD.vhd":1732762612
+0 "D:\Awork\AD\AD574-11.28\hdl\AD574.vhd" vhdl
+1 "D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd" vhdl
+2 "D:\Awork\AD\AD574-11.28\hdl\signal_send.vhd" vhdl
+3 "D:\Awork\AD\AD574-11.28\hdl\single_receive.vhd" vhdl
+4 "D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd" vhdl
+5 "D:\Awork\AD\AD574-11.28\hdl\buf.vhd" vhdl
+6 "D:\Awork\AD\AD574-11.28\hdl\Top_AD.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 3 5 1 0 2 4 
+
+# Dependency Lists (Users Of)
+0 6 
+1 6 
+2 6 
+3 6 
+4 6 
+5 6 
+6 -1
+
+# Design Unit to File Association
+arch work ad574 architecture_ad574 0
+module work ad574 0
+arch work addr_manage architecture_addr_manage 1
+module work addr_manage 1
+arch work signal_send architecture_signal_send 2
+module work signal_send 2
+arch work single_recive architecture_single_recive 3
+module work single_recive 3
+arch work whole_send architecture_whole_send 4
+module work whole_send 4
+arch work buf architecture_buf 5
+module work buf 5
+arch work top_ad architecture_top_ad 6
+module work top_ad 6
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5

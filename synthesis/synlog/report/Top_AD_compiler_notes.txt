@@ -1,0 +1,26 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"D:\libero11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"D:\Awork\AD\AD574-11.28\hdl\Top_AD.vhd":23:7:23:12|Top entity is set to Top_AD.
+@N: CD231 :"D:\libero11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\Top_AD.vhd":23:7:23:12|Synthesizing work.top_ad.architecture_top_ad.
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd":25:7:25:16|Synthesizing work.whole_send.architecture_whole_send.
+@N: CD233 :"D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd":41:12:41:13|Using sequential encoding for type state.
+@N: CD604 :"D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd":111:3:111:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\signal_send.vhd":23:7:23:17|Synthesizing work.signal_send.architecture_signal_send.
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\AD574.vhd":24:7:24:11|Synthesizing work.ad574.architecture_ad574.
+@N: CD231 :"D:\Awork\AD\AD574-11.28\hdl\AD574.vhd":42:12:42:13|Using onehot encoding for type state. For example, enumeration s0 is mapped to "100000".
+@N: CD604 :"D:\Awork\AD\AD574-11.28\hdl\AD574.vhd":195:3:195:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd":24:7:24:17|Synthesizing work.addr_manage.architecture_addr_manage.
+@N: CD233 :"D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd":44:12:44:13|Using sequential encoding for type state.
+@N: CD604 :"D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd":120:3:120:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":25:7:25:9|Synthesizing work.buf.architecture_buf.
+@N: CD231 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":50:12:50:13|Using onehot encoding for type state. For example, enumeration idle is mapped to "100000000".
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\single_receive.vhd":24:7:24:19|Synthesizing work.single_recive.architecture_single_recive.
+@N: CL201 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":89:2:89:3|Trying to extract state machine for register pr_state.
+@N: CL159 :"D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd":27:4:27:9|Input conver is unused.
+@N: CL159 :"D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd":29:4:29:18|Input send_whole_over is unused.
+@N: CL201 :"D:\Awork\AD\AD574-11.28\hdl\AD574.vhd":88:2:88:3|Trying to extract state machine for register pr_state.
+@N: CL201 :"D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd":50:2:50:3|Trying to extract state machine for register pr_state.
+@N|Running in 64-bit mode
+

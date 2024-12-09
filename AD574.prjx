@@ -1,0 +1,565 @@
+KEY LIBERO "11.9"
+KEY CAPTURE "11.9.0.4"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IS8X8M2"
+KEY VendorTechnology_Package "pq208"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "IND"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IS8X8M2"
+KEY VendorTechnology_TEMPR "IND"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "IND"
+KEY ProjectLocation "C:\Users\YH\Desktop\AD574-11.28"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "Top_AD::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\AD574.ide_des,ide_des"
+STATE="utd"
+TIME="1731899360"
+SIZE="174"
+ENDFILE
+VALUE "<project>\designer\impl1\addr_manage.ide_des,ide_des"
+STATE="utd"
+TIME="1732242552"
+SIZE="180"
+ENDFILE
+VALUE "<project>\designer\impl1\AD\projectData\Top_AD.pdb,pdb"
+STATE="utd"
+TIME="1732847406"
+SIZE="137188"
+ENDFILE
+VALUE "<project>\designer\impl1\buf.ide_des,ide_des"
+STATE="utd"
+TIME="1732098895"
+SIZE="172"
+ENDFILE
+VALUE "<project>\designer\impl1\signal_send.ide_des,ide_des"
+STATE="utd"
+TIME="1732149750"
+SIZE="180"
+ENDFILE
+VALUE "<project>\designer\impl1\Top_AD.adb,adb"
+STATE="ood"
+TIME="1732840989"
+SIZE="2030592"
+ENDFILE
+VALUE "<project>\designer\impl1\Top_AD.ide_des,ide_des"
+STATE="utd"
+TIME="1732840989"
+SIZE="931"
+ENDFILE
+VALUE "<project>\designer\impl1\Top_AD.pdb,pdb"
+STATE="ood"
+TIME="1732840986"
+SIZE="137188"
+ENDFILE
+VALUE "<project>\designer\impl1\Top_AD_ba.sdf,ba_sdf"
+STATE="ood"
+TIME="1732840944"
+SIZE="955570"
+ENDFILE
+VALUE "<project>\designer\impl1\Top_AD_ba.vhd,ba_hdl"
+STATE="ood"
+TIME="1732840944"
+SIZE="318718"
+ENDFILE
+VALUE "<project>\designer\impl1\Top_AD_compile_log.rpt,log"
+STATE="utd"
+TIME="1732840875"
+SIZE="8637"
+ENDFILE
+VALUE "<project>\designer\impl1\Top_AD_fp\projectData\Top_AD.pdb,pdb"
+STATE="utd"
+TIME="1732519769"
+SIZE="130463"
+ENDFILE
+VALUE "<project>\designer\impl1\Top_AD_fp\Top_AD.pro,pro"
+STATE="utd"
+TIME="1732840593"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\Top_AD_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1732847370"
+SIZE="4623"
+ENDFILE
+VALUE "<project>\designer\impl1\Top_AD_timingconstraints_log.rpt,log"
+STATE="utd"
+TIME="1732519453"
+SIZE="1142"
+ENDFILE
+VALUE "<project>\hdl\AD574.vhd,hdl"
+STATE="utd"
+TIME="1733099868"
+SIZE="5945"
+ENDFILE
+VALUE "<project>\hdl\addr_manage.vhd,hdl"
+STATE="utd"
+TIME="1733100403"
+SIZE="3866"
+ENDFILE
+VALUE "<project>\hdl\buf.vhd,hdl"
+STATE="utd"
+TIME="1733101723"
+SIZE="10964"
+ENDFILE
+VALUE "<project>\hdl\signal_send.vhd,hdl"
+STATE="utd"
+TIME="1733103160"
+SIZE="5081"
+ENDFILE
+VALUE "<project>\hdl\single_receive.vhd,hdl"
+STATE="utd"
+TIME="1733103564"
+SIZE="4191"
+ENDFILE
+VALUE "<project>\hdl\Top_AD.vhd,hdl"
+STATE="utd"
+TIME="1733069532"
+SIZE="8994"
+ENDFILE
+VALUE "<project>\hdl\whole_send.vhd,hdl"
+STATE="utd"
+TIME="1733102315"
+SIZE="3346"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1733101107"
+SIZE="1031"
+ENDFILE
+VALUE "<project>\simulation\send_Test_presynth_simulation.log,log"
+STATE="utd"
+TIME="1732150836"
+SIZE="12138"
+ENDFILE
+VALUE "<project>\stimulus\AD574_Test.vhd,tb_hdl"
+STATE="utd"
+TIME="1732091811"
+SIZE="3213"
+ENDFILE
+VALUE "<project>\stimulus\addr_manage_Test.vhd,tb_hdl"
+STATE="utd"
+TIME="1732243048"
+SIZE="4900"
+ENDFILE
+VALUE "<project>\stimulus\buf_Test.vhd,tb_hdl"
+STATE="utd"
+TIME="1732255005"
+SIZE="4552"
+ENDFILE
+VALUE "<project>\stimulus\send_Test.vhd,tb_hdl"
+STATE="utd"
+TIME="1732150244"
+SIZE="2926"
+ENDFILE
+VALUE "<project>\stimulus\TOP_Test.vhd,tb_hdl"
+STATE="utd"
+TIME="1732763236"
+SIZE="21537"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1732610754"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\Top_AD.edn,syn_edn"
+STATE="ood"
+TIME="1732840861"
+SIZE="838491"
+ENDFILE
+VALUE "<project>\synthesis\Top_AD.so,so"
+STATE="utd"
+TIME="1732840861"
+SIZE="205"
+ENDFILE
+VALUE "<project>\synthesis\Top_AD_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1732840861"
+SIZE="403"
+ENDFILE
+VALUE "<project>\synthesis\Top_AD_syn.prj,prj"
+STATE="utd"
+TIME="1732840861"
+SIZE="2091"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "AD574::work"
+FILE "<project>\hdl\AD574.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\AD574_Test.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "addr_manage::work"
+FILE "<project>\hdl\addr_manage.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\addr_manage_Test.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "buf::work"
+FILE "<project>\hdl\buf.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\buf_Test.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "signal_send::work"
+FILE "<project>\hdl\signal_send.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\send_Test.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "Top_AD::work"
+FILE "<project>\hdl\Top_AD.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\TOP_Test.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST Top_AD
+VALUE "<project>\stimulus\TOP_Test.vhd,tb_hdl"
+ENDLIST
+LIST AD574
+VALUE "<project>\stimulus\AD574_Test.vhd,tb_hdl"
+ENDLIST
+LIST addr_manage
+VALUE "<project>\stimulus\addr_manage_Test.vhd,tb_hdl"
+ENDLIST
+LIST buf
+VALUE "<project>\stimulus\buf_Test.vhd,tb_hdl"
+ENDLIST
+LIST signal_send
+VALUE "<project>\stimulus\send_Test.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=TOP_Test
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="D:\libero11.9\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="D:\libero11.9\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="D:\libero11.9\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="D:\libero11.9\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "AD574::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "addr_manage::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "buf::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "signal_send::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "Top_AD::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "AD574::work","hdl\AD574.vhd","FALSE","FALSE"
+ENDLIST
+LIST "addr_manage::work","hdl\addr_manage.vhd","FALSE","FALSE"
+ENDLIST
+LIST "buf::work","hdl\buf.vhd","FALSE","FALSE"
+ENDLIST
+LIST "signal_send::work","hdl\signal_send.vhd","FALSE","FALSE"
+ENDLIST
+LIST "single_recive::work","hdl\single_receive.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Top_AD::work","hdl\Top_AD.vhd","FALSE","FALSE"
+SUBBLOCK "AD574::work","hdl\AD574.vhd","FALSE","FALSE"
+SUBBLOCK "addr_manage::work","hdl\addr_manage.vhd","FALSE","FALSE"
+SUBBLOCK "buf::work","hdl\buf.vhd","FALSE","FALSE"
+SUBBLOCK "signal_send::work","hdl\signal_send.vhd","FALSE","FALSE"
+SUBBLOCK "single_recive::work","hdl\single_receive.vhd","FALSE","FALSE"
+SUBBLOCK "whole_send::work","hdl\whole_send.vhd","FALSE","FALSE"
+ENDLIST
+LIST "whole_send::work","hdl\whole_send.vhd","FALSE","FALSE"
+ENDLIST
+LIST "AD574_Test::work","stimulus\AD574_Test.vhd","FALSE","TRUE"
+SUBBLOCK "AD574::work","hdl\AD574.vhd","FALSE","FALSE"
+ENDLIST
+LIST "addr_manage_Test::work","stimulus\addr_manage_Test.vhd","FALSE","TRUE"
+SUBBLOCK "addr_manage::work","hdl\addr_manage.vhd","FALSE","FALSE"
+ENDLIST
+LIST "buf_Test::work","stimulus\buf_Test.vhd","FALSE","TRUE"
+SUBBLOCK "buf::work","hdl\buf.vhd","FALSE","FALSE"
+ENDLIST
+LIST "send_Test::work","stimulus\send_Test.vhd","FALSE","TRUE"
+SUBBLOCK "signal_send::work","hdl\signal_send.vhd","FALSE","FALSE"
+ENDLIST
+LIST "TOP_Test::work","stimulus\TOP_Test.vhd","FALSE","TRUE"
+SUBBLOCK "Top_AD::work","hdl\Top_AD.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "Top_AD::work"
+ACTIVETESTBENCH "TOP_Test::work","stimulus\TOP_Test.vhd","FALSE"
+ENDLIST
+LIST "AD574::work"
+ACTIVETESTBENCH "AD574_Test::work","stimulus\AD574_Test.vhd","FALSE"
+ENDLIST
+LIST "addr_manage::work"
+ACTIVETESTBENCH "addr_manage_Test::work","stimulus\addr_manage_Test.vhd","FALSE"
+ENDLIST
+LIST "buf::work"
+ACTIVETESTBENCH "buf_Test::work","stimulus\buf_Test.vhd","FALSE"
+ENDLIST
+LIST "signal_send::work"
+ACTIVETESTBENCH "send_Test::work","stimulus\send_Test.vhd","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

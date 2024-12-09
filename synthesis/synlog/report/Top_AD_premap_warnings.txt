@@ -1,0 +1,10 @@
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":161:2:161:5|Found combinational loop during mapping at net U1.data2[0]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":161:2:161:5|Found combinational loop during mapping at net U1.data2[1]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":161:2:161:5|Found combinational loop during mapping at net U1.data2[2]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":161:2:161:5|Found combinational loop during mapping at net U1.data2[3]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":161:2:161:5|Found combinational loop during mapping at net U1.data2[4]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":161:2:161:5|Found combinational loop during mapping at net U1.data2[5]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":161:2:161:5|Found combinational loop during mapping at net U1.data2[6]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":161:2:161:5|Found combinational loop during mapping at net U1.data2[7]
+@W: MT532 :"d:\awork\ad\ad574-11.28\hdl\addr_manage.vhd":98:2:98:5|Found signal identified as System clock which controls 2 sequential elements including U4.nx_state[1].  Using this clock, which has no specified timing constraint, can adversely impact design performance. 
+@W: MT530 :"d:\awork\ad\ad574-11.28\hdl\single_receive.vhd":70:1:70:2|Found inferred clock Top_AD|sys_clk which controls 391 sequential elements including U3.data_recive[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 

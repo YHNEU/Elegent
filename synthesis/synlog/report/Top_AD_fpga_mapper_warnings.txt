@@ -1,0 +1,9 @@
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[0]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[1]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[2]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[3]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[4]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[5]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[6]
+@W: BN137 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop during mapping at net U1.data2_1[7]
+@W: MT420 |Found inferred clock Top_AD|sys_clk with period 10.00ns. Please declare a user-defined clock on object "p:sys_clk"

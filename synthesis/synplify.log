@@ -2,10 +2,17 @@
 Starting:    D:\libero11.9\SynplifyPro\bin64\mbin\synbatch.exe
 Install:     D:\libero11.9\SynplifyPro
 Hostname:    LAPTOP-4PVSALH1
+<<<<<<< HEAD
 Date:        Mon Nov 11 09:03:49 2024
 Version:     L-2016.09M-SP1-5
 
 Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log buf_syn.tcl
+=======
+Date:        Fri Nov 29 08:40:51 2024
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log Top_AD_syn.tcl
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5
 ProductType: synplify_pro
 
 License checkout: synplifypro_actel
@@ -17,6 +24,7 @@ Running in Vendor Mode
 
 
 auto_infer_blackbox is not supported in current product.
+<<<<<<< HEAD
 auto_infer_blackbox is not supported in current product.
 
 log file: "C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\buf.srr"
@@ -68,21 +76,59 @@ Copied C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\synwork\buf_com
 
 compiler completed
 # Mon Nov 11 09:03:54 2024
+=======
+
+log file: "D:\Awork\AD\AD574-11.28\synthesis\Top_AD.srr"
+
+Running: synthesis in foreground
+
+
+
+Running Top_AD_syn|synthesis
+
+
+Running: compile (Compile) on Top_AD_syn|synthesis
+# Fri Nov 29 08:40:51 2024
+
+
+Running: compile_flow (Compile Process) on Top_AD_syn|synthesis
+# Fri Nov 29 08:40:51 2024
+
+
+Running: compiler (Compile Input) on Top_AD_syn|synthesis
+# Fri Nov 29 08:40:51 2024
+
+Copied D:\Awork\AD\AD574-11.28\synthesis\synwork\Top_AD_comp.srs to D:\Awork\AD\AD574-11.28\synthesis\Top_AD.srs
+
+
+compiler completed
+# Fri Nov 29 08:40:53 2024
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5
 
 Return Code: 0
 Run Time:00h:00m:02s
 
 
+<<<<<<< HEAD
 Running: multi_srs_gen (Multi-srs Generator) on buf_syn|synthesis_1
 # Mon Nov 11 09:03:54 2024
 
 
 multi_srs_gen completed
 # Mon Nov 11 09:03:54 2024
+=======
+Running: multi_srs_gen (Multi-srs Generator) on Top_AD_syn|synthesis
+# Fri Nov 29 08:40:53 2024
+
+
+multi_srs_gen completed
+# Fri Nov 29 08:40:53 2024
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5
 
 Return Code: 0
 Run Time:00h:00m:00s
 
+<<<<<<< HEAD
 Copied C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\synwork\buf_mult.srs to C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synthesis_1\buf.srs
 
 Complete: Compile Process on buf_syn|synthesis_1
@@ -103,10 +149,33 @@ Complete: Compile on buf_syn|synthesis_1
 
 Running: map (Map) on buf_syn|synthesis_1
 # Mon Nov 11 09:03:57 2024
+=======
+Copied D:\Awork\AD\AD574-11.28\synthesis\synwork\Top_AD_mult.srs to D:\Awork\AD\AD574-11.28\synthesis\Top_AD.srs
+
+Complete: Compile Process on Top_AD_syn|synthesis
+
+
+Running: premap (Pre-mapping) on Top_AD_syn|synthesis
+# Fri Nov 29 08:40:54 2024
+
+
+premap completed with warnings
+# Fri Nov 29 08:40:55 2024
+
+Return Code: 1
+Run Time:00h:00m:02s
+
+Complete: Compile on Top_AD_syn|synthesis
+
+
+Running: map (Map) on Top_AD_syn|synthesis
+# Fri Nov 29 08:40:55 2024
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5
 
 License granted for 4 parallel jobs
 
 
+<<<<<<< HEAD
 Running: fpga_mapper (Map & Optimize) on buf_syn|synthesis_1
 # Mon Nov 11 09:03:57 2024
 
@@ -124,6 +193,25 @@ Complete: Map on buf_syn|synthesis_1
 Complete: Logic Synthesis on buf_syn|synthesis_1
 
 TCL script complete: "buf_syn.tcl"
+=======
+Running: fpga_mapper (Map & Optimize) on Top_AD_syn|synthesis
+# Fri Nov 29 08:40:55 2024
+
+Copied D:\Awork\AD\AD574-11.28\synthesis\synwork\Top_AD_m.srm to D:\Awork\AD\AD574-11.28\synthesis\Top_AD.srm
+
+
+fpga_mapper completed with warnings
+# Fri Nov 29 08:41:01 2024
+
+Return Code: 1
+Run Time:00h:00m:06s
+
+Complete: Map on Top_AD_syn|synthesis
+
+Complete: Logic Synthesis on Top_AD_syn|synthesis
+
+TCL script complete: "Top_AD_syn.tcl"
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5
 
 exit status=0
 

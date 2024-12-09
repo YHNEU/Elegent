@@ -1,0 +1,128 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\libero11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"D:\Awork\AD\AD574-11.28\hdl\Top_AD.vhd":23:7:23:12|Top entity is set to Top_AD.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD231 :"D:\libero11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\Top_AD.vhd":23:7:23:12|Synthesizing work.top_ad.architecture_top_ad.
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd":25:7:25:16|Synthesizing work.whole_send.architecture_whole_send.
+@N: CD233 :"D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd":41:12:41:13|Using sequential encoding for type state.
+@N: CD604 :"D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd":111:3:111:16|OTHERS clause is not synthesized.
+@W: CG296 :"D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd":76:3:76:9|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd":88:28:88:42|Referenced variable send_whole_over is not in sensitivity list.
+Post processing for work.whole_send.architecture_whole_send
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\signal_send.vhd":23:7:23:17|Synthesizing work.signal_send.architecture_signal_send.
+Post processing for work.signal_send.architecture_signal_send
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\AD574.vhd":24:7:24:11|Synthesizing work.ad574.architecture_ad574.
+@N: CD231 :"D:\Awork\AD\AD574-11.28\hdl\AD574.vhd":42:12:42:13|Using onehot encoding for type state. For example, enumeration s0 is mapped to "100000".
+@N: CD604 :"D:\Awork\AD\AD574-11.28\hdl\AD574.vhd":195:3:195:16|OTHERS clause is not synthesized.
+Post processing for work.ad574.architecture_ad574
+@W: CL190 :"D:\Awork\AD\AD574-11.28\hdl\AD574.vhd":88:2:88:3|Optimizing register bit cs to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\Awork\AD\AD574-11.28\hdl\AD574.vhd":88:2:88:3|Pruning unused register cs. Make sure that there are no unused intermediate registers.
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd":24:7:24:17|Synthesizing work.addr_manage.architecture_addr_manage.
+@N: CD233 :"D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd":44:12:44:13|Using sequential encoding for type state.
+@N: CD604 :"D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd":120:3:120:16|OTHERS clause is not synthesized.
+Post processing for work.addr_manage.architecture_addr_manage
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd":98:2:98:5|Latch generated from process for signal nx_state(1 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":25:7:25:9|Synthesizing work.buf.architecture_buf.
+@N: CD231 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":50:12:50:13|Using onehot encoding for type state. For example, enumeration idle is mapped to "100000000".
+@W: CG296 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":145:4:145:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":236:13:236:23|Referenced variable data_filter is not in sensitivity list.
+Post processing for work.buf.architecture_buf
+@W: CL169 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":89:2:89:3|Pruning unused register cnt_num_5(3 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":89:2:89:3|Pruning unused register cnt_daly1_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal data1(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal wait_deal_flag; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal state_over_flag; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal send_flag; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal receive_state; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal idle_flag; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal delay_flag; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal deal_flag; possible missing assignment in an if or case statement.
+@W: CL117 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch generated from process for signal deal_data_flag; possible missing assignment in an if or case statement.
+@N: CD630 :"D:\Awork\AD\AD574-11.28\hdl\single_receive.vhd":24:7:24:19|Synthesizing work.single_recive.architecture_single_recive.
+Post processing for work.single_recive.architecture_single_recive
+@W: CL169 :"D:\Awork\AD\AD574-11.28\hdl\single_receive.vhd":70:1:70:2|Pruning unused register parity_check_4. Make sure that there are no unused intermediate registers.
+Post processing for work.top_ad.architecture_top_ad
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[7]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[6]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[5]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[4]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[3]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[2]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[1]
+@W: CL179 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":147:2:147:3|Found combinational loop at data2[0]
+@N: CL201 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":89:2:89:3|Trying to extract state machine for register pr_state.
+Extracted state machine for register pr_state
+State machine has 8 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch deal_data_flag enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch deal_flag enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch delay_flag enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch idle_flag enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch receive_state enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch send_flag enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch state_over_flag enable evaluates to constant 1, optimized
+@W: CL239 :"D:\Awork\AD\AD574-11.28\hdl\buf.vhd":161:2:161:5|Latch wait_deal_flag enable evaluates to constant 1, optimized
+@N: CL159 :"D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd":27:4:27:9|Input conver is unused.
+@N: CL159 :"D:\Awork\AD\AD574-11.28\hdl\addr_manage.vhd":29:4:29:18|Input send_whole_over is unused.
+@N: CL201 :"D:\Awork\AD\AD574-11.28\hdl\AD574.vhd":88:2:88:3|Trying to extract state machine for register pr_state.
+Extracted state machine for register pr_state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@N: CL201 :"D:\Awork\AD\AD574-11.28\hdl\whole_send.vhd":50:2:50:3|Trying to extract state machine for register pr_state.
+Extracted state machine for register pr_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 88MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Nov 29 08:40:52 2024
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Nov 29 08:40:52 2024
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Nov 29 08:40:52 2024
+
+###########################################################]

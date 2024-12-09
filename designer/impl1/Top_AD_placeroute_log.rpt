@@ -1,0 +1,124 @@
+Microsemi Libero Software
+Version: 11.9.0.4
+Release: v11.9
+
+Info: The design D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD.adb was last modified by software
+      version 11.9.0.4.
+Opened an existing Libero design D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD.adb.
+'BA_NAME' set to 'Top_AD_ba'
+'KEEP_EXISTING_PHYSICAL_CONSTRAINTS' set to '1'
+'SDC_IMPORT_MERGE' set to '1'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'D:\Awork\AD\AD574-11.28\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+
+The Execute Script command succeeded ( 00:00:00 )
+Checking for software updates...
+Info: The software cannot reach the Microsemi SoC server to confirm the version you are running.
+      Visit
+      http://www.microsemi.com/products/fpga-soc/design-resources/design-software/libero-soc#do\
+      wnloads to download the latest major release or service pack.
+      You can check the version of your current installation by starting the tool and selecting
+      Help -> About.
+While analyzing gated clock network, ambiguities have been found on gates
+U4/conver_ris_RNIK7T62:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Fri Nov 29 08:41:24 2024
+
+Placer Finished: Fri Nov 29 08:41:43 2024
+Total Placer CPU Time:     00:00:19
+
+                        o - o - o - o - o - o
+
+While analyzing gated clock network, ambiguities have been found on gates
+U4/conver_ris_RNIK7T62:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+
+Timing-driven Router 
+Design: Top_AD                          Started: Fri Nov 29 08:41:46 2024
+
+While analyzing gated clock network, ambiguities have been found on gates
+U4/conver_ris_RNIK7T62:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+ 
+While analyzing gated clock network, ambiguities have been found on gates
+U4/conver_ris_RNIK7T62:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+Iterative improvement...
+While analyzing gated clock network, ambiguities have been found on gates
+U4/conver_ris_RNIK7T62:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+
+Timing-driven Router completed successfully.
+
+Design: Top_AD                          
+Finished: Fri Nov 29 08:42:17 2024
+Total CPU Time:     00:00:21            Total Elapsed Time: 00:00:31
+Total Memory Usage: 492.4 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+While analyzing gated clock network, ambiguities have been found on gates
+U4/conver_ris_RNIK7T62:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:01:00 )
+Warning: Files
+          D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD_ba.sdf
+          D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD_ba.vhd
+         already exist.
+         Do you want to replace the files? [YES]
+Back-annotated to the file(s):
+   .\Top_AD_ba.sdf
+   .\Top_AD_ba.vhd
+
+The Back-Annotate command succeeded ( 00:00:00 )
+Warning: The following files already exist:
+         
+         D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD.pdb
+         
+         Do you want to replace the files? [YES]
+
+The Export-map command succeeded ( 00:00:32 )
+Warning: Overwriting the existing file: D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD.pdb.
+Wrote to the file: D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD.pdb
+CHECKSUM: EE37
+
+The Generate programming file command succeeded ( 00:00:33 )
+Design saved to file D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD.adb.
+Wrote pin report to file: D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file: D:\Awork\AD\AD574-11.28\designer\impl1\Top_AD_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+
+The Execute Script command succeeded ( 00:00:02 )
+Design closed.
+

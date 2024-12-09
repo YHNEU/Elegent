@@ -1,0 +1,19 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF238 :"d:\awork\ad\ad574-11.28\hdl\single_receive.vhd":88:12:88:20|Found 12-bit incrementor, 'un7_cnt_1[11:0]'
+@N: MO231 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":89:2:89:3|Found counter in view:work.buf(architecture_buf) instance cnt_daly[12:0] 
+@N: MO231 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":89:2:89:3|Found counter in view:work.buf(architecture_buf) instance cnt[2:0] 
+@N: MF176 |Default generator successful 
+@N: MF239 :"d:\awork\ad\ad574-11.28\hdl\buf.vhd":125:60:125:98|Found 5-bit decrementor, 'un14_data_all[8:4]'
+@N: MO231 :"d:\awork\ad\ad574-11.28\hdl\addr_manage.vhd":68:2:68:3|Found counter in view:work.addr_manage(architecture_addr_manage) instance addr[3:0] 
+@N: MO231 :"d:\awork\ad\ad574-11.28\hdl\ad574.vhd":88:2:88:3|Found counter in view:work.AD574(architecture_ad574) instance cnt_rc[3:0] 
+@N: MO231 :"d:\awork\ad\ad574-11.28\hdl\signal_send.vhd":57:2:57:3|Found counter in view:work.signal_send(architecture_signal_send) instance cnt[11:0] 
+@N: MO231 :"d:\awork\ad\ad574-11.28\hdl\whole_send.vhd":50:2:50:3|Found counter in view:work.whole_send(architecture_whole_send) instance cnt[4:0] 
+@N: FP130 |Promoting Net sys_rest_c on CLKBUF  sys_rest_pad 
+@N: FP130 |Promoting Net sys_clk_c on CLKBUF  sys_clk_pad 
+@N: FP130 |Promoting Net U1.pr_state[2] on CLKINT  I_19 
+@N: FP130 |Promoting Net U1.N_1091 on CLKINT  I_20 
+@N: FP130 |Promoting Net U5.cnt[0] on CLKINT  I_21 
+@N: FP130 |Promoting Net U5.cnt[1] on CLKINT  I_22 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -1,0 +1,20 @@
+@P:  Worst Slack : -2.871
+@P:  Top_AD|sys_clk - Estimated Frequency : 77.7 MHz
+@P:  Top_AD|sys_clk - Requested Frequency : 100.0 MHz
+@P:  Top_AD|sys_clk - Estimated Period : 12.871
+@P:  Top_AD|sys_clk - Requested Period : 10.000
+@P:  Top_AD|sys_clk - Slack : -2.871
+@P:  System - Estimated Frequency : 382.8 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 2.612
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 7.388
+@P:  Total Area : 1734.0
+@P:  Total Area : 275.0
+@P:  Total Area : 166.0
+@P:  Total Area : 69.0
+@P:  Total Area : 39.0
+@P:  Total Area : 1054.0
+@P:  Total Area : 131.0
+@P:  Total Area : 1734.0
+@P:  CPU Time : 0h:00m:02s

@@ -1,0 +1,2 @@
+CKID0001:@|S:U4.pr_state_RNIMCFF2[1]@|E:U4.nx_state[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:sys_clk@|E:U5.data_send[7]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 

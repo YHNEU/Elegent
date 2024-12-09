@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\libero11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.single_recive  -multisrs  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synwork\single_recive_comp.srs  -osyn  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synwork\single_recive_mult.srs  -log  C:\Users\YH\Desktop\RS422\RS4221107\synthesis\synlog\single_recive_multi_srs_gen.srr 
 relcom:D:\libero11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top work.single_recive -multisrs ..\synwork\single_recive_comp.srs -osyn ..\synwork\single_recive_mult.srs -log ..\synlog\single_recive_multi_srs_gen.srr
 rc:0 success:1 runtime:0
@@ -6,3 +7,13 @@ file:..\synwork\single_recive_mult.srs|io:o|time:1730964690|size:3370|exec:0|csu
 file:..\synlog\single_recive_multi_srs_gen.srr|io:o|time:1730964690|size:409|exec:0|csum:
 file:D:\libero11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
 file:D:\libero11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0
+=======
+D:\libero11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.Top_AD  -multisrs  D:\Awork\AD\AD574-11.28\synthesis\synwork\Top_AD_comp.srs  -osyn  D:\Awork\AD\AD574-11.28\synthesis\synwork\Top_AD_mult.srs  -log  D:\Awork\AD\AD574-11.28\synthesis\synlog\Top_AD_multi_srs_gen.srr 
+relcom:..\..\..\..\..\libero11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top work.Top_AD -multisrs ..\synwork\Top_AD_comp.srs -osyn ..\synwork\Top_AD_mult.srs -log ..\synlog\Top_AD_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\Top_AD_comp.srs|io:i|time:1732840852|size:23408|exec:0|csum:BF5284C12C4164A26214C66841084ED8
+file:..\synwork\Top_AD_mult.srs|io:o|time:1732840853|size:4505|exec:0|csum:
+file:..\synlog\Top_AD_multi_srs_gen.srr|io:o|time:1732840853|size:501|exec:0|csum:
+file:..\..\..\..\..\libero11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:..\..\..\..\..\libero11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5

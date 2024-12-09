@@ -1,11 +1,26 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
+<<<<<<< HEAD
 #--  Project file C:\Users\YH\Desktop\RS422\RS4221107\synthesis\run_options.txt
 #--  Written on Thu Nov 07 15:31:25 2024
 
 
 #project files
 add_file -vhdl -lib work "C:/Users/YH/Desktop/RS422/RS4221107/hdl/single_recive.vhd"
+=======
+#--  Project file D:\Awork\AD\AD574-11.28\synthesis\run_options.txt
+#--  Written on Fri Nov 29 08:40:51 2024
+
+
+#project files
+add_file -vhdl -lib work "D:/Awork/AD/AD574-11.28/hdl/AD574.vhd"
+add_file -vhdl -lib work "D:/Awork/AD/AD574-11.28/hdl/addr_manage.vhd"
+add_file -vhdl -lib work "D:/Awork/AD/AD574-11.28/hdl/signal_send.vhd"
+add_file -vhdl -lib work "D:/Awork/AD/AD574-11.28/hdl/single_receive.vhd"
+add_file -vhdl -lib work "D:/Awork/AD/AD574-11.28/hdl/whole_send.vhd"
+add_file -vhdl -lib work "D:/Awork/AD/AD574-11.28/hdl/buf.vhd"
+add_file -vhdl -lib work "D:/Awork/AD/AD574-11.28/hdl/Top_AD.vhd"
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5
 
 
 
@@ -21,7 +36,11 @@ set_option -part_companion ""
 
 #compilation/mapping options
 set_option -use_fsm_explorer 0
+<<<<<<< HEAD
 set_option -top_module "work.single_recive"
+=======
+set_option -top_module "work.Top_AD"
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5
 
 # hdl_compiler_options
 set_option -distributed_compile 0
@@ -70,5 +89,9 @@ set_option -vhdl2008 1
 set_option -write_apr_constraint 1
 
 #set result format/file last
+<<<<<<< HEAD
 project -result_file "./single_recive.edn"
+=======
+project -result_file "./Top_AD.edn"
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5
 impl -active "synthesis"

@@ -2,8 +2,11 @@
 others = $MODEL_TECH/../modelsim.ini
 proasic3 = D:/libero11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3
 presynth = presynth
+<<<<<<< HEAD
 postlayout = ../designer/impl1/simulation/postlayout
 postsynth = postsynth
+=======
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5
 syncad_vhdl_lib = D:\libero11.9\Designer/lib/actel/syncad_vhdl_lib
 
 [vcom]

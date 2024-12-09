@@ -1,5 +1,9 @@
 KEY IDE_DES_TOOL "Ide"
+<<<<<<< HEAD
 KEY IDE_DES_ADB_PATH "C:\Users\YH\Desktop\RS422\RS4221105\designer\impl1\signal_send.adb"
+=======
+KEY IDE_DES_ADB_PATH "D:\Awork\AD\AD574\designer\impl1\signal_send.adb"
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5
 LIST SOURCE_FILES
 ENDLIST
 LIST OPTIONAL_FILES

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ./single_recive_scck.rpt,syntax_constraint_check.rpt,Syntax Constraint Check Report
+=======
+./Top_AD_scck.rpt,syntax_constraint_check.rpt,Syntax Constraint Check Report
+>>>>>>> 375bdb8bba5d3b34f07e1b77324114d3b21280b5
